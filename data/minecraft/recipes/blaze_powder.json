@@ -1,23 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:glass_pane"
-    },
-    "$": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:diorite"
     }
   },
   "pattern": [
-    "###",
-    "#$#",
+    "#  ",
+    "## ",
     "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:light_blue_stained_glass_pane"
+    "count": 4,
+    "item": "minecraft:diorite_stairs"
   },
   "show_notification": true
 }

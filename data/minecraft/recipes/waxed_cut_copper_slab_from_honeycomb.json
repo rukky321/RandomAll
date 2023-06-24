@@ -1,23 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_glass",
+  "category": "redstone",
+  "group": "wooden_trapdoor",
   "key": {
     "#": {
-      "item": "minecraft:glass"
-    },
-    "X": {
-      "item": "minecraft:blue_dye"
+      "item": "minecraft:birch_planks"
     }
   },
   "pattern": [
     "###",
-    "#X#",
     "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:blue_stained_glass"
+    "count": 2,
+    "item": "minecraft:birch_trapdoor"
   },
   "show_notification": true
 }

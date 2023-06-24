@@ -1,12 +1,10 @@
 {
-  "type": "minecraft:smithing_trim",
-  "addition": {
-    "tag": "minecraft:trim_materials"
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:porkchop"
   },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
-  },
-  "template": {
-    "item": "minecraft:snout_armor_trim_smithing_template"
-  }
+  "result": "minecraft:cooked_porkchop"
 }

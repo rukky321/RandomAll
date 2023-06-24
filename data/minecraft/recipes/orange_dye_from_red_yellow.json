@@ -1,22 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
-  "key": {
-    "#": {
-      "item": "minecraft:gray_wool"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:diorite"
   },
-  "pattern": [
-    "###",
-    "###",
-    " | "
-  ],
-  "result": {
-    "item": "minecraft:gray_banner"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_diorite"
 }

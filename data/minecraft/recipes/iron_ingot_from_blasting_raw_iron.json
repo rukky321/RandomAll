@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:nautilus_shell"
-    },
-    "X": {
-      "item": "minecraft:heart_of_the_sea"
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_planks"
     }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
   ],
   "result": {
-    "item": "minecraft:conduit"
-  },
-  "show_notification": true
+    "item": "minecraft:oak_button"
+  }
 }

@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "misc",
   "key": {
-    "H": {
-      "item": "minecraft:hay_block"
-    },
-    "R": {
-      "item": "minecraft:redstone"
+    "#": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    " R ",
-    "RHR",
-    " R "
+    "# #",
+    " # "
   ],
   "result": {
-    "item": "minecraft:target"
+    "count": 4,
+    "item": "minecraft:bowl"
   },
   "show_notification": true
 }

@@ -1,8 +1,10 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
   "ingredient": {
-    "item": "minecraft:diorite"
+    "item": "minecraft:kelp"
   },
-  "result": "minecraft:diorite_slab"
+  "result": "minecraft:dried_kelp"
 }

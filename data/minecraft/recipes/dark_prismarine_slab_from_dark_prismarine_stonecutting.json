@@ -1,17 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:polished_blackstone_slab"
-    }
-  },
-  "pattern": [
-    "#",
-    "#"
-  ],
-  "result": {
-    "item": "minecraft:chiseled_polished_blackstone"
-  },
-  "show_notification": true
+  "type": "minecraft:crafting_decorated_pot",
+  "category": "misc"
 }

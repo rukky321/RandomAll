@@ -1,10 +1,8 @@
 {
-  "type": "minecraft:smoking",
-  "category": "food",
-  "cookingtime": 100,
-  "experience": 0.35,
+  "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
-    "item": "minecraft:rabbit"
+    "item": "minecraft:exposed_copper"
   },
-  "result": "minecraft:cooked_rabbit"
+  "result": "minecraft:exposed_cut_copper_slab"
 }

@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "waxed_oxidized_cut_copper_slab",
   "key": {
-    "#": {
-      "item": "minecraft:waxed_oxidized_cut_copper"
+    "S": {
+      "item": "minecraft:granite"
     }
   },
   "pattern": [
-    "###"
+    "SS",
+    "SS"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:waxed_oxidized_cut_copper_slab"
+    "count": 4,
+    "item": "minecraft:polished_granite"
   },
   "show_notification": true
 }

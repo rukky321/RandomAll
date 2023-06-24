@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": {
-    "item": "minecraft:prismarine_bricks"
+    "item": "minecraft:end_stone_bricks"
   },
-  "result": "minecraft:prismarine_brick_slab"
+  "result": "minecraft:end_stone_brick_slab"
 }

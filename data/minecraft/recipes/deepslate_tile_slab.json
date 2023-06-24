@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
+  "count": 2,
   "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
+    "item": "minecraft:smooth_sandstone"
   },
-  "result": "minecraft:polished_deepslate_wall"
+  "result": "minecraft:smooth_sandstone_slab"
 }

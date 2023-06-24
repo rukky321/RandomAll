@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cartography_table"
+          "name": "minecraft:stripped_warped_stem"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cartography_table"
+  "random_sequence": "minecraft:blocks/stripped_warped_stem"
 }

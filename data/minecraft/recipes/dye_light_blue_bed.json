@@ -1,19 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:end_stone_bricks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:basalt"
   },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:end_stone_brick_stairs"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_basalt"
 }

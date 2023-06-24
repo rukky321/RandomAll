@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
+  "group": "wooden_pressure_plate",
   "key": {
     "#": {
-      "item": "minecraft:cobbled_deepslate"
+      "item": "minecraft:oak_planks"
     }
   },
   "pattern": [
-    "###",
-    "###"
+    "##"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:cobbled_deepslate_wall"
+    "item": "minecraft:oak_pressure_plate"
   },
   "show_notification": true
 }

@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:stone_bricks"
   },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 3,
-    "item": "minecraft:paper"
-  },
-  "show_notification": true
+  "result": "minecraft:chiseled_stone_bricks"
 }

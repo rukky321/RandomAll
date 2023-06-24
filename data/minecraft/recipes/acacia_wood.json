@@ -1,20 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "wooden_stairs",
-  "key": {
-    "#": {
-      "item": "minecraft:acacia_planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:red_sandstone"
   },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:acacia_stairs"
-  },
-  "show_notification": true
+  "result": "minecraft:red_sandstone_slab"
 }

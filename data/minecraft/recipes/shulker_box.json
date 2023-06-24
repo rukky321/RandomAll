@@ -3,15 +3,17 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:polished_deepslate"
+      "item": "minecraft:stone"
     }
   },
   "pattern": [
+    "#  ",
+    "## ",
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:polished_deepslate_slab"
+    "count": 4,
+    "item": "minecraft:stone_stairs"
   },
   "show_notification": true
 }

@@ -1,25 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "rabbit_stew",
-  "ingredients": [
-    {
-      "item": "minecraft:baked_potato"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:compass"
     },
-    {
-      "item": "minecraft:cooked_rabbit"
-    },
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "minecraft:red_mushroom"
+    "S": {
+      "item": "minecraft:echo_shard"
     }
+  },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
   ],
   "result": {
-    "item": "minecraft:rabbit_stew"
-  }
+    "item": "minecraft:recovery_compass"
+  },
+  "show_notification": true
 }

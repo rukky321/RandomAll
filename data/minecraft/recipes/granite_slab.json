@@ -1,15 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:furnace"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
     },
-    {
-      "item": "minecraft:minecart"
+    "o": {
+      "item": "minecraft:iron_ingot"
     }
+  },
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
   ],
   "result": {
-    "item": "minecraft:furnace_minecart"
-  }
+    "item": "minecraft:shield"
+  },
+  "show_notification": true
 }

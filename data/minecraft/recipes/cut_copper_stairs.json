@@ -1,23 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "hanging_sign",
-  "key": {
-    "#": {
-      "item": "minecraft:stripped_crimson_stem"
-    },
-    "X": {
-      "item": "minecraft:chain"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:deepslate_tiles"
   },
-  "pattern": [
-    "X X",
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:crimson_hanging_sign"
-  },
-  "show_notification": true
+  "result": "minecraft:deepslate_tile_stairs"
 }

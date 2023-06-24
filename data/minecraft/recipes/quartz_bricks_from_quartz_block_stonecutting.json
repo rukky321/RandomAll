@@ -1,8 +1,18 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:waxed_copper_block"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "minecraft:polished_deepslate"
+    }
   },
-  "result": "minecraft:waxed_cut_copper_slab"
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:deepslate_bricks"
+  },
+  "show_notification": true
 }

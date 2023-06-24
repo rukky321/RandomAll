@@ -1,16 +1,25 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "dyed_candle",
-  "ingredients": [
-    {
-      "item": "minecraft:candle"
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
     },
-    {
-      "item": "minecraft:cyan_dye"
+    "C": {
+      "item": "minecraft:terracotta"
+    },
+    "S": {
+      "item": "minecraft:wayfinder_armor_trim_smithing_template"
     }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:cyan_candle"
-  }
+    "count": 2,
+    "item": "minecraft:wayfinder_armor_trim_smithing_template"
+  },
+  "show_notification": true
 }

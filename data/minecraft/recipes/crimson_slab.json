@@ -1,20 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:stone"
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
     },
-    "I": {
-      "item": "minecraft:iron_ingot"
+    {
+      "item": "minecraft:enchanted_golden_apple"
     }
-  },
-  "pattern": [
-    " I ",
-    "###"
   ],
   "result": {
-    "item": "minecraft:stonecutter"
-  },
-  "show_notification": true
+    "item": "minecraft:mojang_banner_pattern"
+  }
 }

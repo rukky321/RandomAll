@@ -1,18 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "boat",
+  "category": "building",
+  "group": "stained_terracotta",
   "key": {
     "#": {
-      "item": "minecraft:bamboo_planks"
+      "item": "minecraft:terracotta"
+    },
+    "X": {
+      "item": "minecraft:white_dye"
     }
   },
   "pattern": [
-    "# #",
+    "###",
+    "#X#",
     "###"
   ],
   "result": {
-    "item": "minecraft:bamboo_raft"
+    "count": 8,
+    "item": "minecraft:white_terracotta"
   },
   "show_notification": true
 }

@@ -1,20 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
-    "H": {
-      "item": "minecraft:honeycomb"
-    },
-    "S": {
-      "item": "minecraft:string"
+    "#": {
+      "item": "minecraft:red_sandstone"
     }
   },
   "pattern": [
-    "S",
-    "H"
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:candle"
+    "count": 4,
+    "item": "minecraft:cut_red_sandstone"
   },
   "show_notification": true
 }

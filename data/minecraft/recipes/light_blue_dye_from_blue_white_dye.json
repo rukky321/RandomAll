@@ -1,8 +1,18 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_slab",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
+    }
   },
-  "result": "minecraft:polished_deepslate_slab"
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:cherry_slab"
+  },
+  "show_notification": true
 }

@@ -2,20 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:diamond"
     }
   },
   "pattern": [
+    "X X",
     "XXX",
-    " # ",
-    " # "
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:iron_pickaxe"
+    "item": "minecraft:diamond_chestplate"
   },
   "show_notification": true
 }

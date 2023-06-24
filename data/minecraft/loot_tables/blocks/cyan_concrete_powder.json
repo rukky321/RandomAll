@@ -3,14 +3,19 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dragon_egg"
+          "name": "minecraft:gray_concrete_powder"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/dragon_egg"
+  "random_sequence": "minecraft:blocks/gray_concrete_powder"
 }

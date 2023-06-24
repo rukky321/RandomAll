@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:cyan_wool"
+  "group": "dyed_candle",
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
     },
-    "X": {
-      "tag": "minecraft:planks"
+    {
+      "item": "minecraft:lime_dye"
     }
-  },
-  "pattern": [
-    "###",
-    "XXX"
   ],
   "result": {
-    "item": "minecraft:cyan_bed"
-  },
-  "show_notification": true
+    "item": "minecraft:lime_candle"
+  }
 }

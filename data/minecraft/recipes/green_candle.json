@@ -3,15 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:deepslate_tiles"
     }
   },
   "pattern": [
-    "#",
-    "#"
+    "###"
   ],
   "result": {
-    "item": "minecraft:chiseled_quartz_block"
+    "count": 6,
+    "item": "minecraft:deepslate_tile_slab"
   },
   "show_notification": true
 }

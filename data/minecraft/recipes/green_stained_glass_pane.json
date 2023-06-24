@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "item": "minecraft:honey_bottle"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:polished_diorite"
   },
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "result": {
-    "item": "minecraft:honey_block"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_diorite_stairs"
 }

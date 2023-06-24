@@ -1,22 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
-    "#": [
-      {
-        "item": "minecraft:purpur_block"
-      },
-      {
-        "item": "minecraft:purpur_pillar"
-      }
-    ]
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:purpur_block"
+    },
+    "S": {
+      "item": "minecraft:spire_armor_trim_smithing_template"
+    }
   },
   "pattern": [
+    "#S#",
+    "#C#",
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:purpur_slab"
+    "count": 2,
+    "item": "minecraft:spire_armor_trim_smithing_template"
   },
   "show_notification": true
 }

@@ -3,15 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:glowstone_dust"
     }
   },
   "pattern": [
-    "###"
+    "##",
+    "##"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:mossy_cobblestone_slab"
+    "item": "minecraft:glowstone"
   },
   "show_notification": true
 }

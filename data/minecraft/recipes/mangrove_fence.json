@@ -1,11 +1,23 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.7,
-  "group": "iron_ingot",
-  "ingredient": {
-    "item": "minecraft:raw_iron"
+  "group": "wooden_sign",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
   },
-  "result": "minecraft:iron_ingot"
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:cherry_sign"
+  },
+  "show_notification": true
 }

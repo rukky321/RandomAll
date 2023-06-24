@@ -1,18 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "stained_terracotta",
   "key": {
-    "S": {
-      "item": "minecraft:deepslate_bricks"
+    "#": {
+      "item": "minecraft:terracotta"
+    },
+    "X": {
+      "item": "minecraft:purple_dye"
     }
   },
   "pattern": [
-    "SS",
-    "SS"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:deepslate_tiles"
+    "count": 8,
+    "item": "minecraft:purple_terracotta"
   },
   "show_notification": true
 }

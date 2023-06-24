@@ -1,19 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_trapdoor",
-  "key": {
-    "#": {
-      "item": "minecraft:mangrove_planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:polished_deepslate"
   },
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 2,
-    "item": "minecraft:mangrove_trapdoor"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_deepslate_slab"
 }

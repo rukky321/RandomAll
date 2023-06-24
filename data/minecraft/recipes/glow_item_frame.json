@@ -1,18 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "waxed_exposed_cut_copper_slab",
+  "category": "misc",
+  "group": "stained_glass_pane",
   "key": {
     "#": {
-      "item": "minecraft:waxed_exposed_cut_copper"
+      "item": "minecraft:blue_stained_glass"
     }
   },
   "pattern": [
+    "###",
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:waxed_exposed_cut_copper_slab"
+    "count": 16,
+    "item": "minecraft:blue_stained_glass_pane"
   },
   "show_notification": true
 }

@@ -1,18 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
+  "group": "wooden_door",
   "key": {
     "#": {
-      "item": "minecraft:polished_deepslate"
+      "item": "minecraft:bamboo_planks"
     }
   },
   "pattern": [
-    "###",
-    "###"
+    "##",
+    "##",
+    "##"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:polished_deepslate_wall"
+    "count": 3,
+    "item": "minecraft:bamboo_door"
   },
   "show_notification": true
 }

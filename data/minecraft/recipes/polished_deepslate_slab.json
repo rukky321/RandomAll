@@ -1,8 +1,15 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
   },
-  "result": "minecraft:deepslate_tiles"
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "result": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
 }

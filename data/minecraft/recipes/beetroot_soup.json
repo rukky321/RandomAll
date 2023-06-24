@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
+  "count": 1,
   "ingredient": {
-    "item": "minecraft:waxed_cut_copper"
+    "item": "minecraft:cobblestone"
   },
-  "result": "minecraft:waxed_cut_copper_slab"
+  "result": "minecraft:cobblestone_wall"
 }

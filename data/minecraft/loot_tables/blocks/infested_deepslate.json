@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dead_bubble_coral_block"
+          "name": "minecraft:polished_blackstone_button"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/dead_bubble_coral_block"
+  "random_sequence": "minecraft:blocks/polished_blackstone_button"
 }

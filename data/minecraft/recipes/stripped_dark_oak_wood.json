@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "boat",
+  "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [
+    "###",
     "# #",
-    "###"
+    "#R#"
   ],
   "result": {
-    "item": "minecraft:oak_boat"
+    "item": "minecraft:dropper"
   },
   "show_notification": true
 }

@@ -1,19 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "bark",
+  "group": "stained_terracotta",
   "key": {
     "#": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:terracotta"
+    },
+    "X": {
+      "item": "minecraft:green_dye"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:stripped_birch_wood"
+    "count": 8,
+    "item": "minecraft:green_terracotta"
   },
   "show_notification": true
 }

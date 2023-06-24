@@ -1,8 +1,17 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:polished_deepslate"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_blackstone_slab"
+    }
   },
-  "result": "minecraft:deepslate_tile_slab"
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:chiseled_polished_blackstone"
+  },
+  "show_notification": true
 }

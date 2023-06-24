@@ -5,26 +5,27 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "block": "minecraft:magenta_bed",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "part": "head"
-              }
-            }
-          ],
-          "name": "minecraft:magenta_bed"
+          "name": "minecraft:red_stained_glass"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/magenta_bed"
+  "random_sequence": "minecraft:blocks/red_stained_glass"
 }

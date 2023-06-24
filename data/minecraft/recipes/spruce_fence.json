@@ -1,18 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "redstone",
   "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
     "S": {
-      "item": "minecraft:granite"
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "SS",
-    "SS"
+    "I",
+    "S",
+    "#"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:polished_granite"
+    "count": 2,
+    "item": "minecraft:tripwire_hook"
   },
   "show_notification": true
 }

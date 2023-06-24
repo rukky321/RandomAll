@@ -1,10 +1,23 @@
 {
-  "type": "minecraft:campfire_cooking",
-  "category": "food",
-  "cookingtime": 600,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:salmon"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stained_glass_pane",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "$": {
+      "item": "minecraft:brown_dye"
+    }
   },
-  "result": "minecraft:cooked_salmon"
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:brown_stained_glass_pane"
+  },
+  "show_notification": true
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:white_tulip"
+          "name": "minecraft:hay_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/white_tulip"
+  "random_sequence": "minecraft:blocks/hay_block"
 }

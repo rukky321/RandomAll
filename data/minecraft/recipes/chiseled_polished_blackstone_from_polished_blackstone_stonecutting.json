@@ -1,22 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
-    "#": [
-      {
-        "item": "minecraft:sandstone"
-      },
-      {
-        "item": "minecraft:chiseled_sandstone"
-      }
-    ]
+    "#": {
+      "item": "minecraft:cobblestone"
+    }
   },
   "pattern": [
+    "###",
     "###"
   ],
   "result": {
     "count": 6,
-    "item": "minecraft:sandstone_slab"
+    "item": "minecraft:cobblestone_wall"
   },
   "show_notification": true
 }

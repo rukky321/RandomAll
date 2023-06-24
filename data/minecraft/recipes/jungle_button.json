@@ -1,19 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:diorite"
-    }
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:diorite_stairs"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
   },
-  "show_notification": true
+  "template": {
+    "item": "minecraft:rib_armor_trim_smithing_template"
+  }
 }

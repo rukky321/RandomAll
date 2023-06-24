@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:nether_brick_slab"
+    "X": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "#",
-    "#"
+    "X X",
+    "XXX",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:chiseled_nether_bricks"
+    "item": "minecraft:iron_chestplate"
   },
   "show_notification": true
 }

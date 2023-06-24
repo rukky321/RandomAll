@@ -1,13 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
-  "group": "wooden_button",
-  "ingredients": [
-    {
-      "item": "minecraft:mangrove_planks"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
     }
+  },
+  "pattern": [
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:mangrove_button"
-  }
+    "count": 4,
+    "item": "minecraft:quartz_bricks"
+  },
+  "show_notification": true
 }

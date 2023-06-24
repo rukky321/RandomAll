@@ -1,8 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:waxed_weathered_cut_copper"
-  },
-  "result": "minecraft:waxed_weathered_cut_copper_slab"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:gray_dye"
+  }
 }

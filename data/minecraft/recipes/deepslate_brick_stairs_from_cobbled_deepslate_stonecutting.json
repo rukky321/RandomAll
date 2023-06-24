@@ -1,21 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:orange_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:cobbled_deepslate"
   },
-  "pattern": [
-    "###",
-    "XXX"
-  ],
-  "result": {
-    "item": "minecraft:orange_bed"
-  },
-  "show_notification": true
+  "result": "minecraft:deepslate_brick_slab"
 }

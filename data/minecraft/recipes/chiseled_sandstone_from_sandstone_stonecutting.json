@@ -1,22 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
+  "category": "redstone",
+  "group": "wooden_trapdoor",
   "key": {
     "#": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "|": {
-      "item": "minecraft:stick"
+      "item": "minecraft:warped_planks"
     }
   },
   "pattern": [
     "###",
-    "###",
-    " | "
+    "###"
   ],
   "result": {
-    "item": "minecraft:light_gray_banner"
+    "count": 2,
+    "item": "minecraft:warped_trapdoor"
   },
   "show_notification": true
 }

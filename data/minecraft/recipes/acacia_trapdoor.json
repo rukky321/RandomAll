@@ -1,15 +1,8 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:stone"
   },
-  "base": {
-    "item": "minecraft:diamond_boots"
-  },
-  "result": {
-    "item": "minecraft:netherite_boots"
-  },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "result": "minecraft:stone_stairs"
 }

@@ -1,21 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "tag": "minecraft:planks"
-    },
-    "X": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:cobbled_deepslate_slab"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
-    "###"
+    "#",
+    "#"
   ],
   "result": {
-    "item": "minecraft:jukebox"
+    "item": "minecraft:chiseled_deepslate"
   },
   "show_notification": true
 }

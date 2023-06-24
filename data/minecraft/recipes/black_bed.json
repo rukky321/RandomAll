@@ -1,20 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "misc",
+  "group": "carpet",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:light_blue_wool"
     }
   },
   "pattern": [
-    "X",
-    "#"
+    "##"
   ],
   "result": {
-    "item": "minecraft:redstone_torch"
+    "count": 3,
+    "item": "minecraft:light_blue_carpet"
   },
   "show_notification": true
 }

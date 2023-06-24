@@ -1,23 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "hanging_sign",
-  "key": {
-    "#": {
-      "item": "minecraft:stripped_spruce_log"
-    },
-    "X": {
-      "item": "minecraft:chain"
-    }
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
   },
-  "pattern": [
-    "X X",
-    "###",
-    "###"
-  ],
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
   "result": {
-    "count": 6,
-    "item": "minecraft:spruce_hanging_sign"
+    "item": "minecraft:netherite_hoe"
   },
-  "show_notification": true
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
 }

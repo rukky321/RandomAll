@@ -1,17 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:netherrack"
+    },
+    "S": {
+      "item": "minecraft:rib_armor_trim_smithing_template"
     }
   },
   "pattern": [
+    "#S#",
+    "#C#",
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:smooth_sandstone_slab"
+    "count": 2,
+    "item": "minecraft:rib_armor_trim_smithing_template"
   },
   "show_notification": true
 }

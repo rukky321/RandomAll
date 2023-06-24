@@ -1,13 +1,22 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
-  "group": "wooden_button",
-  "ingredients": [
-    {
-      "item": "minecraft:jungle_planks"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "minecraft:brown_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " | "
   ],
   "result": {
-    "item": "minecraft:jungle_button"
-  }
+    "item": "minecraft:brown_banner"
+  },
+  "show_notification": true
 }

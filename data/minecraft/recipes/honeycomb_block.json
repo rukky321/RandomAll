@@ -1,10 +1,19 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:blue_terracotta"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_dark_oak_log"
+    }
   },
-  "result": "minecraft:blue_glazed_terracotta"
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:stripped_dark_oak_wood"
+  },
+  "show_notification": true
 }

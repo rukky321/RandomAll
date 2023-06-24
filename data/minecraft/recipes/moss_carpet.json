@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "dyed_candle",
-  "ingredients": [
-    {
-      "item": "minecraft:candle"
+  "group": "bed",
+  "key": {
+    "#": {
+      "item": "minecraft:green_wool"
     },
-    {
-      "item": "minecraft:green_dye"
+    "X": {
+      "tag": "minecraft:planks"
     }
+  },
+  "pattern": [
+    "###",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:green_candle"
-  }
+    "item": "minecraft:green_bed"
+  },
+  "show_notification": true
 }

@@ -1,21 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_fence_gate",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:polished_deepslate"
     }
   },
   "pattern": [
-    "#W#",
-    "#W#"
+    "###"
   ],
   "result": {
-    "item": "minecraft:birch_fence_gate"
+    "count": 6,
+    "item": "minecraft:polished_deepslate_slab"
   },
   "show_notification": true
 }

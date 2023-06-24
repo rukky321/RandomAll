@@ -1,39 +1,19 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.1,
-  "ingredient": [
-    {
-      "item": "minecraft:golden_pickaxe"
-    },
-    {
-      "item": "minecraft:golden_shovel"
-    },
-    {
-      "item": "minecraft:golden_axe"
-    },
-    {
-      "item": "minecraft:golden_hoe"
-    },
-    {
-      "item": "minecraft:golden_sword"
-    },
-    {
-      "item": "minecraft:golden_helmet"
-    },
-    {
-      "item": "minecraft:golden_chestplate"
-    },
-    {
-      "item": "minecraft:golden_leggings"
-    },
-    {
-      "item": "minecraft:golden_boots"
-    },
-    {
-      "item": "minecraft:golden_horse_armor"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_trapdoor",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
     }
+  },
+  "pattern": [
+    "###",
+    "###"
   ],
-  "result": "minecraft:gold_nugget"
+  "result": {
+    "count": 2,
+    "item": "minecraft:cherry_trapdoor"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,17 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:granite"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:magma_cream"
+    }
   },
-  "result": "minecraft:polished_granite_stairs"
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:magma_block"
+  },
+  "show_notification": true
 }

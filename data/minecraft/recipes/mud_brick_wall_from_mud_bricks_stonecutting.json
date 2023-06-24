@@ -1,22 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "O": {
-      "item": "minecraft:slime_ball"
-    },
-    "~": {
-      "item": "minecraft:string"
-    }
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "ingredient": {
+    "tag": "minecraft:logs_that_burn"
   },
-  "pattern": [
-    "~~ ",
-    "~O ",
-    "  ~"
-  ],
-  "result": {
-    "count": 2,
-    "item": "minecraft:lead"
-  },
-  "show_notification": true
+  "result": "minecraft:charcoal"
 }

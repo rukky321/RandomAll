@@ -1,18 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "carpet",
+  "group": "wooden_sign",
   "key": {
     "#": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:birch_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "##"
+    "###",
+    "###",
+    " X "
   ],
   "result": {
     "count": 3,
-    "item": "minecraft:pink_carpet"
+    "item": "minecraft:birch_sign"
   },
   "show_notification": true
 }

@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "S": {
-      "item": "minecraft:andesite"
+    "#": {
+      "item": "minecraft:lapis_lazuli"
     }
   },
   "pattern": [
-    "SS",
-    "SS"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:polished_andesite"
+    "item": "minecraft:lapis_block"
   },
   "show_notification": true
 }

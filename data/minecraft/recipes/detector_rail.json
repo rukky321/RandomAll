@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 8,
+  "count": 1,
   "ingredient": {
-    "item": "minecraft:oxidized_copper"
+    "item": "minecraft:nether_bricks"
   },
-  "result": "minecraft:oxidized_cut_copper_slab"
+  "result": "minecraft:nether_brick_stairs"
 }

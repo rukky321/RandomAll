@@ -1,25 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:diamond"
-    },
-    "C": {
-      "item": "minecraft:terracotta"
-    },
-    "S": {
-      "item": "minecraft:raiser_armor_trim_smithing_template"
-    }
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "pattern": [
-    "#S#",
-    "#C#",
-    "###"
-  ],
-  "result": {
-    "count": 2,
-    "item": "minecraft:raiser_armor_trim_smithing_template"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
   },
-  "show_notification": true
+  "template": {
+    "item": "minecraft:spire_armor_trim_smithing_template"
+  }
 }

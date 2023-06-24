@@ -1,19 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:deepslate_tiles"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "orange_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:torchflower"
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:deepslate_tile_stairs"
-  },
-  "show_notification": true
+    "item": "minecraft:orange_dye"
+  }
 }

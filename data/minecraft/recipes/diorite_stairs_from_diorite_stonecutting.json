@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "mossy_cobblestone",
-  "ingredients": [
-    {
-      "item": "minecraft:cobblestone"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
     },
-    {
-      "item": "minecraft:vine"
+    "I": {
+      "item": "minecraft:iron_ingot"
     }
+  },
+  "pattern": [
+    "I I",
+    "ICI",
+    " I "
   ],
   "result": {
-    "item": "minecraft:mossy_cobblestone"
-  }
+    "item": "minecraft:hopper"
+  },
+  "show_notification": true
 }

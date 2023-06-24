@@ -1,18 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "boat",
+  "category": "building",
+  "group": "bark",
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:crimson_stem"
     }
   },
   "pattern": [
-    "# #",
-    "###"
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:dark_oak_boat"
+    "count": 3,
+    "item": "minecraft:crimson_hyphae"
   },
   "show_notification": true
 }

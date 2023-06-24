@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "dyed_candle",
-  "ingredients": [
-    {
-      "item": "minecraft:candle"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:prismarine_crystals"
     },
-    {
-      "item": "minecraft:white_dye"
+    "S": {
+      "item": "minecraft:prismarine_shard"
     }
+  },
+  "pattern": [
+    "SCS",
+    "CCC",
+    "SCS"
   ],
   "result": {
-    "item": "minecraft:white_candle"
-  }
+    "item": "minecraft:sea_lantern"
+  },
+  "show_notification": true
 }

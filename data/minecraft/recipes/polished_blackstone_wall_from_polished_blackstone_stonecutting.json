@@ -1,21 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:blue_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:waxed_exposed_cut_copper"
   },
-  "pattern": [
-    "###",
-    "XXX"
-  ],
-  "result": {
-    "item": "minecraft:blue_bed"
-  },
-  "show_notification": true
+  "result": "minecraft:waxed_exposed_cut_copper_slab"
 }

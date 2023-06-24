@@ -1,25 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
+  "group": "banner",
   "key": {
     "#": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "|": {
       "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:flint"
-    },
-    "Y": {
-      "item": "minecraft:feather"
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "Y"
+    "###",
+    "###",
+    " | "
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:arrow"
+    "item": "minecraft:light_gray_banner"
   },
   "show_notification": true
 }

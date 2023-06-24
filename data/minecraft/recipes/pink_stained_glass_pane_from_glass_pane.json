@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:copper_ingot"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "item": "minecraft:crafting_table"
+    "item": "minecraft:copper_block"
   },
-  "show_notification": false
+  "show_notification": true
 }

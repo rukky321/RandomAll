@@ -1,18 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:copper_block"
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_planks"
     }
-  },
-  "pattern": [
-    "##",
-    "##"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:cut_copper"
-  },
-  "show_notification": true
+    "item": "minecraft:jungle_button"
+  }
 }

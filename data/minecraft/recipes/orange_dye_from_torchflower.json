@@ -1,17 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:bamboo_mosaic"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:bamboo_raft"
     }
-  },
-  "pattern": [
-    "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:bamboo_mosaic_slab"
-  },
-  "show_notification": true
+    "item": "minecraft:bamboo_chest_raft"
+  }
 }

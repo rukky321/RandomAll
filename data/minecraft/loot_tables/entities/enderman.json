@@ -5,26 +5,27 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "block": "minecraft:black_bed",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "part": "head"
-              }
-            }
-          ],
-          "name": "minecraft:black_bed"
+          "name": "minecraft:dead_tube_coral"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/black_bed"
+  "random_sequence": "minecraft:blocks/dead_tube_coral"
 }

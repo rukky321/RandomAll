@@ -1,18 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:blasting",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:andesite"
-    }
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "minecraft:deepslate_iron_ore"
   },
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:andesite_wall"
-  },
-  "show_notification": true
+  "result": "minecraft:iron_ingot"
 }

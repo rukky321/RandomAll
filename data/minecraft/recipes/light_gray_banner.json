@@ -1,10 +1,23 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:cyan_terracotta"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_terracotta",
+  "key": {
+    "#": {
+      "item": "minecraft:terracotta"
+    },
+    "X": {
+      "item": "minecraft:brown_dye"
+    }
   },
-  "result": "minecraft:cyan_glazed_terracotta"
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:brown_terracotta"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,22 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:mud_bricks"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
   },
-  "result": "minecraft:mud_brick_slab"
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "result": {
+    "item": "minecraft:cyan_banner"
+  },
+  "show_notification": true
 }

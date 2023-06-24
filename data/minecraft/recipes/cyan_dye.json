@@ -1,21 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
+  "group": "hanging_sign",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:stripped_crimson_stem"
     },
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:chain"
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "#"
+    "X X",
+    "###",
+    "###"
   ],
   "result": {
-    "item": "minecraft:iron_shovel"
+    "count": 6,
+    "item": "minecraft:crimson_hanging_sign"
   },
   "show_notification": true
 }

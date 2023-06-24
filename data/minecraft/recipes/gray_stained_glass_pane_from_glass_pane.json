@@ -1,23 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "wooden_sign",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:glowstone_dust"
     },
     "X": {
-      "item": "minecraft:stick"
+      "item": "minecraft:arrow"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    " X "
+    " # ",
+    "#X#",
+    " # "
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:jungle_sign"
+    "count": 2,
+    "item": "minecraft:spectral_arrow"
   },
   "show_notification": true
 }

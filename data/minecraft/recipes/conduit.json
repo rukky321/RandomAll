@@ -1,19 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_trapdoor",
-  "key": {
-    "#": {
-      "item": "minecraft:crimson_planks"
-    }
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "gold_ingot",
+  "ingredient": {
+    "item": "minecraft:deepslate_gold_ore"
   },
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 2,
-    "item": "minecraft:crimson_trapdoor"
-  },
-  "show_notification": true
+  "result": "minecraft:gold_ingot"
 }

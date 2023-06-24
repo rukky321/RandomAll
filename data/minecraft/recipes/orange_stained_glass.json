@@ -1,18 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
+  "group": "cyan_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:pitcher_plant"
     }
-  },
-  "pattern": [
-    "# #",
-    "# #",
-    "###"
   ],
   "result": {
-    "item": "minecraft:cauldron"
-  },
-  "show_notification": true
+    "count": 2,
+    "item": "minecraft:cyan_dye"
+  }
 }

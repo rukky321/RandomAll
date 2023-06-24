@@ -1,36 +1,8 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "minecraft:melon_slice"
-    }
-  ],
-  "result": {
-    "item": "minecraft:melon"
-  }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:mossy_cobblestone"
+  },
+  "result": "minecraft:mossy_cobblestone_slab"
 }

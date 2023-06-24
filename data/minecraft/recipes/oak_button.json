@@ -1,10 +1,12 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:basalt"
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "result": "minecraft:smooth_basalt"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
+  },
+  "template": {
+    "item": "minecraft:ward_armor_trim_smithing_template"
+  }
 }

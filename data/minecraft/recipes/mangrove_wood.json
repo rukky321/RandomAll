@@ -1,16 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "dyed_candle",
   "ingredients": [
     {
-      "item": "minecraft:candle"
-    },
-    {
-      "item": "minecraft:black_dye"
+      "item": "minecraft:iron_ingot"
     }
   ],
   "result": {
-    "item": "minecraft:black_candle"
+    "count": 9,
+    "item": "minecraft:iron_nugget"
   }
 }

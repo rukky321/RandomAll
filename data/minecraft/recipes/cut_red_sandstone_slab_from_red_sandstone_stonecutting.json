@@ -1,23 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "tag": "minecraft:planks"
-    },
-    "-": {
-      "item": "minecraft:stone_slab"
-    },
-    "I": {
-      "item": "minecraft:stick"
+      "item": "minecraft:oxidized_cut_copper"
     }
   },
   "pattern": [
-    "I-I",
-    "# #"
+    "###"
   ],
   "result": {
-    "item": "minecraft:grindstone"
+    "count": 6,
+    "item": "minecraft:oxidized_cut_copper_slab"
   },
   "show_notification": true
 }

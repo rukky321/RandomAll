@@ -1,16 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "building",
+  "group": "waxed_cut_copper_stairs",
   "key": {
     "#": {
-      "item": "minecraft:polished_blackstone"
+      "item": "minecraft:waxed_cut_copper"
     }
   },
   "pattern": [
-    "##"
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
-    "item": "minecraft:polished_blackstone_pressure_plate"
+    "count": 4,
+    "item": "minecraft:waxed_cut_copper_stairs"
   },
   "show_notification": true
 }

@@ -1,23 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "stained_glass_pane",
+  "group": "wooden_custom_fence",
   "key": {
     "#": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:stick"
     },
-    "$": {
-      "item": "minecraft:pink_dye"
+    "W": {
+      "item": "minecraft:bamboo_planks"
     }
   },
   "pattern": [
-    "###",
-    "#$#",
-    "###"
+    "W#W",
+    "W#W"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:pink_stained_glass_pane"
+    "count": 3,
+    "item": "minecraft:bamboo_fence"
   },
   "show_notification": true
 }

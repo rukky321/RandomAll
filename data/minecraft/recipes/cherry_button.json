@@ -1,8 +1,17 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:blackstone"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_shard"
+    }
   },
-  "result": "minecraft:polished_blackstone_wall"
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:prismarine"
+  },
+  "show_notification": true
 }

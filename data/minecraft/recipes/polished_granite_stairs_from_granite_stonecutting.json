@@ -1,23 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_glass",
-  "key": {
-    "#": {
-      "item": "minecraft:glass"
-    },
-    "X": {
-      "item": "minecraft:orange_dye"
-    }
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:rabbit"
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "item": "minecraft:orange_stained_glass"
-  },
-  "show_notification": true
+  "result": "minecraft:cooked_rabbit"
 }

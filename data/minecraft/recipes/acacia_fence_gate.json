@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "bed",
+  "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:red_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:slime_ball"
     }
   },
   "pattern": [
     "###",
-    "XXX"
+    "###",
+    "###"
   ],
   "result": {
-    "item": "minecraft:red_bed"
+    "item": "minecraft:slime_block"
   },
   "show_notification": true
 }

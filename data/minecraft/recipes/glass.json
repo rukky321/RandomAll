@@ -1,21 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:green_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:granite"
   },
-  "pattern": [
-    "###",
-    "XXX"
-  ],
-  "result": {
-    "item": "minecraft:green_bed"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_granite_slab"
 }

@@ -1,23 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:diamond"
     },
-    "I": {
-      "item": "minecraft:stone"
+    "C": {
+      "item": "minecraft:netherrack"
     },
-    "X": {
-      "item": "minecraft:redstone"
+    "S": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
     }
   },
   "pattern": [
-    "#X#",
-    "III"
+    "#S#",
+    "#C#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:repeater"
+    "count": 2,
+    "item": "minecraft:netherite_upgrade_smithing_template"
   },
   "show_notification": true
 }

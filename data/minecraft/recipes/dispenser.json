@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "S": {
-      "item": "minecraft:diorite"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:cut_copper"
   },
-  "pattern": [
-    "SS",
-    "SS"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:polished_diorite"
-  },
-  "show_notification": true
+  "result": "minecraft:cut_copper_slab"
 }

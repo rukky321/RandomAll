@@ -1,11 +1,18 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.7,
-  "group": "iron_ingot",
-  "ingredient": {
-    "item": "minecraft:iron_ore"
+  "group": "boat",
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_planks"
+    }
   },
-  "result": "minecraft:iron_ingot"
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:bamboo_raft"
+  },
+  "show_notification": true
 }

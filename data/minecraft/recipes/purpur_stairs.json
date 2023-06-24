@@ -1,15 +1,23 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stained_glass_pane",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "$": {
+      "item": "minecraft:purple_dye"
+    }
   },
-  "base": {
-    "item": "minecraft:diamond_helmet"
-  },
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:netherite_helmet"
+    "count": 8,
+    "item": "minecraft:purple_stained_glass_pane"
   },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "show_notification": true
 }

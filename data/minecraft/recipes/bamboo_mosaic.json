@@ -1,25 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "tag": "minecraft:planks"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "emerald",
+  "ingredient": {
+    "item": "minecraft:emerald_ore"
   },
-  "pattern": [
-    "I",
-    "S",
-    "#"
-  ],
-  "result": {
-    "count": 2,
-    "item": "minecraft:tripwire_hook"
-  },
-  "show_notification": true
+  "result": "minecraft:emerald"
 }

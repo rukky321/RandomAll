@@ -1,19 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:string"
     }
   },
   "pattern": [
-    "###",
-    "###"
+    " #X",
+    "# X",
+    " #X"
   ],
   "result": {
-    "count": 16,
-    "item": "minecraft:blue_stained_glass_pane"
+    "item": "minecraft:bow"
   },
   "show_notification": true
 }

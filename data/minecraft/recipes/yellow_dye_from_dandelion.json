@@ -1,13 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_terracotta",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:gold_nugget"
     },
     "X": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:melon_slice"
     }
   },
   "pattern": [
@@ -16,8 +15,7 @@
     "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:gray_terracotta"
+    "item": "minecraft:glistering_melon_slice"
   },
   "show_notification": true
 }

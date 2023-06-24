@@ -1,13 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
-  "group": "wooden_button",
-  "ingredients": [
-    {
-      "item": "minecraft:warped_planks"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "minecraft:nether_brick"
+    },
+    "W": {
+      "item": "minecraft:nether_wart"
     }
+  },
+  "pattern": [
+    "NW",
+    "WN"
   ],
   "result": {
-    "item": "minecraft:warped_button"
-  }
+    "item": "minecraft:red_nether_bricks"
+  },
+  "show_notification": true
 }

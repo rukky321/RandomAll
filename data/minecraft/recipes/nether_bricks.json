@@ -1,23 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:blasting",
   "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "item": "minecraft:glass_pane"
-    },
-    "$": {
-      "item": "minecraft:lime_dye"
-    }
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "gold_ingot",
+  "ingredient": {
+    "item": "minecraft:raw_gold"
   },
-  "pattern": [
-    "###",
-    "#$#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "item": "minecraft:lime_stained_glass_pane"
-  },
-  "show_notification": true
+  "result": "minecraft:gold_ingot"
 }

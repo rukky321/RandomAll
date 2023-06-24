@@ -1,19 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "X",
+    "#",
+    "#"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:polished_andesite_stairs"
+    "item": "minecraft:stone_shovel"
   },
   "show_notification": true
 }

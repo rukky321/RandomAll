@@ -1,17 +1,36 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:red_nether_bricks"
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:bamboo"
     }
-  },
-  "pattern": [
-    "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:red_nether_brick_slab"
-  },
-  "show_notification": true
+    "item": "minecraft:bamboo_block"
+  }
 }

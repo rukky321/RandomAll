@@ -1,23 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "stained_glass",
   "key": {
     "#": {
-      "item": "minecraft:glass"
-    },
-    "X": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:cobblestone"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
+    "#  ",
+    "## ",
     "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:light_blue_stained_glass"
+    "count": 4,
+    "item": "minecraft:cobblestone_stairs"
   },
   "show_notification": true
 }

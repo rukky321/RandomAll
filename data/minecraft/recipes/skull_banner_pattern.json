@@ -1,20 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
+  "group": "stained_terracotta",
   "key": {
     "#": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:terracotta"
     },
     "X": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:blue_dye"
     }
   },
   "pattern": [
-    "#X#"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:cookie"
+    "item": "minecraft:blue_terracotta"
   },
   "show_notification": true
 }

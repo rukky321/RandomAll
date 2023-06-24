@@ -1,11 +1,19 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.7,
-  "group": "iron_ingot",
-  "ingredient": {
-    "item": "minecraft:deepslate_iron_ore"
+  "group": "stained_glass_pane",
+  "key": {
+    "#": {
+      "item": "minecraft:black_stained_glass"
+    }
   },
-  "result": "minecraft:iron_ingot"
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 16,
+    "item": "minecraft:black_stained_glass_pane"
+  },
+  "show_notification": true
 }

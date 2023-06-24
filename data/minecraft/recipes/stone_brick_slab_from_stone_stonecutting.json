@@ -1,16 +1,24 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "waxed_cut_copper_slab",
-  "ingredients": [
-    {
-      "item": "minecraft:cut_copper_slab"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "minecraft:coals"
     },
-    {
-      "item": "minecraft:honeycomb"
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
+  },
+  "pattern": [
+    " S ",
+    "SCS",
+    "LLL"
   ],
   "result": {
-    "item": "minecraft:waxed_cut_copper_slab"
-  }
+    "item": "minecraft:campfire"
+  },
+  "show_notification": true
 }

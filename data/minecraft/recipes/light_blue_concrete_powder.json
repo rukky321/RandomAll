@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:red_sandstone"
     }
   },
   "pattern": [
+    "###",
     "###"
   ],
   "result": {
     "count": 6,
-    "item": "minecraft:stone_brick_slab"
+    "item": "minecraft:red_sandstone_wall"
   },
   "show_notification": true
 }

@@ -1,19 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "sticks",
-  "key": {
-    "#": {
-      "tag": "minecraft:planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:red_sandstone"
   },
-  "pattern": [
-    "#",
-    "#"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:stick"
-  },
-  "show_notification": true
+  "result": "minecraft:red_sandstone_wall"
 }

@@ -1,21 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
+  "group": "stained_glass_pane",
   "key": {
-    "C": {
-      "item": "minecraft:prismarine_crystals"
-    },
-    "S": {
-      "item": "minecraft:prismarine_shard"
+    "#": {
+      "item": "minecraft:white_stained_glass"
     }
   },
   "pattern": [
-    "SCS",
-    "CCC",
-    "SCS"
+    "###",
+    "###"
   ],
   "result": {
-    "item": "minecraft:sea_lantern"
+    "count": 16,
+    "item": "minecraft:white_stained_glass_pane"
   },
   "show_notification": true
 }

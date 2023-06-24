@@ -1,13 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:pumpkin"
-    }
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:pumpkin_seeds"
-  }
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "diamond",
+  "ingredient": {
+    "item": "minecraft:diamond_ore"
+  },
+  "result": "minecraft:diamond"
 }

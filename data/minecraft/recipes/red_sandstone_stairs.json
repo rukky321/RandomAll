@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    "B": {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "pattern": [
-    " B ",
     "###"
   ],
   "result": {
-    "item": "minecraft:brewing_stand"
+    "count": 6,
+    "item": "minecraft:smooth_quartz_slab"
   },
   "show_notification": true
 }

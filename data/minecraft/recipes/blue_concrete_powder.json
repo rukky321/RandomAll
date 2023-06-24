@@ -1,18 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:copper_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:feather"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "X",
+    "#",
+    "I"
   ],
   "result": {
-    "item": "minecraft:iron_block"
+    "item": "minecraft:brush"
   },
   "show_notification": true
 }

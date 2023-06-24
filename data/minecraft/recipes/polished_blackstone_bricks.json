@@ -1,21 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:string"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:sandstone"
   },
-  "pattern": [
-    "  #",
-    " #X",
-    "# X"
-  ],
-  "result": {
-    "item": "minecraft:fishing_rod"
-  },
-  "show_notification": true
+  "result": "minecraft:chiseled_sandstone"
 }

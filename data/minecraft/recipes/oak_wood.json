@@ -1,17 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_pressure_plate",
-  "key": {
-    "#": {
-      "item": "minecraft:birch_planks"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
     }
-  },
-  "pattern": [
-    "##"
   ],
   "result": {
-    "item": "minecraft:birch_pressure_plate"
-  },
-  "show_notification": true
+    "count": 2,
+    "item": "minecraft:blaze_powder"
+  }
 }

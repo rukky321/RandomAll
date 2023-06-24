@@ -1,36 +1,24 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:gift",
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:flower_pot"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
+          "name": "minecraft:stone_axe"
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom"
+          "name": "minecraft:golden_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/potted_brown_mushroom"
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/weaponsmith_gift"
 }

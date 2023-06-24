@@ -1,21 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "bed",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:purple_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:sand"
     }
   },
   "pattern": [
-    "###",
-    "XXX"
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:purple_bed"
+    "item": "minecraft:sandstone"
   },
   "show_notification": true
 }

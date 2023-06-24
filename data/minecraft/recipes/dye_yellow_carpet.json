@@ -1,17 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
+  "group": "banner",
   "key": {
     "#": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:green_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "###"
+    "###",
+    "###",
+    " | "
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:smooth_quartz_slab"
+    "item": "minecraft:green_banner"
   },
   "show_notification": true
 }

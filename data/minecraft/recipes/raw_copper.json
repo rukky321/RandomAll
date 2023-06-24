@@ -1,21 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "B": {
-      "item": "minecraft:bookshelf"
-    },
-    "S": {
-      "tag": "minecraft:wooden_slabs"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sugar",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
     }
-  },
-  "pattern": [
-    "SSS",
-    " B ",
-    " S "
   ],
   "result": {
-    "item": "minecraft:lectern"
-  },
-  "show_notification": true
+    "count": 3,
+    "item": "minecraft:sugar"
+  }
 }

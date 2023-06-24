@@ -3,19 +3,14 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_planks"
+          "name": "minecraft:creeper_head"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/dark_oak_planks"
+  "random_sequence": "minecraft:blocks/creeper_head"
 }

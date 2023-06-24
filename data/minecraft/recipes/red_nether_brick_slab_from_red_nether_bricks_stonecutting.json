@@ -1,8 +1,22 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:stone"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
   },
-  "result": "minecraft:stone_slab"
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "result": {
+    "item": "minecraft:magenta_banner"
+  },
+  "show_notification": true
 }

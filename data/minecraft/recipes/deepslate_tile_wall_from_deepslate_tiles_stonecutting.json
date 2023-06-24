@@ -1,21 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:gold_ingot"
-    },
-    "X": {
-      "item": "minecraft:apple"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:polished_blackstone"
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "item": "minecraft:golden_apple"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_blackstone_brick_stairs"
 }

@@ -1,22 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "banner",
-  "key": {
-    "#": {
-      "item": "minecraft:lime_wool"
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
     },
-    "|": {
-      "item": "minecraft:stick"
+    {
+      "item": "minecraft:creeper_head"
     }
-  },
-  "pattern": [
-    "###",
-    "###",
-    " | "
   ],
   "result": {
-    "item": "minecraft:lime_banner"
-  },
-  "show_notification": true
+    "item": "minecraft:creeper_banner_pattern"
+  }
 }

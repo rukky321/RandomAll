@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": {
-    "item": "minecraft:polished_diorite"
+    "item": "minecraft:purpur_block"
   },
-  "result": "minecraft:polished_diorite_slab"
+  "result": "minecraft:purpur_slab"
 }

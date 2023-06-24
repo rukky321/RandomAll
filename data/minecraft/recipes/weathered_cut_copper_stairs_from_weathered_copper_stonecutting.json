@@ -1,21 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "item": "minecraft:stone"
     },
     "X": {
-      "tag": "minecraft:stone_tool_materials"
+      "item": "minecraft:quartz"
     }
   },
   "pattern": [
-    "XXX",
     " # ",
-    " # "
+    "#X#",
+    "III"
   ],
   "result": {
-    "item": "minecraft:stone_pickaxe"
+    "item": "minecraft:comparator"
   },
   "show_notification": true
 }

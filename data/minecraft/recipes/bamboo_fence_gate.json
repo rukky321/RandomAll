@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "building",
   "key": {
-    "X": {
-      "item": "minecraft:iron_ingot"
+    "#": {
+      "item": "minecraft:smooth_red_sandstone"
     }
   },
   "pattern": [
-    "X X",
-    "X X"
+    "###"
   ],
   "result": {
-    "item": "minecraft:iron_boots"
+    "count": 6,
+    "item": "minecraft:smooth_red_sandstone_slab"
   },
   "show_notification": true
 }

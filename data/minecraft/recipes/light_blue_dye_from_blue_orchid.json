@@ -1,10 +1,24 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.15,
-  "ingredient": {
-    "tag": "minecraft:logs_that_burn"
+  "key": {
+    "#": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
   },
-  "result": "minecraft:charcoal"
+  "pattern": [
+    " S ",
+    "S#S",
+    "LLL"
+  ],
+  "result": {
+    "item": "minecraft:soul_campfire"
+  },
+  "show_notification": true
 }

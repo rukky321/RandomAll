@@ -1,14 +1,22 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "iron_ingot",
-  "ingredients": [
-    {
-      "item": "minecraft:iron_block"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "item": "minecraft:slime_ball"
+    },
+    "~": {
+      "item": "minecraft:string"
     }
+  },
+  "pattern": [
+    "~~ ",
+    "~O ",
+    "  ~"
   ],
   "result": {
-    "count": 9,
-    "item": "minecraft:iron_ingot"
-  }
+    "count": 2,
+    "item": "minecraft:lead"
+  },
+  "show_notification": true
 }

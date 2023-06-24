@@ -1,21 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "tag": "minecraft:stone_tool_materials"
+      "item": "minecraft:red_nether_bricks"
     }
   },
   "pattern": [
-    "X",
-    "X",
-    "#"
+    "###"
   ],
   "result": {
-    "item": "minecraft:stone_sword"
+    "count": 6,
+    "item": "minecraft:red_nether_brick_slab"
   },
   "show_notification": true
 }

@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "carpet",
   "key": {
     "#": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:nether_brick"
+    },
+    "W": {
+      "item": "minecraft:nether_bricks"
     }
   },
   "pattern": [
-    "##"
+    "W#W",
+    "W#W"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:green_carpet"
+    "count": 6,
+    "item": "minecraft:nether_brick_fence"
   },
   "show_notification": true
 }

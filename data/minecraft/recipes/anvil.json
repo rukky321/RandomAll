@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:raw_gold"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:prismarine"
   },
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "result": {
-    "item": "minecraft:raw_gold_block"
-  },
-  "show_notification": true
+  "result": "minecraft:prismarine_slab"
 }

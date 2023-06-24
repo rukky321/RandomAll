@@ -1,38 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "concrete_powder",
-  "ingredients": [
-    {
-      "item": "minecraft:blue_dye"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
     },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
     }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:blue_concrete_powder"
-  }
+    "item": "minecraft:stone_pickaxe"
+  },
+  "show_notification": true
 }

@@ -1,21 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "S": {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "pattern": [
-    "SSS",
-    "S#S",
-    "SSS"
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
-    "item": "minecraft:lodestone"
+    "count": 4,
+    "item": "minecraft:prismarine_brick_stairs"
   },
   "show_notification": true
 }

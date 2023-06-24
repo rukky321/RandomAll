@@ -1,8 +1,15 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:waxed_weathered_cut_copper"
-  },
-  "result": "minecraft:waxed_weathered_cut_copper_stairs"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:minecart"
+    }
+  ],
+  "result": {
+    "item": "minecraft:hopper_minecart"
+  }
 }

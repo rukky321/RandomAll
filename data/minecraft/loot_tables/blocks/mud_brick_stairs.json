@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stripped_jungle_wood"
+          "name": "minecraft:purple_carpet"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/stripped_jungle_wood"
+  "random_sequence": "minecraft:blocks/purple_carpet"
 }

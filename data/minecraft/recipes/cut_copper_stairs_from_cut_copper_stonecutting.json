@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "boat",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:smooth_stone"
     }
   },
   "pattern": [
-    "# #",
     "###"
   ],
   "result": {
-    "item": "minecraft:acacia_boat"
+    "count": 6,
+    "item": "minecraft:smooth_stone_slab"
   },
   "show_notification": true
 }

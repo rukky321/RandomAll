@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:raw_copper"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:mossy_stone_bricks"
   },
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "result": {
-    "item": "minecraft:raw_copper_block"
-  },
-  "show_notification": true
+  "result": "minecraft:mossy_stone_brick_stairs"
 }

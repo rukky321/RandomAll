@@ -1,21 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:diamond"
-    }
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "diamond",
+  "ingredient": {
+    "item": "minecraft:deepslate_diamond_ore"
   },
-  "pattern": [
-    "X",
-    "#",
-    "#"
-  ],
-  "result": {
-    "item": "minecraft:diamond_shovel"
-  },
-  "show_notification": true
+  "result": "minecraft:diamond"
 }

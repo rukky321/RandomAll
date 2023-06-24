@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "misc",
+  "group": "sticks",
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
-    },
-    "X": {
-      "item": "minecraft:stick"
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "X",
+    "#",
     "#"
   ],
   "result": {
-    "item": "minecraft:lever"
+    "count": 4,
+    "item": "minecraft:stick"
   },
   "show_notification": true
 }

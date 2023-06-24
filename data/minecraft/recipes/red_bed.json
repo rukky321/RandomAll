@@ -1,11 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.7,
-  "group": "redstone",
+  "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
-    "item": "minecraft:redstone_ore"
+    "item": "minecraft:purpur_block"
   },
-  "result": "minecraft:redstone"
+  "result": "minecraft:purpur_stairs"
 }

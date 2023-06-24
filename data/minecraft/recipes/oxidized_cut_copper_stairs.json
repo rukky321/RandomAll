@@ -1,13 +1,8 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:hay_block"
-    }
-  ],
-  "result": {
-    "count": 9,
-    "item": "minecraft:wheat"
-  }
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:waxed_exposed_copper"
+  },
+  "result": "minecraft:waxed_exposed_cut_copper"
 }

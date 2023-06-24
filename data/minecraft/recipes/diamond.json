@@ -1,11 +1,21 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 200,
-  "experience": 1.0,
-  "group": "emerald",
-  "ingredient": {
-    "item": "minecraft:emerald_ore"
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    }
   },
-  "result": "minecraft:emerald"
+  "pattern": [
+    "OOO",
+    "GGG",
+    "OOO"
+  ],
+  "result": {
+    "item": "minecraft:respawn_anchor"
+  },
+  "show_notification": true
 }

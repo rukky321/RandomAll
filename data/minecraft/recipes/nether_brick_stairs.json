@@ -1,21 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "stained_glass_pane",
   "key": {
     "#": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:glass_pane"
     },
-    "E": {
-      "item": "minecraft:ender_eye"
+    "$": {
+      "item": "minecraft:red_dye"
     }
   },
   "pattern": [
     "###",
-    "#E#",
+    "#$#",
     "###"
   ],
   "result": {
-    "item": "minecraft:ender_chest"
+    "count": 8,
+    "item": "minecraft:red_stained_glass_pane"
   },
   "show_notification": true
 }

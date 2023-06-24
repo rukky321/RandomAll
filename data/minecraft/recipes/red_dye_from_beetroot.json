@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:brick"
+      "item": "minecraft:gold_ingot"
+    },
+    "X": {
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [
-    "# #",
+    " # ",
+    "#X#",
     " # "
   ],
   "result": {
-    "item": "minecraft:flower_pot"
+    "item": "minecraft:clock"
   },
   "show_notification": true
 }

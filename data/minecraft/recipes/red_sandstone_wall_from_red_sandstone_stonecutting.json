@@ -1,8 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:polished_deepslate"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    }
   },
-  "result": "minecraft:deepslate_tile_wall"
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:light_weighted_pressure_plate"
+  },
+  "show_notification": true
 }

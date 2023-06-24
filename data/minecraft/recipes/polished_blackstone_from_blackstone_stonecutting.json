@@ -1,19 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "waxed_exposed_cut_copper",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:waxed_exposed_copper"
+      "item": "minecraft:prismarine"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:waxed_exposed_cut_copper"
+    "count": 6,
+    "item": "minecraft:prismarine_wall"
   },
   "show_notification": true
 }

@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_terracotta",
+  "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "item": "minecraft:stone"
     },
     "X": {
-      "item": "minecraft:brown_dye"
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [
-    "###",
     "#X#",
-    "###"
+    "III"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:brown_terracotta"
+    "item": "minecraft:repeater"
   },
   "show_notification": true
 }

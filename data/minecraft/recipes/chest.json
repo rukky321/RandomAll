@@ -1,19 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "stained_glass",
   "key": {
     "#": {
-      "item": "minecraft:cut_copper"
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "minecraft:light_blue_dye"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
+    "###",
+    "#X#",
     "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:cut_copper_stairs"
+    "count": 8,
+    "item": "minecraft:light_blue_stained_glass"
   },
   "show_notification": true
 }

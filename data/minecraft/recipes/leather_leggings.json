@@ -1,18 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "stained_glass",
   "key": {
-    "S": {
-      "item": "minecraft:basalt"
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "minecraft:gray_dye"
     }
   },
   "pattern": [
-    "SS",
-    "SS"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:polished_basalt"
+    "count": 8,
+    "item": "minecraft:gray_stained_glass"
   },
   "show_notification": true
 }

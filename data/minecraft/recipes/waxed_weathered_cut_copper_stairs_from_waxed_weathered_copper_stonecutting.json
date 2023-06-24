@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_door",
+  "category": "building",
+  "group": "bark",
   "key": {
     "#": {
-      "item": "minecraft:bamboo_planks"
+      "item": "minecraft:stripped_warped_stem"
     }
   },
   "pattern": [
-    "##",
     "##",
     "##"
   ],
   "result": {
     "count": 3,
-    "item": "minecraft:bamboo_door"
+    "item": "minecraft:stripped_warped_hyphae"
   },
   "show_notification": true
 }

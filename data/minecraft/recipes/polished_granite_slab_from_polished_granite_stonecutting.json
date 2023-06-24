@@ -1,19 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "item": "minecraft:black_stained_glass"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "waxed_cut_copper_slab",
+  "ingredients": [
+    {
+      "item": "minecraft:cut_copper_slab"
+    },
+    {
+      "item": "minecraft:honeycomb"
     }
-  },
-  "pattern": [
-    "###",
-    "###"
   ],
   "result": {
-    "count": 16,
-    "item": "minecraft:black_stained_glass_pane"
-  },
-  "show_notification": true
+    "item": "minecraft:waxed_cut_copper_slab"
+  }
 }

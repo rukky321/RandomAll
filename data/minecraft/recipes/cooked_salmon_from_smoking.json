@@ -1,11 +1,18 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.7,
-  "group": "copper_ingot",
-  "ingredient": {
-    "item": "minecraft:copper_ore"
+  "key": {
+    "#": {
+      "item": "minecraft:deepslate_tiles"
+    }
   },
-  "result": "minecraft:copper_ingot"
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:deepslate_tile_wall"
+  },
+  "show_notification": true
 }

@@ -1,25 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:diamond"
-    },
-    "C": {
-      "item": "minecraft:blackstone"
-    },
-    "S": {
-      "item": "minecraft:snout_armor_trim_smithing_template"
+      "item": "minecraft:red_nether_bricks"
     }
   },
   "pattern": [
-    "#S#",
-    "#C#",
+    "#  ",
+    "## ",
     "###"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:snout_armor_trim_smithing_template"
+    "count": 4,
+    "item": "minecraft:red_nether_brick_stairs"
   },
   "show_notification": true
 }

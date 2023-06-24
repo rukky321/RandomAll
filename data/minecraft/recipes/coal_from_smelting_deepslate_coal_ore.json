@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_fence_gate",
+  "category": "misc",
+  "group": "bed",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:pink_wool"
     },
-    "W": {
-      "item": "minecraft:dark_oak_planks"
+    "X": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "#W#",
-    "#W#"
+    "###",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:dark_oak_fence_gate"
+    "item": "minecraft:pink_bed"
   },
   "show_notification": true
 }

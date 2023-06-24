@@ -1,23 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "wooden_sign",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:mangrove_planks"
-    },
-    "X": {
-      "item": "minecraft:stick"
+      "item": "minecraft:polished_blackstone_bricks"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    " X "
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:mangrove_sign"
+    "count": 4,
+    "item": "minecraft:polished_blackstone_brick_stairs"
   },
   "show_notification": true
 }

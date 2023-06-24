@@ -1,60 +1,24 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "wool",
-  "ingredients": [
-    {
-      "item": "minecraft:yellow_dye"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
     },
-    [
-      {
-        "item": "minecraft:black_wool"
-      },
-      {
-        "item": "minecraft:blue_wool"
-      },
-      {
-        "item": "minecraft:brown_wool"
-      },
-      {
-        "item": "minecraft:cyan_wool"
-      },
-      {
-        "item": "minecraft:gray_wool"
-      },
-      {
-        "item": "minecraft:green_wool"
-      },
-      {
-        "item": "minecraft:light_blue_wool"
-      },
-      {
-        "item": "minecraft:light_gray_wool"
-      },
-      {
-        "item": "minecraft:lime_wool"
-      },
-      {
-        "item": "minecraft:magenta_wool"
-      },
-      {
-        "item": "minecraft:orange_wool"
-      },
-      {
-        "item": "minecraft:pink_wool"
-      },
-      {
-        "item": "minecraft:purple_wool"
-      },
-      {
-        "item": "minecraft:red_wool"
-      },
-      {
-        "item": "minecraft:white_wool"
-      }
-    ]
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
   ],
   "result": {
-    "item": "minecraft:yellow_wool"
-  }
+    "item": "minecraft:beacon"
+  },
+  "show_notification": true
 }

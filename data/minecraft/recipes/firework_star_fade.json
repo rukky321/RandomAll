@@ -1,16 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:wheat"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:blackstone"
   },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "item": "minecraft:bread"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_blackstone_bricks"
 }

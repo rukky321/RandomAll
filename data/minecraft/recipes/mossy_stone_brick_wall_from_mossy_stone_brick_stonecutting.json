@@ -1,25 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:stone_pressure_plate"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "diamond",
+  "ingredient": {
+    "item": "minecraft:deepslate_diamond_ore"
   },
-  "pattern": [
-    "X X",
-    "X#X",
-    "XRX"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:detector_rail"
-  },
-  "show_notification": true
+  "result": "minecraft:diamond"
 }

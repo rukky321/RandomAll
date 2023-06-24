@@ -1,22 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
+  "category": "building",
+  "group": "stained_terracotta",
   "key": {
     "#": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:terracotta"
     },
-    "|": {
-      "item": "minecraft:stick"
+    "X": {
+      "item": "minecraft:red_dye"
     }
   },
   "pattern": [
     "###",
-    "###",
-    " | "
+    "#X#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:green_banner"
+    "count": 8,
+    "item": "minecraft:red_terracotta"
   },
   "show_notification": true
 }

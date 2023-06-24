@@ -1,13 +1,8 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
-  "group": "wooden_button",
-  "ingredients": [
-    {
-      "item": "minecraft:birch_planks"
-    }
-  ],
-  "result": {
-    "item": "minecraft:birch_button"
-  }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:cobbled_deepslate"
+  },
+  "result": "minecraft:polished_deepslate_wall"
 }

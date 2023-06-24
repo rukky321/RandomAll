@@ -1,16 +1,22 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "chest_boat",
-  "ingredients": [
-    {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:dark_oak_boat"
-    }
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:sandstone"
+      },
+      {
+        "item": "minecraft:chiseled_sandstone"
+      }
+    ]
+  },
+  "pattern": [
+    "###"
   ],
   "result": {
-    "item": "minecraft:dark_oak_chest_boat"
-  }
+    "count": 6,
+    "item": "minecraft:sandstone_slab"
+  },
+  "show_notification": true
 }

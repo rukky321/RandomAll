@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:purple_wool"
+          "name": "minecraft:dead_horn_coral_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/purple_wool"
+  "random_sequence": "minecraft:blocks/dead_horn_coral_block"
 }

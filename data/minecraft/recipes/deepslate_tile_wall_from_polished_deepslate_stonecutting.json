@@ -1,8 +1,10 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
   "ingredient": {
-    "item": "minecraft:purpur_block"
+    "item": "minecraft:mutton"
   },
-  "result": "minecraft:purpur_slab"
+  "result": "minecraft:cooked_mutton"
 }

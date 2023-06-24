@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
+  "count": 4,
   "ingredient": {
-    "item": "minecraft:granite"
+    "item": "minecraft:exposed_copper"
   },
-  "result": "minecraft:granite_slab"
+  "result": "minecraft:exposed_cut_copper"
 }

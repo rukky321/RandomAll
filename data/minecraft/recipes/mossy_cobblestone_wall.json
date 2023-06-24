@@ -1,16 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "mossy_cobblestone",
-  "ingredients": [
-    {
-      "item": "minecraft:cobblestone"
-    },
-    {
-      "item": "minecraft:moss_block"
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "item": "minecraft:mossy_cobblestone"
-  }
+    "item": "minecraft:iron_block"
+  },
+  "show_notification": true
 }

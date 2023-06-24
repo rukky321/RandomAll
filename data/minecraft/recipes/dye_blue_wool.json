@@ -1,19 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "bark",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:wool"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:spruce_wood"
+    "item": "minecraft:painting"
   },
   "show_notification": true
 }

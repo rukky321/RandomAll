@@ -1,15 +1,19 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "key": {
+    "#": {
+      "item": "minecraft:birch_log"
+    }
   },
-  "base": {
-    "item": "minecraft:diamond_axe"
-  },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
-    "item": "minecraft:netherite_axe"
+    "count": 3,
+    "item": "minecraft:birch_wood"
   },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "show_notification": true
 }

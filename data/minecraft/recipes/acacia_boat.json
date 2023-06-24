@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_fence_gate",
+  "category": "equipment",
   "key": {
     "#": {
       "item": "minecraft:stick"
     },
-    "W": {
-      "item": "minecraft:oak_planks"
+    "X": {
+      "item": "minecraft:diamond"
     }
   },
   "pattern": [
-    "#W#",
-    "#W#"
+    "XXX",
+    " # ",
+    " # "
   ],
   "result": {
-    "item": "minecraft:oak_fence_gate"
+    "item": "minecraft:diamond_pickaxe"
   },
   "show_notification": true
 }

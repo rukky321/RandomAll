@@ -1,16 +1,23 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "waxed_weathered_copper",
-  "ingredients": [
-    {
-      "item": "minecraft:weathered_copper"
+  "group": "stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
     },
-    {
-      "item": "minecraft:honeycomb"
+    "X": {
+      "item": "minecraft:yellow_dye"
     }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:waxed_weathered_copper"
-  }
+    "count": 8,
+    "item": "minecraft:yellow_stained_glass"
+  },
+  "show_notification": true
 }

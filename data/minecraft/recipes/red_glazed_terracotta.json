@@ -1,23 +1,18 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "wooden_sign",
-  "key": {
-    "#": {
-      "item": "minecraft:crimson_planks"
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
     },
-    "X": {
-      "item": "minecraft:stick"
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
     }
-  },
-  "pattern": [
-    "###",
-    "###",
-    " X "
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:crimson_sign"
-  },
-  "show_notification": true
+    "item": "minecraft:pumpkin_pie"
+  }
 }

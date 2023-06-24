@@ -1,12 +1,22 @@
 {
-  "type": "minecraft:smithing_trim",
-  "addition": {
-    "tag": "minecraft:trim_materials"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "minecraft:lime_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
   },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "result": {
+    "item": "minecraft:lime_banner"
   },
-  "template": {
-    "item": "minecraft:shaper_armor_trim_smithing_template"
-  }
+  "show_notification": true
 }

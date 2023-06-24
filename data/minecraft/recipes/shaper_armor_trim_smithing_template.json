@@ -1,22 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "wooden_fence",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:diamond"
     },
-    "W": {
-      "item": "minecraft:oak_planks"
+    "C": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "S": {
+      "item": "minecraft:ward_armor_trim_smithing_template"
     }
   },
   "pattern": [
-    "W#W",
-    "W#W"
+    "#S#",
+    "#C#",
+    "###"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:oak_fence"
+    "count": 2,
+    "item": "minecraft:ward_armor_trim_smithing_template"
   },
   "show_notification": true
 }

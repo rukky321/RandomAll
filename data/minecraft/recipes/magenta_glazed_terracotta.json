@@ -1,18 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "wooden_slab",
-  "key": {
-    "#": {
-      "item": "minecraft:birch_planks"
+  "group": "waxed_weathered_cut_copper_slab",
+  "ingredients": [
+    {
+      "item": "minecraft:weathered_cut_copper_slab"
+    },
+    {
+      "item": "minecraft:honeycomb"
     }
-  },
-  "pattern": [
-    "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:birch_slab"
-  },
-  "show_notification": true
+    "item": "minecraft:waxed_weathered_cut_copper_slab"
+  }
 }

@@ -1,25 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "stained_glass_pane",
   "key": {
     "#": {
-      "item": "minecraft:diamond"
-    },
-    "C": {
-      "item": "minecraft:cobblestone"
-    },
-    "S": {
-      "item": "minecraft:sentry_armor_trim_smithing_template"
+      "item": "minecraft:orange_stained_glass"
     }
   },
   "pattern": [
-    "#S#",
-    "#C#",
+    "###",
     "###"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:sentry_armor_trim_smithing_template"
+    "count": 16,
+    "item": "minecraft:orange_stained_glass_pane"
   },
   "show_notification": true
 }

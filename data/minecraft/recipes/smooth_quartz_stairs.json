@@ -1,11 +1,23 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.1,
-  "group": "coal",
-  "ingredient": {
-    "item": "minecraft:coal_ore"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "minecraft:orange_dye"
+    }
   },
-  "result": "minecraft:coal"
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:orange_stained_glass"
+  },
+  "show_notification": true
 }

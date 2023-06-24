@@ -1,16 +1,22 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "waxed_copper_block",
-  "ingredients": [
-    {
-      "item": "minecraft:copper_block"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:bamboo"
     },
-    {
-      "item": "minecraft:honeycomb"
+    "~": {
+      "item": "minecraft:string"
     }
+  },
+  "pattern": [
+    "I~I",
+    "I I",
+    "I I"
   ],
   "result": {
-    "item": "minecraft:waxed_copper_block"
-  }
+    "count": 6,
+    "item": "minecraft:scaffolding"
+  },
+  "show_notification": true
 }

@@ -1,16 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "mossy_stone_bricks",
-  "ingredients": [
-    {
-      "item": "minecraft:stone_bricks"
-    },
-    {
-      "item": "minecraft:moss_block"
+  "group": "wooden_slab",
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
     }
+  },
+  "pattern": [
+    "###"
   ],
   "result": {
-    "item": "minecraft:mossy_stone_bricks"
-  }
+    "count": 6,
+    "item": "minecraft:birch_slab"
+  },
+  "show_notification": true
 }

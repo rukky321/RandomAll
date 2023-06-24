@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "wooden_stairs",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "X",
+    "X",
+    "#"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:dark_oak_stairs"
+    "item": "minecraft:stone_sword"
   },
   "show_notification": true
 }

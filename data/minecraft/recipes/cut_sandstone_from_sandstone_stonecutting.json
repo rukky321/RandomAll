@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": {
-    "item": "minecraft:cut_copper"
+    "item": "minecraft:sandstone"
   },
-  "result": "minecraft:cut_copper_slab"
+  "result": "minecraft:cut_sandstone_slab"
 }

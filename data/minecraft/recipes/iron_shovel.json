@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:cobbled_deepslate"
     }
   },
   "pattern": [
@@ -11,7 +11,7 @@
   ],
   "result": {
     "count": 6,
-    "item": "minecraft:smooth_stone_slab"
+    "item": "minecraft:cobbled_deepslate_slab"
   },
   "show_notification": true
 }

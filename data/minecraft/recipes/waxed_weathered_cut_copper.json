@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:leather"
+  "group": "red_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:poppy"
     }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
   ],
   "result": {
-    "item": "minecraft:item_frame"
-  },
-  "show_notification": true
+    "item": "minecraft:red_dye"
+  }
 }

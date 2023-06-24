@@ -1,15 +1,22 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:cherry_planks"
+    }
   },
-  "base": {
-    "item": "minecraft:diamond_shovel"
-  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
   "result": {
-    "item": "minecraft:netherite_shovel"
+    "count": 3,
+    "item": "minecraft:cherry_fence"
   },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "show_notification": true
 }

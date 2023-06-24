@@ -3,19 +3,23 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:diamond"
     },
-    "X": {
-      "item": "minecraft:carrot"
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "minecraft:coast_armor_trim_smithing_template"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
+    "#S#",
+    "#C#",
     "###"
   ],
   "result": {
-    "item": "minecraft:golden_carrot"
+    "count": 2,
+    "item": "minecraft:coast_armor_trim_smithing_template"
   },
   "show_notification": true
 }

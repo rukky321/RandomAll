@@ -1,21 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "bed",
   "key": {
     "#": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:fishing_rod"
     },
     "X": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:warped_fungus"
     }
   },
   "pattern": [
-    "###",
-    "XXX"
+    "# ",
+    " X"
   ],
   "result": {
-    "item": "minecraft:light_blue_bed"
+    "item": "minecraft:warped_fungus_on_a_stick"
   },
   "show_notification": true
 }

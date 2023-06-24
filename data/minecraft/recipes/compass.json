@@ -1,8 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:polished_blackstone"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
   },
-  "result": "minecraft:chiseled_polished_blackstone"
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:heavy_weighted_pressure_plate"
+  },
+  "show_notification": true
 }

@@ -1,21 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:paper"
-    },
-    "X": {
-      "item": "minecraft:compass"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:stone"
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "item": "minecraft:map"
-  },
-  "show_notification": true
+  "result": "minecraft:stone_bricks"
 }

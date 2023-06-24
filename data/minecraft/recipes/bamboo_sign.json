@@ -1,18 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:glass"
+  "ingredients": [
+    {
+      "item": "minecraft:hay_block"
     }
-  },
-  "pattern": [
-    "# #",
-    " # "
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:glass_bottle"
-  },
-  "show_notification": true
+    "count": 9,
+    "item": "minecraft:wheat"
+  }
 }

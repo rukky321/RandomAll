@@ -1,19 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "bark",
-  "key": {
-    "#": {
-      "item": "minecraft:crimson_stem"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:copper_block"
   },
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "result": {
-    "count": 3,
-    "item": "minecraft:crimson_hyphae"
-  },
-  "show_notification": true
+  "result": "minecraft:cut_copper"
 }

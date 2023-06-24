@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft:smooth_red_sandstone"
+    "item": "minecraft:cobbled_deepslate"
   },
-  "result": "minecraft:smooth_red_sandstone_stairs"
+  "result": "minecraft:deepslate_tile_stairs"
 }

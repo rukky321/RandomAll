@@ -1,23 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_terracotta",
+  "category": "misc",
+  "group": "wooden_fence",
   "key": {
     "#": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:stick"
     },
-    "X": {
-      "item": "minecraft:orange_dye"
+    "W": {
+      "item": "minecraft:mangrove_planks"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
-    "###"
+    "W#W",
+    "W#W"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:orange_terracotta"
+    "count": 3,
+    "item": "minecraft:mangrove_fence"
   },
   "show_notification": true
 }

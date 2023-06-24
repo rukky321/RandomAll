@@ -1,36 +1,23 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "minecraft:prismarine_shard"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
     },
-    {
-      "item": "minecraft:prismarine_shard"
+    "-": {
+      "item": "minecraft:stone_slab"
     },
-    {
-      "item": "minecraft:prismarine_shard"
-    },
-    {
-      "item": "minecraft:prismarine_shard"
-    },
-    {
-      "item": "minecraft:prismarine_shard"
-    },
-    {
-      "item": "minecraft:prismarine_shard"
-    },
-    {
-      "item": "minecraft:prismarine_shard"
-    },
-    {
-      "item": "minecraft:prismarine_shard"
-    },
-    {
-      "item": "minecraft:prismarine_shard"
+    "I": {
+      "item": "minecraft:stick"
     }
+  },
+  "pattern": [
+    "I-I",
+    "# #"
   ],
   "result": {
-    "item": "minecraft:prismarine_bricks"
-  }
+    "item": "minecraft:grindstone"
+  },
+  "show_notification": true
 }

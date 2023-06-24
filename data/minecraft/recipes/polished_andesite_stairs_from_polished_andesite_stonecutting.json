@@ -1,18 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "boat",
-  "key": {
-    "#": {
-      "item": "minecraft:jungle_planks"
-    }
-  },
-  "pattern": [
-    "# #",
-    "###"
-  ],
-  "result": {
-    "item": "minecraft:jungle_boat"
-  },
-  "show_notification": true
+  "type": "minecraft:crafting_special_bookcloning",
+  "category": "misc"
 }

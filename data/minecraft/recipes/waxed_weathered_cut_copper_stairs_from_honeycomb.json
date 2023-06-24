@@ -1,11 +1,15 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.7,
-  "group": "copper_ingot",
-  "ingredient": {
-    "item": "minecraft:raw_copper"
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
   },
-  "result": "minecraft:copper_ingot"
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "result": {
+    "item": "minecraft:netherite_sword"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
 }

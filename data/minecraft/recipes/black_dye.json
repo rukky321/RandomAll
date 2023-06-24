@@ -1,25 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
-    "#": {
-      "item": "minecraft:diamond"
-    },
-    "C": {
-      "item": "minecraft:end_stone"
+    "G": {
+      "item": "minecraft:glass"
     },
     "S": {
-      "item": "minecraft:eye_armor_trim_smithing_template"
+      "item": "minecraft:amethyst_shard"
     }
   },
   "pattern": [
-    "#S#",
-    "#C#",
-    "###"
+    " S ",
+    "SGS",
+    " S "
   ],
   "result": {
     "count": 2,
-    "item": "minecraft:eye_armor_trim_smithing_template"
+    "item": "minecraft:tinted_glass"
   },
   "show_notification": true
 }

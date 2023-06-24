@@ -1,18 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "redstone",
+  "group": "wooden_trapdoor",
   "key": {
     "#": {
-      "item": "minecraft:raw_iron"
+      "item": "minecraft:spruce_planks"
     }
   },
   "pattern": [
     "###",
-    "###",
     "###"
   ],
   "result": {
-    "item": "minecraft:raw_iron_block"
+    "count": 2,
+    "item": "minecraft:spruce_trapdoor"
   },
   "show_notification": true
 }

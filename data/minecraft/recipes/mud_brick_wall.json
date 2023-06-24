@@ -1,18 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:polished_blackstone"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "waxed_oxidized_cut_copper",
+  "ingredients": [
+    {
+      "item": "minecraft:oxidized_cut_copper"
+    },
+    {
+      "item": "minecraft:honeycomb"
     }
-  },
-  "pattern": [
-    "###",
-    "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:polished_blackstone_wall"
-  },
-  "show_notification": true
+    "item": "minecraft:waxed_oxidized_cut_copper"
+  }
 }

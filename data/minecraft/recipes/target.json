@@ -1,27 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
     "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
       "item": "minecraft:stick"
     },
-    "$": {
-      "item": "minecraft:tripwire_hook"
-    },
-    "&": {
+    "X": {
       "item": "minecraft:iron_ingot"
-    },
-    "~": {
-      "item": "minecraft:string"
     }
   },
   "pattern": [
-    "#&#",
-    "~$~",
-    " # "
+    "XSX",
+    "X#X",
+    "XSX"
   ],
   "result": {
-    "item": "minecraft:crossbow"
+    "count": 6,
+    "item": "minecraft:activator_rail"
   },
   "show_notification": true
 }

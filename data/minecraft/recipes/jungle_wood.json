@@ -1,10 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
+  "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
-    "item": "minecraft:orange_terracotta"
+    "item": "minecraft:deepslate_bricks"
   },
-  "result": "minecraft:orange_glazed_terracotta"
+  "result": "minecraft:deepslate_brick_slab"
 }

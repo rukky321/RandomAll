@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:pearlescent_froglight"
+          "name": "minecraft:red_sandstone_stairs"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/pearlescent_froglight"
+  "random_sequence": "minecraft:blocks/red_sandstone_stairs"
 }

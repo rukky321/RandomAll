@@ -1,12 +1,8 @@
 {
-  "type": "minecraft:smithing_trim",
-  "addition": {
-    "tag": "minecraft:trim_materials"
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:granite"
   },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
-  },
-  "template": {
-    "item": "minecraft:wild_armor_trim_smithing_template"
-  }
+  "result": "minecraft:granite_wall"
 }

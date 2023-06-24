@@ -1,13 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "orange_dye",
-  "ingredients": [
-    {
-      "item": "minecraft:torchflower"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_log"
     }
+  },
+  "pattern": [
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:orange_dye"
-  }
+    "count": 3,
+    "item": "minecraft:cherry_wood"
+  },
+  "show_notification": true
 }

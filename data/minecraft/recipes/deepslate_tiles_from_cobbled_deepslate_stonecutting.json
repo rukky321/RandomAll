@@ -1,8 +1,13 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "minecraft:waxed_copper_block"
-  },
-  "result": "minecraft:waxed_cut_copper_stairs"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "light_gray_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:azure_bluet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_dye"
+  }
 }

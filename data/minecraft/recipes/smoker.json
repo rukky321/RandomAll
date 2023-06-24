@@ -1,8 +1,23 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:stone"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hanging_sign",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_dark_oak_log"
+    },
+    "X": {
+      "item": "minecraft:chain"
+    }
   },
-  "result": "minecraft:stone_bricks"
+  "pattern": [
+    "X X",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:dark_oak_hanging_sign"
+  },
+  "show_notification": true
 }

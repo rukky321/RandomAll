@@ -1,21 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:white_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
-    }
-  },
-  "pattern": [
-    "###",
-    "XXX"
-  ],
-  "result": {
-    "item": "minecraft:white_bed"
-  },
-  "show_notification": true
+  "type": "minecraft:crafting_special_shulkerboxcoloring",
+  "category": "misc"
 }

@@ -1,16 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "chest_boat",
-  "ingredients": [
-    {
-      "item": "minecraft:chest"
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
     },
-    {
-      "item": "minecraft:jungle_boat"
+    "@": {
+      "item": "minecraft:string"
     }
+  },
+  "pattern": [
+    "@@",
+    "##"
   ],
   "result": {
-    "item": "minecraft:jungle_chest_boat"
-  }
+    "item": "minecraft:loom"
+  },
+  "show_notification": true
 }

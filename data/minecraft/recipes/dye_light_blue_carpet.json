@@ -1,8 +1,19 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:copper_block"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stained_glass_pane",
+  "key": {
+    "#": {
+      "item": "minecraft:brown_stained_glass"
+    }
   },
-  "result": "minecraft:cut_copper_slab"
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 16,
+    "item": "minecraft:brown_stained_glass_pane"
+  },
+  "show_notification": true
 }

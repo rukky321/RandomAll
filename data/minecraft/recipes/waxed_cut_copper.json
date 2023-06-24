@@ -1,18 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "sticks",
   "key": {
     "#": {
-      "item": "minecraft:bamboo"
-    }
+      "item": "minecraft:stick"
+    },
+    "X": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ]
   },
   "pattern": [
-    "#",
+    "X",
     "#"
   ],
   "result": {
-    "item": "minecraft:stick"
+    "count": 4,
+    "item": "minecraft:torch"
   },
   "show_notification": true
 }

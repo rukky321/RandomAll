@@ -1,20 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "wooden_stairs",
+  "category": "misc",
+  "group": "hanging_sign",
   "key": {
     "#": {
-      "item": "minecraft:cherry_planks"
+      "item": "minecraft:stripped_bamboo_block"
+    },
+    "X": {
+      "item": "minecraft:chain"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
+    "X X",
+    "###",
     "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:cherry_stairs"
+    "count": 6,
+    "item": "minecraft:bamboo_hanging_sign"
   },
   "show_notification": true
 }

@@ -3,16 +3,19 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:quartz_block"
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "tag": "minecraft:wooden_slabs"
     }
   },
   "pattern": [
-    "#",
-    "#"
+    "###",
+    "XXX",
+    "###"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:quartz_pillar"
+    "item": "minecraft:chiseled_bookshelf"
   },
   "show_notification": true
 }

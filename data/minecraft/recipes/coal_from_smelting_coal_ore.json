@@ -1,11 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "misc",
-  "cookingtime": 200,
-  "experience": 1.0,
-  "group": "gold_ingot",
+  "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
-    "item": "minecraft:gold_ore"
+    "item": "minecraft:polished_blackstone_bricks"
   },
-  "result": "minecraft:gold_ingot"
+  "result": "minecraft:polished_blackstone_brick_slab"
 }

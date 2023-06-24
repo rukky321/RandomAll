@@ -1,21 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:lime_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
-    }
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "pattern": [
-    "###",
-    "XXX"
-  ],
-  "result": {
-    "item": "minecraft:lime_bed"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
   },
-  "show_notification": true
+  "template": {
+    "item": "minecraft:silence_armor_trim_smithing_template"
+  }
 }

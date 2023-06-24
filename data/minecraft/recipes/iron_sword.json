@@ -1,20 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_door",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:mossy_cobblestone"
     }
   },
   "pattern": [
-    "##",
-    "##",
-    "##"
+    "###",
+    "###"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:spruce_door"
+    "count": 6,
+    "item": "minecraft:mossy_cobblestone_wall"
   },
   "show_notification": true
 }

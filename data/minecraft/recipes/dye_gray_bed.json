@@ -1,19 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "item": "minecraft:lime_stained_glass"
-    }
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 16,
-    "item": "minecraft:lime_stained_glass_pane"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
   },
-  "show_notification": true
+  "template": {
+    "item": "minecraft:vex_armor_trim_smithing_template"
+  }
 }

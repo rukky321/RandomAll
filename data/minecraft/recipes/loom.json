@@ -1,8 +1,11 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "coal",
   "ingredient": {
-    "item": "minecraft:polished_deepslate"
+    "item": "minecraft:coal_ore"
   },
-  "result": "minecraft:deepslate_bricks"
+  "result": "minecraft:coal"
 }

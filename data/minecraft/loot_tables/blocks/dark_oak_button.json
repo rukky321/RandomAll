@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stripped_acacia_wood"
+          "name": "minecraft:mud_brick_wall"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/stripped_acacia_wood"
+  "random_sequence": "minecraft:blocks/mud_brick_wall"
 }

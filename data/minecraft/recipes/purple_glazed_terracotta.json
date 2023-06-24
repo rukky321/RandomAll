@@ -1,23 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_terracotta",
-  "key": {
-    "#": {
-      "item": "minecraft:terracotta"
-    },
-    "X": {
-      "item": "minecraft:blue_dye"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:polished_blackstone"
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "item": "minecraft:blue_terracotta"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_blackstone_brick_wall"
 }

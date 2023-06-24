@@ -1,19 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "bark",
+  "category": "misc",
+  "group": "stained_glass_pane",
   "key": {
     "#": {
-      "item": "minecraft:stripped_cherry_log"
+      "item": "minecraft:glass_pane"
+    },
+    "$": {
+      "item": "minecraft:orange_dye"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "#$#",
+    "###"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:stripped_cherry_wood"
+    "count": 8,
+    "item": "minecraft:orange_stained_glass_pane"
   },
   "show_notification": true
 }

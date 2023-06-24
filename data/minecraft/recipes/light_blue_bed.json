@@ -1,20 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:fishing_rod"
-    },
-    "X": {
-      "item": "minecraft:warped_fungus"
+  "group": "yellow_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:dandelion"
     }
-  },
-  "pattern": [
-    "# ",
-    " X"
   ],
   "result": {
-    "item": "minecraft:warped_fungus_on_a_stick"
-  },
-  "show_notification": true
+    "item": "minecraft:yellow_dye"
+  }
 }

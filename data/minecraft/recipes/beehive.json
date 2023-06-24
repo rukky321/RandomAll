@@ -1,8 +1,19 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:deepslate_bricks"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:andesite"
+    }
   },
-  "result": "minecraft:deepslate_tile_slab"
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:andesite_stairs"
+  },
+  "show_notification": true
 }

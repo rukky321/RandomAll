@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "wooden_slab",
-  "key": {
-    "#": {
-      "item": "minecraft:dark_oak_planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:smooth_red_sandstone"
   },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:dark_oak_slab"
-  },
-  "show_notification": true
+  "result": "minecraft:smooth_red_sandstone_stairs"
 }

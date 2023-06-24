@@ -3,15 +3,18 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:stone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " I ",
+    "###"
   ],
   "result": {
-    "item": "minecraft:honeycomb_block"
+    "item": "minecraft:stonecutter"
   },
   "show_notification": true
 }

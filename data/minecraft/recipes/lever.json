@@ -1,38 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "concrete_powder",
-  "ingredients": [
-    {
-      "item": "minecraft:red_dye"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
+  "key": {
+    "#": {
+      "item": "minecraft:polished_andesite"
     }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:red_concrete_powder"
-  }
+    "count": 4,
+    "item": "minecraft:polished_andesite_stairs"
+  },
+  "show_notification": true
 }

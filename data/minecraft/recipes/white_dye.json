@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft:granite"
+    "item": "minecraft:polished_deepslate"
   },
-  "result": "minecraft:polished_granite"
+  "result": "minecraft:deepslate_tile_wall"
 }

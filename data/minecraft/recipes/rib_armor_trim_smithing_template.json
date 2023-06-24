@@ -1,14 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "gold_ingot",
-  "ingredients": [
-    {
-      "item": "minecraft:gold_block"
+  "group": "stained_glass_pane",
+  "key": {
+    "#": {
+      "item": "minecraft:gray_stained_glass"
     }
+  },
+  "pattern": [
+    "###",
+    "###"
   ],
   "result": {
-    "count": 9,
-    "item": "minecraft:gold_ingot"
-  }
+    "count": 16,
+    "item": "minecraft:gray_stained_glass_pane"
+  },
+  "show_notification": true
 }

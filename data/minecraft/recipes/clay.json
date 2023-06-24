@@ -1,11 +1,17 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 1.0,
-  "group": "emerald",
-  "ingredient": {
-    "item": "minecraft:emerald_ore"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    }
   },
-  "result": "minecraft:emerald"
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:cobblestone_slab"
+  },
+  "show_notification": true
 }

@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:dark_prismarine"
+      "tag": "minecraft:planks"
+    },
+    "@": {
+      "item": "minecraft:flint"
     }
   },
   "pattern": [
-    "###"
+    "@@",
+    "##",
+    "##"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:dark_prismarine_slab"
+    "item": "minecraft:fletching_table"
   },
   "show_notification": true
 }

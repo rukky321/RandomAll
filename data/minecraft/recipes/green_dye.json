@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
+  "group": "bed",
   "key": {
     "#": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:purple_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "###"
+    "###",
+    "XXX"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:diorite_slab"
+    "item": "minecraft:purple_bed"
   },
   "show_notification": true
 }

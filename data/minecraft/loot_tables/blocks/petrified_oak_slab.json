@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:entity",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -9,27 +9,51 @@
           "functions": [
             {
               "add": false,
-              "conditions": [
-                {
-                  "block": "minecraft:deepslate_tile_slab",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "type": "double"
-                  }
-                }
-              ],
-              "count": 2.0,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:explosion_decay"
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:deepslate_tile_slab"
+          "name": "minecraft:seagrass",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_lightning"
+              }
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/deepslate_tile_slab"
+  "random_sequence": "minecraft:entities/turtle"
 }

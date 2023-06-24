@@ -1,34 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "netherite_ingot",
-  "ingredients": [
-    {
-      "item": "minecraft:netherite_scrap"
+  "group": "bed",
+  "key": {
+    "#": {
+      "item": "minecraft:lime_wool"
     },
-    {
-      "item": "minecraft:netherite_scrap"
-    },
-    {
-      "item": "minecraft:netherite_scrap"
-    },
-    {
-      "item": "minecraft:netherite_scrap"
-    },
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
-      "item": "minecraft:gold_ingot"
+    "X": {
+      "tag": "minecraft:planks"
     }
+  },
+  "pattern": [
+    "###",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:netherite_ingot"
-  }
+    "item": "minecraft:lime_bed"
+  },
+  "show_notification": true
 }

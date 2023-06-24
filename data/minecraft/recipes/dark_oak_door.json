@@ -1,8 +1,14 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:nether_bricks"
-  },
-  "result": "minecraft:nether_brick_slab"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "copper_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:waxed_copper_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:copper_ingot"
+  }
 }

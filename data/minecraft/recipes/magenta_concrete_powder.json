@@ -1,17 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "cyan_dye",
+  "category": "building",
+  "group": "planks",
   "ingredients": [
     {
-      "item": "minecraft:blue_dye"
-    },
-    {
-      "item": "minecraft:green_dye"
+      "tag": "minecraft:cherry_logs"
     }
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:cyan_dye"
+    "count": 4,
+    "item": "minecraft:cherry_planks"
   }
 }

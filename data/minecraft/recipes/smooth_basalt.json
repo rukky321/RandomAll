@@ -1,10 +1,21 @@
 {
-  "type": "minecraft:smelting",
-  "category": "food",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:rabbit"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
   },
-  "result": "minecraft:cooked_rabbit"
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "minecraft:golden_pickaxe"
+  },
+  "show_notification": true
 }

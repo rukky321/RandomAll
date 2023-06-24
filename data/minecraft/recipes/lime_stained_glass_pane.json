@@ -1,23 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "group": "hanging_sign",
-  "key": {
-    "#": {
-      "item": "minecraft:stripped_cherry_log"
-    },
-    "X": {
-      "item": "minecraft:chain"
-    }
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "minecraft:cactus"
   },
-  "pattern": [
-    "X X",
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:cherry_hanging_sign"
-  },
-  "show_notification": true
+  "result": "minecraft:green_dye"
 }

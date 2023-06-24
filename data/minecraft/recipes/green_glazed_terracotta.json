@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "misc",
+  "group": "bed",
   "key": {
     "#": {
-      "item": "minecraft:amethyst_shard"
+      "item": "minecraft:black_wool"
     },
     "X": {
-      "item": "minecraft:sculk_sensor"
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    " # ",
-    "#X#"
+    "###",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:calibrated_sculk_sensor"
+    "item": "minecraft:black_bed"
   },
   "show_notification": true
 }

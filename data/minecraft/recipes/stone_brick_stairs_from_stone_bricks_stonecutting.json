@@ -1,10 +1,23 @@
 {
-  "type": "minecraft:campfire_cooking",
-  "category": "food",
-  "cookingtime": 600,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:chicken"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "minecraft:brown_dye"
+    }
   },
-  "result": "minecraft:cooked_chicken"
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:brown_stained_glass"
+  },
+  "show_notification": true
 }

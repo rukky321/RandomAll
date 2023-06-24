@@ -1,19 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:smooth_red_sandstone"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:smooth_quartz"
   },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:smooth_red_sandstone_stairs"
-  },
-  "show_notification": true
+  "result": "minecraft:smooth_quartz_slab"
 }

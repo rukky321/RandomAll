@@ -1,16 +1,23 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "chest_boat",
-  "ingredients": [
-    {
-      "item": "minecraft:chest"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
     },
-    {
-      "item": "minecraft:mangrove_boat"
+    "X": {
+      "item": "minecraft:pink_dye"
     }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:mangrove_chest_boat"
-  }
+    "count": 8,
+    "item": "minecraft:pink_stained_glass"
+  },
+  "show_notification": true
 }

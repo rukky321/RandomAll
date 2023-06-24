@@ -1,4 +1,8 @@
 {
-  "type": "minecraft:crafting_special_bookcloning",
-  "category": "misc"
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:end_stone_bricks"
+  },
+  "result": "minecraft:end_stone_brick_wall"
 }

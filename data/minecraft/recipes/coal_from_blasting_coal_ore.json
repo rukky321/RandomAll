@@ -1,8 +1,14 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:mud_bricks"
-  },
-  "result": "minecraft:mud_brick_stairs"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:dark_oak_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:dark_oak_planks"
+  }
 }

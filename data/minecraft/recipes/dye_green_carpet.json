@@ -1,8 +1,19 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:exposed_cut_copper"
+    }
   },
-  "result": "minecraft:deepslate_tile_stairs"
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:exposed_cut_copper_stairs"
+  },
+  "show_notification": true
 }

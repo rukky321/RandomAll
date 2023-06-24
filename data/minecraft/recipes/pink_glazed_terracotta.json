@@ -1,16 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "waxed_weathered_cut_copper_slab",
-  "ingredients": [
-    {
-      "item": "minecraft:weathered_cut_copper_slab"
-    },
-    {
-      "item": "minecraft:honeycomb"
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone_bricks"
     }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
-    "item": "minecraft:waxed_weathered_cut_copper_slab"
-  }
+    "count": 4,
+    "item": "minecraft:end_stone_brick_stairs"
+  },
+  "show_notification": true
 }

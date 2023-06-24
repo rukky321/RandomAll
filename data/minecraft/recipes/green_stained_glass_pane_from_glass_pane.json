@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft:polished_blackstone"
+    "item": "minecraft:sandstone"
   },
-  "result": "minecraft:polished_blackstone_bricks"
+  "result": "minecraft:cut_sandstone"
 }

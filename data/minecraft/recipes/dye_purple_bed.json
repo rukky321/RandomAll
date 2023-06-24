@@ -1,8 +1,17 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:waxed_weathered_copper"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:diorite"
+    }
   },
-  "result": "minecraft:waxed_weathered_cut_copper_slab"
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:diorite_slab"
+  },
+  "show_notification": true
 }

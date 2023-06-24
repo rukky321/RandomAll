@@ -1,22 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:sea_pickle"
   },
-  "pattern": [
-    "X X",
-    "X#X",
-    "X X"
-  ],
-  "result": {
-    "count": 16,
-    "item": "minecraft:rail"
-  },
-  "show_notification": true
+  "result": "minecraft:lime_dye"
 }

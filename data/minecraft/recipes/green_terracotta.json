@@ -1,19 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:cobbled_deepslate"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:waxed_weathered_cut_copper"
   },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:cobbled_deepslate_stairs"
-  },
-  "show_notification": true
+  "result": "minecraft:waxed_weathered_cut_copper_slab"
 }

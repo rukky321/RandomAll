@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_pressure_plate",
+  "category": "misc",
+  "group": "bed",
   "key": {
     "#": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:white_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "##"
+    "###",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:spruce_pressure_plate"
+    "item": "minecraft:white_bed"
   },
   "show_notification": true
 }

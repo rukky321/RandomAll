@@ -1,10 +1,18 @@
 {
-  "type": "minecraft:smelting",
-  "category": "food",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:mutton"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:raw_copper"
+    }
   },
-  "result": "minecraft:cooked_mutton"
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:raw_copper_block"
+  },
+  "show_notification": true
 }

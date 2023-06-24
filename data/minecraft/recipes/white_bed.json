@@ -1,10 +1,18 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 100,
-  "experience": 2.0,
-  "ingredient": {
-    "item": "minecraft:ancient_debris"
+  "key": {
+    "#": {
+      "item": "minecraft:polished_blackstone"
+    }
   },
-  "result": "minecraft:netherite_scrap"
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:polished_blackstone_wall"
+  },
+  "show_notification": true
 }

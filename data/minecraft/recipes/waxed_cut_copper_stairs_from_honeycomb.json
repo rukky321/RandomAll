@@ -1,22 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
+  "category": "building",
+  "group": "waxed_exposed_cut_copper",
   "key": {
     "#": {
-      "item": "minecraft:pink_wool"
-    },
-    "|": {
-      "item": "minecraft:stick"
+      "item": "minecraft:waxed_exposed_copper"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    " | "
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:pink_banner"
+    "count": 4,
+    "item": "minecraft:waxed_exposed_cut_copper"
   },
   "show_notification": true
 }

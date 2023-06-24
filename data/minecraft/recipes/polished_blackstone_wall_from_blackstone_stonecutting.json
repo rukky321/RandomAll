@@ -1,15 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:tnt"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": {
+      "item": "minecraft:bookshelf"
     },
-    {
-      "item": "minecraft:minecart"
+    "S": {
+      "tag": "minecraft:wooden_slabs"
     }
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
   ],
   "result": {
-    "item": "minecraft:tnt_minecart"
-  }
+    "item": "minecraft:lectern"
+  },
+  "show_notification": true
 }

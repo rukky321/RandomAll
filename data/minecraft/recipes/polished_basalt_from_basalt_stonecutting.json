@@ -3,17 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:polished_deepslate"
+      "item": "minecraft:quartz_slab"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "#",
+    "#"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:polished_deepslate_stairs"
+    "item": "minecraft:chiseled_quartz_block"
   },
   "show_notification": true
 }

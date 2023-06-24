@@ -1,13 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:gold_ingot"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "waxed_exposed_cut_copper_slab",
+  "key": {
+    "#": {
+      "item": "minecraft:waxed_exposed_cut_copper"
     }
+  },
+  "pattern": [
+    "###"
   ],
   "result": {
-    "count": 9,
-    "item": "minecraft:gold_nugget"
-  }
+    "count": 6,
+    "item": "minecraft:waxed_exposed_cut_copper_slab"
+  },
+  "show_notification": true
 }

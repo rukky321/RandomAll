@@ -1,8 +1,14 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "minecraft:waxed_weathered_copper"
-  },
-  "result": "minecraft:waxed_weathered_cut_copper"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bonemeal",
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:bone_meal"
+  }
 }

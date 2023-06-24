@@ -1,8 +1,20 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:polished_diorite"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:fishing_rod"
+    },
+    "X": {
+      "item": "minecraft:carrot"
+    }
   },
-  "result": "minecraft:polished_diorite_stairs"
+  "pattern": [
+    "# ",
+    " X"
+  ],
+  "result": {
+    "item": "minecraft:carrot_on_a_stick"
+  },
+  "show_notification": true
 }

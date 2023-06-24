@@ -1,10 +1,16 @@
 {
-  "type": "minecraft:smelting",
-  "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.3,
-  "ingredient": {
-    "item": "minecraft:clay_ball"
-  },
-  "result": "minecraft:brick"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:andesite"
+  }
 }

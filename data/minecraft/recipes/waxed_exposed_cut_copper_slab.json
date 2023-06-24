@@ -1,19 +1,36 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "item": "minecraft:green_stained_glass"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
     }
-  },
-  "pattern": [
-    "###",
-    "###"
   ],
   "result": {
-    "count": 16,
-    "item": "minecraft:green_stained_glass_pane"
-  },
-  "show_notification": true
+    "item": "minecraft:blue_ice"
+  }
 }

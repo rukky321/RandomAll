@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "X": {
-      "item": "minecraft:copper_ingot"
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_planks"
     }
-  },
-  "pattern": [
-    " # ",
-    " X ",
-    " X "
   ],
   "result": {
-    "item": "minecraft:spyglass"
-  },
-  "show_notification": true
+    "item": "minecraft:crimson_button"
+  }
 }

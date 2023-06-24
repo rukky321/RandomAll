@@ -1,19 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
+  "group": "stained_glass_pane",
   "key": {
     "#": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:glass_pane"
+    },
+    "$": {
+      "item": "minecraft:lime_dye"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
+    "###",
+    "#$#",
     "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:nether_brick_stairs"
+    "count": 8,
+    "item": "minecraft:lime_stained_glass_pane"
   },
   "show_notification": true
 }

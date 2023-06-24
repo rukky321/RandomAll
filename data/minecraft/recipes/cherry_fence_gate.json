@@ -1,13 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:diamond_block"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
     }
+  },
+  "pattern": [
+    "XXX",
+    "X X"
   ],
   "result": {
-    "count": 9,
-    "item": "minecraft:diamond"
-  }
+    "item": "minecraft:golden_helmet"
+  },
+  "show_notification": true
 }

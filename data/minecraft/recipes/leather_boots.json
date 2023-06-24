@@ -1,21 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_fence_gate",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "minecraft:mangrove_planks"
-    }
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "redstone",
+  "ingredient": {
+    "item": "minecraft:deepslate_redstone_ore"
   },
-  "pattern": [
-    "#W#",
-    "#W#"
-  ],
-  "result": {
-    "item": "minecraft:mangrove_fence_gate"
-  },
-  "show_notification": true
+  "result": "minecraft:redstone"
 }

@@ -1,17 +1,27 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:bamboo_slab"
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "&": {
+      "item": "minecraft:iron_ingot"
+    },
+    "~": {
+      "item": "minecraft:string"
     }
   },
   "pattern": [
-    "#",
-    "#"
+    "#&#",
+    "~$~",
+    " # "
   ],
   "result": {
-    "item": "minecraft:bamboo_mosaic"
+    "item": "minecraft:crossbow"
   },
   "show_notification": true
 }

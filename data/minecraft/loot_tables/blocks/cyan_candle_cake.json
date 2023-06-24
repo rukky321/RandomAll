@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:flowering_azalea"
+          "name": "minecraft:lapis_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/flowering_azalea"
+  "random_sequence": "minecraft:blocks/lapis_block"
 }

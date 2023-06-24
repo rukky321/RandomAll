@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "G": {
-      "item": "minecraft:glowstone"
-    },
-    "O": {
-      "item": "minecraft:crying_obsidian"
+  "ingredients": [
+    {
+      "item": "minecraft:slime_block"
     }
-  },
-  "pattern": [
-    "OOO",
-    "GGG",
-    "OOO"
   ],
   "result": {
-    "item": "minecraft:respawn_anchor"
-  },
-  "show_notification": true
+    "count": 9,
+    "item": "minecraft:slime_ball"
+  }
 }

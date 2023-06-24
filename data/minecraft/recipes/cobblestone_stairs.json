@@ -1,22 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
+  "category": "redstone",
+  "group": "wooden_pressure_plate",
   "key": {
     "#": {
-      "item": "minecraft:magenta_wool"
-    },
-    "|": {
-      "item": "minecraft:stick"
+      "item": "minecraft:birch_planks"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    " | "
+    "##"
   ],
   "result": {
-    "item": "minecraft:magenta_banner"
+    "item": "minecraft:birch_pressure_plate"
   },
   "show_notification": true
 }

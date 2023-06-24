@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "redstone",
   "key": {
-    "X": {
-      "item": "minecraft:gold_ingot"
+    "#": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "X X",
-    "XXX",
-    "XXX"
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:golden_chestplate"
+    "item": "minecraft:iron_trapdoor"
   },
   "show_notification": true
 }

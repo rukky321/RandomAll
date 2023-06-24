@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:end_stone_bricks"
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "#"
+    "###",
+    "###"
   ],
   "result": {
-    "item": "minecraft:wooden_shovel"
+    "count": 6,
+    "item": "minecraft:end_stone_brick_wall"
   },
   "show_notification": true
 }

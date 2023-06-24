@@ -1,19 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "waxed_cut_copper",
-  "key": {
-    "#": {
-      "item": "minecraft:waxed_copper_block"
-    }
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "lapis_lazuli",
+  "ingredient": {
+    "item": "minecraft:lapis_ore"
   },
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:waxed_cut_copper"
-  },
-  "show_notification": true
+  "result": "minecraft:lapis_lazuli"
 }

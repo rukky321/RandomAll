@@ -1,21 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:diamond"
-    }
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "pattern": [
-    "XX",
-    " #",
-    " #"
-  ],
-  "result": {
-    "item": "minecraft:diamond_hoe"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
   },
-  "show_notification": true
+  "template": {
+    "item": "minecraft:host_armor_trim_smithing_template"
+  }
 }

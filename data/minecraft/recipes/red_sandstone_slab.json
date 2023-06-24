@@ -1,14 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "bonemeal",
-  "ingredients": [
-    {
-      "item": "minecraft:bone"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
     }
+  },
+  "pattern": [
+    "##",
+    "##"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:bone_meal"
-  }
+    "item": "minecraft:white_wool"
+  },
+  "show_notification": true
 }

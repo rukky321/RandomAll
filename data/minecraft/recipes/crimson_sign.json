@@ -1,8 +1,13 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:weathered_cut_copper"
-  },
-  "result": "minecraft:weathered_cut_copper_slab"
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cherry_button"
+  }
 }

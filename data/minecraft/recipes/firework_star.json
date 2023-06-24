@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:diamond"
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "_": {
+      "item": "minecraft:smooth_stone_slab"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "///",
+    " / ",
+    "/_/"
   ],
   "result": {
-    "item": "minecraft:diamond_block"
+    "item": "minecraft:armor_stand"
   },
   "show_notification": true
 }

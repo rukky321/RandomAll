@@ -1,14 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "planks",
-  "ingredients": [
-    {
-      "tag": "minecraft:mangrove_logs"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "carpet",
+  "key": {
+    "#": {
+      "item": "minecraft:lime_wool"
     }
+  },
+  "pattern": [
+    "##"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:mangrove_planks"
-  }
+    "count": 3,
+    "item": "minecraft:lime_carpet"
+  },
+  "show_notification": true
 }

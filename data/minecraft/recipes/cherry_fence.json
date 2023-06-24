@@ -1,9 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
+  "group": "wooden_trapdoor",
   "key": {
     "#": {
-      "item": "minecraft:deepslate_bricks"
+      "item": "minecraft:jungle_planks"
     }
   },
   "pattern": [
@@ -11,8 +12,8 @@
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:deepslate_brick_wall"
+    "count": 2,
+    "item": "minecraft:jungle_trapdoor"
   },
   "show_notification": true
 }

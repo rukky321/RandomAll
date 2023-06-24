@@ -1,12 +1,13 @@
 {
-  "type": "minecraft:smithing_trim",
-  "addition": {
-    "tag": "minecraft:trim_materials"
-  },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
-  },
-  "template": {
-    "item": "minecraft:spire_armor_trim_smithing_template"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "red_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:red_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_dye"
   }
 }

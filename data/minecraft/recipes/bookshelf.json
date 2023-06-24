@@ -1,23 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "hanging_sign",
-  "key": {
-    "#": {
-      "item": "minecraft:stripped_mangrove_log"
-    },
-    "X": {
-      "item": "minecraft:chain"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:granite"
   },
-  "pattern": [
-    "X X",
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:mangrove_hanging_sign"
-  },
-  "show_notification": true
+  "result": "minecraft:granite_stairs"
 }

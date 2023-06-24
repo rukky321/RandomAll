@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_button"
+          "name": "minecraft:stripped_mangrove_wood"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/acacia_button"
+  "random_sequence": "minecraft:blocks/stripped_mangrove_wood"
 }

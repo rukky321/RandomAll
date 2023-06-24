@@ -1,21 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "building",
+  "group": "stained_glass",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:glass"
     },
     "X": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:red_dye"
     }
   },
   "pattern": [
-    "XX",
-    "X#",
-    " #"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:wooden_axe"
+    "count": 8,
+    "item": "minecraft:red_stained_glass"
   },
   "show_notification": true
 }

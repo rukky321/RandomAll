@@ -1,17 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:andesite"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald_block"
     }
-  },
-  "pattern": [
-    "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:andesite_slab"
-  },
-  "show_notification": true
+    "count": 9,
+    "item": "minecraft:emerald"
+  }
 }

@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_fence_gate",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:torch"
     },
-    "W": {
-      "item": "minecraft:warped_planks"
+    "X": {
+      "item": "minecraft:iron_nugget"
     }
   },
   "pattern": [
-    "#W#",
-    "#W#"
+    "XXX",
+    "X#X",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:warped_fence_gate"
+    "item": "minecraft:lantern"
   },
   "show_notification": true
 }

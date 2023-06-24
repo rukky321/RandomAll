@@ -1,23 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "wooden_sign",
-  "key": {
-    "#": {
-      "item": "minecraft:bamboo_planks"
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
     },
-    "X": {
-      "item": "minecraft:stick"
+    {
+      "item": "minecraft:spruce_boat"
     }
-  },
-  "pattern": [
-    "###",
-    "###",
-    " X "
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:bamboo_sign"
-  },
-  "show_notification": true
+    "item": "minecraft:spruce_chest_boat"
+  }
 }

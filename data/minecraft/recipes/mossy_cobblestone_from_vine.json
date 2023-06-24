@@ -1,12 +1,8 @@
 {
-  "type": "minecraft:smithing_trim",
-  "addition": {
-    "tag": "minecraft:trim_materials"
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:smooth_sandstone"
   },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
-  },
-  "template": {
-    "item": "minecraft:tide_armor_trim_smithing_template"
-  }
+  "result": "minecraft:smooth_sandstone_stairs"
 }

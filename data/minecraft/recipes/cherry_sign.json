@@ -1,21 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:blasting",
   "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:brown_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
-    }
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "minecraft:iron_ore"
   },
-  "pattern": [
-    "###",
-    "XXX"
-  ],
-  "result": {
-    "item": "minecraft:brown_bed"
-  },
-  "show_notification": true
+  "result": "minecraft:iron_ingot"
 }

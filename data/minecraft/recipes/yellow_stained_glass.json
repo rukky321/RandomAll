@@ -1,19 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "bark",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:obsidian"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "#E#",
+    "###"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:stripped_dark_oak_wood"
+    "item": "minecraft:ender_chest"
   },
   "show_notification": true
 }

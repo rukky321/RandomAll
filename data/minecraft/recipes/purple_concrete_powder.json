@@ -1,11 +1,8 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 1.0,
-  "group": "gold_ingot",
+  "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
-    "item": "minecraft:deepslate_gold_ore"
+    "item": "minecraft:andesite"
   },
-  "result": "minecraft:gold_ingot"
+  "result": "minecraft:polished_andesite_stairs"
 }

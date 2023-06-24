@@ -1,13 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "pink_dye",
-  "ingredients": [
-    {
-      "item": "minecraft:pink_petals"
+  "group": "bed",
+  "key": {
+    "#": {
+      "item": "minecraft:red_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
     }
+  },
+  "pattern": [
+    "###",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:pink_dye"
-  }
+    "item": "minecraft:red_bed"
+  },
+  "show_notification": true
 }

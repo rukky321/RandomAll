@@ -1,8 +1,13 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
-  },
-  "result": "minecraft:cobbled_deepslate_wall"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_copper_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:raw_copper"
+  }
 }

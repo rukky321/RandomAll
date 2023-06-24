@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:waxed_cut_copper"
   },
-  "pattern": [
-    "XXX",
-    "X X"
-  ],
-  "result": {
-    "item": "minecraft:iron_helmet"
-  },
-  "show_notification": true
+  "result": "minecraft:waxed_cut_copper_stairs"
 }

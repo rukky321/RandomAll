@@ -1,16 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "building",
+  "group": "stained_terracotta",
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:terracotta"
+    },
+    "X": {
+      "item": "minecraft:yellow_dye"
     }
   },
   "pattern": [
-    "##"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:heavy_weighted_pressure_plate"
+    "count": 8,
+    "item": "minecraft:yellow_terracotta"
   },
   "show_notification": true
 }

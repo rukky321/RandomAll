@@ -1,23 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_glass",
-  "key": {
-    "#": {
-      "item": "minecraft:glass"
-    },
-    "X": {
-      "item": "minecraft:cyan_dye"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "light_blue_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_orchid"
     }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:cyan_stained_glass"
-  },
-  "show_notification": true
+    "item": "minecraft:light_blue_dye"
+  }
 }

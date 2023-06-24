@@ -1,16 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "dyed_candle",
-  "ingredients": [
-    {
-      "item": "minecraft:candle"
-    },
-    {
-      "item": "minecraft:brown_dye"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "item": "minecraft:brown_candle"
-  }
+    "item": "minecraft:redstone_block"
+  },
+  "show_notification": true
 }

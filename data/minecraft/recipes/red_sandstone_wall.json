@@ -1,22 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:black_wool"
-    },
-    "|": {
-      "item": "minecraft:stick"
+      "item": "minecraft:bricks"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    " | "
+    "###"
   ],
   "result": {
-    "item": "minecraft:black_banner"
+    "count": 6,
+    "item": "minecraft:brick_slab"
   },
   "show_notification": true
 }

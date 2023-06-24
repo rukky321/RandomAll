@@ -1,19 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:exposed_cut_copper"
-    }
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "copper_ingot",
+  "ingredient": {
+    "item": "minecraft:deepslate_copper_ore"
   },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:exposed_cut_copper_stairs"
-  },
-  "show_notification": true
+  "result": "minecraft:copper_ingot"
 }

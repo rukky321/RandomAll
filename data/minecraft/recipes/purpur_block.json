@@ -1,38 +1,24 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "concrete_powder",
-  "ingredients": [
-    {
-      "item": "minecraft:black_dye"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
     },
-    {
-      "item": "minecraft:sand"
+    "G": {
+      "item": "minecraft:glass"
     },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
+    "T": {
+      "item": "minecraft:ghast_tear"
     }
+  },
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:black_concrete_powder"
-  }
+    "item": "minecraft:end_crystal"
+  },
+  "show_notification": true
 }

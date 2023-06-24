@@ -1,12 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
-  "ingredients": [
-    {
-      "item": "minecraft:stone"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
     }
+  },
+  "pattern": [
+    "# #",
+    " # "
   ],
   "result": {
-    "item": "minecraft:stone_button"
-  }
+    "count": 3,
+    "item": "minecraft:glass_bottle"
+  },
+  "show_notification": true
 }

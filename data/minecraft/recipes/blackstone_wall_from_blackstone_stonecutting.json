@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "tag": "minecraft:planks"
-    },
-    "@": {
-      "item": "minecraft:paper"
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_planks"
     }
-  },
-  "pattern": [
-    "@@",
-    "##",
-    "##"
   ],
   "result": {
-    "item": "minecraft:cartography_table"
-  },
-  "show_notification": true
+    "item": "minecraft:warped_button"
+  }
 }

@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:cobbled_deepslate"
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
     }
   },
   "pattern": [
-    "###"
+    "XX",
+    " #",
+    " #"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:cobbled_deepslate_slab"
+    "item": "minecraft:stone_hoe"
   },
   "show_notification": true
 }

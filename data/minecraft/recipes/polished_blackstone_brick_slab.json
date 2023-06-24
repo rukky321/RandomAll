@@ -1,25 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:diamond"
-    },
-    "C": {
-      "item": "minecraft:terracotta"
-    },
-    "S": {
-      "item": "minecraft:host_armor_trim_smithing_template"
-    }
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:cod"
   },
-  "pattern": [
-    "#S#",
-    "#C#",
-    "###"
-  ],
-  "result": {
-    "count": 2,
-    "item": "minecraft:host_armor_trim_smithing_template"
-  },
-  "show_notification": true
+  "result": "minecraft:cooked_cod"
 }

@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:coal"
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "###",
-    "###",
+    "# #",
     "###"
   ],
   "result": {
-    "item": "minecraft:coal_block"
+    "item": "minecraft:minecart"
   },
   "show_notification": true
 }

@@ -1,21 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:yellow_wool"
+  "ingredients": [
+    {
+      "item": "minecraft:tnt"
     },
-    "X": {
-      "tag": "minecraft:planks"
+    {
+      "item": "minecraft:minecart"
     }
-  },
-  "pattern": [
-    "###",
-    "XXX"
   ],
   "result": {
-    "item": "minecraft:yellow_bed"
-  },
-  "show_notification": true
+    "item": "minecraft:tnt_minecart"
+  }
 }

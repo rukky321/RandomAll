@@ -1,38 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "concrete_powder",
-  "ingredients": [
-    {
-      "item": "minecraft:brown_dye"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:brown_concrete_powder"
-  }
+    "item": "minecraft:diamond_block"
+  },
+  "show_notification": true
 }

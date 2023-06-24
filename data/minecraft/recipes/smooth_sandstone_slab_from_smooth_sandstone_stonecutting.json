@@ -3,16 +3,15 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:bamboo_slab"
     }
   },
   "pattern": [
-    "###",
-    "###"
+    "#",
+    "#"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:sandstone_wall"
+    "item": "minecraft:bamboo_mosaic"
   },
   "show_notification": true
 }

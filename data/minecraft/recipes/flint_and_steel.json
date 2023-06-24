@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:end_stone"
   },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:cobblestone_slab"
-  },
-  "show_notification": true
+  "result": "minecraft:end_stone_brick_stairs"
 }

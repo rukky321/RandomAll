@@ -1,23 +1,10 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "group": "magenta_dye",
-  "ingredients": [
-    {
-      "item": "minecraft:blue_dye"
-    },
-    {
-      "item": "minecraft:red_dye"
-    },
-    {
-      "item": "minecraft:red_dye"
-    },
-    {
-      "item": "minecraft:white_dye"
-    }
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:magenta_dye"
-  }
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "result": "minecraft:brick"
 }

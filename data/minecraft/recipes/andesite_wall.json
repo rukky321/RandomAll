@@ -1,11 +1,17 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "cookingtime": 100,
-  "experience": 1.0,
-  "group": "gold_ingot",
-  "ingredient": {
-    "item": "minecraft:raw_gold"
-  },
-  "result": "minecraft:gold_ingot"
+  "group": "light_blue_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:light_blue_dye"
+  }
 }

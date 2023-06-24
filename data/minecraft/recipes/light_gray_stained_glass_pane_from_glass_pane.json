@@ -1,21 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:diamond"
     },
-    "X": {
-      "tag": "minecraft:planks"
+    "C": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "S": {
+      "item": "minecraft:silence_armor_trim_smithing_template"
     }
   },
   "pattern": [
-    "X",
-    "X",
-    "#"
+    "#S#",
+    "#C#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:wooden_sword"
+    "count": 2,
+    "item": "minecraft:silence_armor_trim_smithing_template"
   },
   "show_notification": true
 }

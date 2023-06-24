@@ -1,17 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:sandstone_slab"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "orange_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:yellow_dye"
     }
-  },
-  "pattern": [
-    "#",
-    "#"
   ],
   "result": {
-    "item": "minecraft:chiseled_sandstone"
-  },
-  "show_notification": true
+    "count": 2,
+    "item": "minecraft:orange_dye"
+  }
 }

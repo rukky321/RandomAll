@@ -1,17 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:bow"
     }
   },
   "pattern": [
-    "###"
+    "###",
+    "#X#",
+    "#R#"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:end_stone_brick_slab"
+    "item": "minecraft:dispenser"
   },
   "show_notification": true
 }

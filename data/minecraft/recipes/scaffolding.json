@@ -1,14 +1,38 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "planks",
+  "group": "concrete_powder",
   "ingredients": [
     {
-      "tag": "minecraft:jungle_logs"
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
     }
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:jungle_planks"
+    "count": 8,
+    "item": "minecraft:light_gray_concrete_powder"
   }
 }

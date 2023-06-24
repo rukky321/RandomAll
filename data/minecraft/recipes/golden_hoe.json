@@ -1,17 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "magenta_dye",
-  "ingredients": [
-    {
-      "item": "minecraft:purple_dye"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
     },
-    {
-      "item": "minecraft:pink_dye"
+    "X": {
+      "item": "minecraft:diamond"
     }
+  },
+  "pattern": [
+    "XX",
+    " #",
+    " #"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:magenta_dye"
-  }
+    "item": "minecraft:diamond_hoe"
+  },
+  "show_notification": true
 }

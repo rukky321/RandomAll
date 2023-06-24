@@ -1,10 +1,23 @@
 {
-  "type": "minecraft:smoking",
-  "category": "food",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:mutton"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_glass",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "minecraft:white_dye"
+    }
   },
-  "result": "minecraft:cooked_mutton"
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:white_stained_glass"
+  },
+  "show_notification": true
 }

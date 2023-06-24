@@ -1,24 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
-    },
-    "I": {
-      "item": "minecraft:stone"
-    },
-    "X": {
-      "item": "minecraft:quartz"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:polished_granite"
   },
-  "pattern": [
-    " # ",
-    "#X#",
-    "III"
-  ],
-  "result": {
-    "item": "minecraft:comparator"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_granite_slab"
 }

@@ -1,21 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "tag": "minecraft:wool"
+      "item": "minecraft:cut_sandstone"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
     "###"
   ],
   "result": {
-    "item": "minecraft:painting"
+    "count": 6,
+    "item": "minecraft:cut_sandstone_slab"
   },
   "show_notification": true
 }

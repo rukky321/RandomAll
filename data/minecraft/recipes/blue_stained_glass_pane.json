@@ -1,24 +1,60 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "tag": "minecraft:soul_fire_base_blocks"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "bed",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
     },
-    "L": {
-      "tag": "minecraft:logs"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
-  },
-  "pattern": [
-    " S ",
-    "S#S",
-    "LLL"
+    [
+      {
+        "item": "minecraft:black_bed"
+      },
+      {
+        "item": "minecraft:blue_bed"
+      },
+      {
+        "item": "minecraft:brown_bed"
+      },
+      {
+        "item": "minecraft:cyan_bed"
+      },
+      {
+        "item": "minecraft:gray_bed"
+      },
+      {
+        "item": "minecraft:green_bed"
+      },
+      {
+        "item": "minecraft:light_blue_bed"
+      },
+      {
+        "item": "minecraft:light_gray_bed"
+      },
+      {
+        "item": "minecraft:lime_bed"
+      },
+      {
+        "item": "minecraft:magenta_bed"
+      },
+      {
+        "item": "minecraft:orange_bed"
+      },
+      {
+        "item": "minecraft:pink_bed"
+      },
+      {
+        "item": "minecraft:purple_bed"
+      },
+      {
+        "item": "minecraft:yellow_bed"
+      },
+      {
+        "item": "minecraft:white_bed"
+      }
+    ]
   ],
   "result": {
-    "item": "minecraft:soul_campfire"
-  },
-  "show_notification": true
+    "item": "minecraft:red_bed"
+  }
 }

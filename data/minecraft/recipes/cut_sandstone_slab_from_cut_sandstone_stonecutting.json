@@ -1,16 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "misc",
+  "group": "hanging_sign",
   "key": {
     "#": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:stripped_oak_log"
+    },
+    "X": {
+      "item": "minecraft:chain"
     }
   },
   "pattern": [
-    "##"
+    "X X",
+    "###",
+    "###"
   ],
   "result": {
-    "item": "minecraft:light_weighted_pressure_plate"
+    "count": 6,
+    "item": "minecraft:oak_hanging_sign"
   },
   "show_notification": true
 }

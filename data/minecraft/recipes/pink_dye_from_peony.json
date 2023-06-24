@@ -1,24 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "X": {
-      "item": "minecraft:bow"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:polished_deepslate"
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "#R#"
-  ],
-  "result": {
-    "item": "minecraft:dispenser"
-  },
-  "show_notification": true
+  "result": "minecraft:deepslate_brick_stairs"
 }

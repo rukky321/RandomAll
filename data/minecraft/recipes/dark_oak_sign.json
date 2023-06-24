@@ -1,23 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_terracotta",
+  "category": "misc",
+  "group": "carpet",
   "key": {
     "#": {
-      "item": "minecraft:terracotta"
-    },
-    "X": {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:brown_wool"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
-    "###"
+    "##"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:yellow_terracotta"
+    "count": 3,
+    "item": "minecraft:brown_carpet"
   },
   "show_notification": true
 }

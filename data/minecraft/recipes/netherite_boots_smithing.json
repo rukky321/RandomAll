@@ -1,8 +1,21 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:red_sandstone"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_fence_gate",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:dark_oak_planks"
+    }
   },
-  "result": "minecraft:cut_red_sandstone"
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "minecraft:dark_oak_fence_gate"
+  },
+  "show_notification": true
 }

@@ -1,19 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:bricks"
+    "X": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "X X",
+    "X X"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:brick_stairs"
+    "item": "minecraft:iron_boots"
   },
   "show_notification": true
 }

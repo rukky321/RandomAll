@@ -1,21 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_fence_gate",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "minecraft:cherry_planks"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:acacia_logs"
     }
-  },
-  "pattern": [
-    "#W#",
-    "#W#"
   ],
   "result": {
-    "item": "minecraft:cherry_fence_gate"
-  },
-  "show_notification": true
+    "count": 4,
+    "item": "minecraft:acacia_planks"
+  }
 }

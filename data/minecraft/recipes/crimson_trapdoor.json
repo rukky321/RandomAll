@@ -1,16 +1,10 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "waxed_exposed_cut_copper_stairs",
-  "ingredients": [
-    {
-      "item": "minecraft:exposed_cut_copper_stairs"
-    },
-    {
-      "item": "minecraft:honeycomb"
-    }
-  ],
-  "result": {
-    "item": "minecraft:waxed_exposed_cut_copper_stairs"
-  }
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:mutton"
+  },
+  "result": "minecraft:cooked_mutton"
 }

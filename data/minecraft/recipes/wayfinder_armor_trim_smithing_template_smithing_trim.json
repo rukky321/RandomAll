@@ -1,14 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "red_dye",
-  "ingredients": [
-    {
-      "item": "minecraft:rose_bush"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
     }
+  },
+  "pattern": [
+    "X",
+    "X",
+    "#"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:red_dye"
-  }
+    "item": "minecraft:iron_sword"
+  },
+  "show_notification": true
 }

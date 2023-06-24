@@ -1,27 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": [
-      {
-        "item": "minecraft:chiseled_quartz_block"
-      },
-      {
-        "item": "minecraft:quartz_block"
-      },
-      {
-        "item": "minecraft:quartz_pillar"
-      }
-    ]
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_block"
+    }
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:quartz_stairs"
-  },
-  "show_notification": true
+    "count": 9,
+    "item": "minecraft:lapis_lazuli"
+  }
 }

@@ -1,23 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_glass",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:glass"
-    },
-    "X": {
-      "item": "minecraft:white_dye"
+      "item": "minecraft:sugar_cane"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
     "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:white_stained_glass"
+    "count": 3,
+    "item": "minecraft:paper"
   },
   "show_notification": true
 }

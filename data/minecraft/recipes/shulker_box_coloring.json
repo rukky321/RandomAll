@@ -1,8 +1,12 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:waxed_exposed_cut_copper"
-  },
-  "result": "minecraft:waxed_exposed_cut_copper_stairs"
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_blackstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:polished_blackstone_button"
+  }
 }

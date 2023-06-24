@@ -1,12 +1,18 @@
 {
-  "type": "minecraft:smithing_trim",
-  "addition": {
-    "tag": "minecraft:trim_materials"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:mud_bricks"
+    }
   },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:mud_brick_wall"
   },
-  "template": {
-    "item": "minecraft:sentry_armor_trim_smithing_template"
-  }
+  "show_notification": true
 }

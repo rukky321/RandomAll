@@ -2,20 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "D": {
-      "item": "minecraft:dirt"
-    },
-    "G": {
-      "item": "minecraft:gravel"
+    "#": {
+      "item": "minecraft:smooth_quartz"
     }
   },
   "pattern": [
-    "DG",
-    "GD"
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
     "count": 4,
-    "item": "minecraft:coarse_dirt"
+    "item": "minecraft:smooth_quartz_stairs"
   },
   "show_notification": true
 }

@@ -1,10 +1,20 @@
 {
-  "type": "minecraft:smelting",
-  "category": "food",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:beef"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
   },
-  "result": "minecraft:cooked_beef"
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:brewing_stand"
+  },
+  "show_notification": true
 }

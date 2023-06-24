@@ -1,8 +1,19 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:polished_blackstone"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_granite"
+    }
   },
-  "result": "minecraft:polished_blackstone_stairs"
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:polished_granite_stairs"
+  },
+  "show_notification": true
 }

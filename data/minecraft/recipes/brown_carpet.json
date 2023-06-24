@@ -1,8 +1,18 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:andesite"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_planks"
+    }
   },
-  "result": "minecraft:polished_andesite"
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:acacia_boat"
+  },
+  "show_notification": true
 }

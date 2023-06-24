@@ -1,19 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "waxed_oxidized_cut_copper",
+  "category": "redstone",
+  "group": "wooden_door",
   "key": {
     "#": {
-      "item": "minecraft:waxed_oxidized_copper"
+      "item": "minecraft:acacia_planks"
     }
   },
   "pattern": [
     "##",
+    "##",
     "##"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:waxed_oxidized_cut_copper"
+    "count": 3,
+    "item": "minecraft:acacia_door"
   },
   "show_notification": true
 }

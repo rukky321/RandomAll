@@ -1,17 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:polished_andesite"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dyed_candle",
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
+    },
+    {
+      "item": "minecraft:pink_dye"
     }
-  },
-  "pattern": [
-    "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:polished_andesite_slab"
-  },
-  "show_notification": true
+    "item": "minecraft:pink_candle"
+  }
 }

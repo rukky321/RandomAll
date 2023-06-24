@@ -1,19 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:prismarine_bricks"
-    }
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "lapis_lazuli",
+  "ingredient": {
+    "item": "minecraft:lapis_ore"
   },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:prismarine_brick_stairs"
-  },
-  "show_notification": true
+  "result": "minecraft:lapis_lazuli"
 }

@@ -1,24 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
-    "E": {
-      "item": "minecraft:ender_eye"
+    "#": {
+      "item": "minecraft:stick"
     },
-    "G": {
-      "item": "minecraft:glass"
-    },
-    "T": {
-      "item": "minecraft:ghast_tear"
+    "X": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "GGG",
-    "GEG",
-    "GTG"
+    "XXX",
+    " # ",
+    " # "
   ],
   "result": {
-    "item": "minecraft:end_crystal"
+    "item": "minecraft:wooden_pickaxe"
   },
   "show_notification": true
 }

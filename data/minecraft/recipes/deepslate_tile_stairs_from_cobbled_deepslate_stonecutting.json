@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_trapdoor",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:mossy_cobblestone"
     }
   },
   "pattern": [
-    "###",
+    "#  ",
+    "## ",
     "###"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:jungle_trapdoor"
+    "count": 4,
+    "item": "minecraft:mossy_cobblestone_stairs"
   },
   "show_notification": true
 }

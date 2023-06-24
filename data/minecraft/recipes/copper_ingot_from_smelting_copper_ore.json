@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:deepslate_tiles"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:cobbled_deepslate"
   },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:deepslate_tile_slab"
-  },
-  "show_notification": true
+  "result": "minecraft:deepslate_brick_stairs"
 }

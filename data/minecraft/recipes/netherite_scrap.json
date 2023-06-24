@@ -1,15 +1,8 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:weathered_cut_copper"
   },
-  "base": {
-    "item": "minecraft:diamond_hoe"
-  },
-  "result": {
-    "item": "minecraft:netherite_hoe"
-  },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "result": "minecraft:weathered_cut_copper_stairs"
 }

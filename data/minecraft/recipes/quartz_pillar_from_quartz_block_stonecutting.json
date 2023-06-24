@@ -3,16 +3,17 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "pattern": [
-    "###",
-    "###",
+    "#  ",
+    "## ",
     "###"
   ],
   "result": {
-    "item": "minecraft:gold_block"
+    "count": 4,
+    "item": "minecraft:smooth_sandstone_stairs"
   },
   "show_notification": true
 }

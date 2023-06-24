@@ -1,17 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
+  "group": "stained_glass_pane",
   "key": {
-    "X": {
-      "item": "minecraft:gold_ingot"
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "$": {
+      "item": "minecraft:green_dye"
     }
   },
   "pattern": [
-    "XXX",
-    "X X"
+    "###",
+    "#$#",
+    "###"
   ],
   "result": {
-    "item": "minecraft:golden_helmet"
+    "count": 8,
+    "item": "minecraft:green_stained_glass_pane"
   },
   "show_notification": true
 }

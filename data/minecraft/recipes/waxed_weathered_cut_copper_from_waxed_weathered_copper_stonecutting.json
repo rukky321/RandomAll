@@ -1,26 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:amethyst_shard"
     },
-    "X": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ]
+    "X": {
+      "item": "minecraft:sculk_sensor"
+    }
   },
   "pattern": [
-    "X",
-    "#"
+    " # ",
+    "#X#"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:torch"
+    "item": "minecraft:calibrated_sculk_sensor"
   },
   "show_notification": true
 }

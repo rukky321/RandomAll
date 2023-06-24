@@ -1,16 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "item": "minecraft:stone"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:red_sandstone"
   },
-  "pattern": [
-    "##"
-  ],
-  "result": {
-    "item": "minecraft:stone_pressure_plate"
-  },
-  "show_notification": true
+  "result": "minecraft:cut_red_sandstone_slab"
 }

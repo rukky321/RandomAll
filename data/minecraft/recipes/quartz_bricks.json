@@ -1,21 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:salmon"
   },
-  "pattern": [
-    "XX",
-    "X#",
-    " #"
-  ],
-  "result": {
-    "item": "minecraft:iron_axe"
-  },
-  "show_notification": true
+  "result": "minecraft:cooked_salmon"
 }

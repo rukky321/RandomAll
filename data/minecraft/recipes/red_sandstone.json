@@ -1,8 +1,12 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:polished_blackstone"
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "result": "minecraft:polished_blackstone_brick_wall"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
+  },
+  "template": {
+    "item": "minecraft:dune_armor_trim_smithing_template"
+  }
 }

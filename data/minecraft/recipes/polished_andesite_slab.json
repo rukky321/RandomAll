@@ -1,20 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "P": {
-      "item": "minecraft:piston"
-    },
-    "S": {
-      "item": "minecraft:slime_ball"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:copper_block"
   },
-  "pattern": [
-    "S",
-    "P"
-  ],
-  "result": {
-    "item": "minecraft:sticky_piston"
-  },
-  "show_notification": true
+  "result": "minecraft:cut_copper_stairs"
 }

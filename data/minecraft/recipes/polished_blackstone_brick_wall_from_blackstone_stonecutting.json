@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:lapis_lazuli"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:granite"
   },
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "result": {
-    "item": "minecraft:lapis_block"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_granite_stairs"
 }

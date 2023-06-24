@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
+  "group": "wooden_fence_gate",
   "key": {
     "#": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:stick"
     },
-    "@": {
-      "item": "minecraft:iron_ingot"
+    "W": {
+      "item": "minecraft:mangrove_planks"
     }
   },
   "pattern": [
-    "@@",
-    "##",
-    "##"
+    "#W#",
+    "#W#"
   ],
   "result": {
-    "item": "minecraft:smithing_table"
+    "item": "minecraft:mangrove_fence_gate"
   },
   "show_notification": true
 }

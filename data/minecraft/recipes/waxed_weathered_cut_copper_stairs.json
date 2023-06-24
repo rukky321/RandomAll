@@ -1,11 +1,25 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.2,
-  "group": "lapis_lazuli",
-  "ingredient": {
-    "item": "minecraft:lapis_ore"
-  },
-  "result": "minecraft:lapis_lazuli"
+  "group": "rabbit_stew",
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rabbit_stew"
+  }
 }

@@ -1,19 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "item": "minecraft:light_blue_stained_glass"
-    }
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "minecraft:iron_ore"
   },
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 16,
-    "item": "minecraft:light_blue_stained_glass_pane"
-  },
-  "show_notification": true
+  "result": "minecraft:iron_ingot"
 }

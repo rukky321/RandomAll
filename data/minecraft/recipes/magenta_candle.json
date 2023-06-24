@@ -1,12 +1,21 @@
 {
-  "type": "minecraft:smithing_trim",
-  "addition": {
-    "tag": "minecraft:trim_materials"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
   },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "item": "minecraft:diamond_axe"
   },
-  "template": {
-    "item": "minecraft:coast_armor_trim_smithing_template"
-  }
+  "show_notification": true
 }

@@ -1,27 +1,60 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "key": {
-    "#": [
+  "group": "bed",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    [
       {
-        "item": "minecraft:sandstone"
+        "item": "minecraft:black_bed"
       },
       {
-        "item": "minecraft:chiseled_sandstone"
+        "item": "minecraft:blue_bed"
       },
       {
-        "item": "minecraft:cut_sandstone"
+        "item": "minecraft:brown_bed"
+      },
+      {
+        "item": "minecraft:cyan_bed"
+      },
+      {
+        "item": "minecraft:gray_bed"
+      },
+      {
+        "item": "minecraft:green_bed"
+      },
+      {
+        "item": "minecraft:light_blue_bed"
+      },
+      {
+        "item": "minecraft:light_gray_bed"
+      },
+      {
+        "item": "minecraft:lime_bed"
+      },
+      {
+        "item": "minecraft:orange_bed"
+      },
+      {
+        "item": "minecraft:pink_bed"
+      },
+      {
+        "item": "minecraft:purple_bed"
+      },
+      {
+        "item": "minecraft:red_bed"
+      },
+      {
+        "item": "minecraft:yellow_bed"
+      },
+      {
+        "item": "minecraft:white_bed"
       }
     ]
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:sandstone_stairs"
-  },
-  "show_notification": true
+    "item": "minecraft:magenta_bed"
+  }
 }

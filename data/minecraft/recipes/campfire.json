@@ -1,21 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    },
-    "X": {
-      "item": "minecraft:redstone"
-    }
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "minecraft:deepslate_iron_ore"
   },
-  "pattern": [
-    " # ",
-    "#X#",
-    " # "
-  ],
-  "result": {
-    "item": "minecraft:compass"
-  },
-  "show_notification": true
+  "result": "minecraft:iron_ingot"
 }

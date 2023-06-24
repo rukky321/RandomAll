@@ -1,16 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "waxed_exposed_copper",
+  "category": "misc",
+  "group": "netherite_ingot",
   "ingredients": [
     {
-      "item": "minecraft:exposed_copper"
-    },
-    {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:netherite_block"
     }
   ],
   "result": {
-    "item": "minecraft:waxed_exposed_copper"
+    "count": 9,
+    "item": "minecraft:netherite_ingot"
   }
 }

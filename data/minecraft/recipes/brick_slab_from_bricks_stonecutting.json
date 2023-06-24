@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "building",
+  "group": "wooden_slab",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:warped_planks"
     }
   },
   "pattern": [
-    "XXX",
-    " # ",
-    " # "
+    "###"
   ],
   "result": {
-    "item": "minecraft:golden_pickaxe"
+    "count": 6,
+    "item": "minecraft:warped_slab"
   },
   "show_notification": true
 }

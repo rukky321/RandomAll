@@ -1,23 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "item": "minecraft:glass_pane"
+  "group": "dyed_candle",
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
     },
-    "$": {
-      "item": "minecraft:white_dye"
+    {
+      "item": "minecraft:purple_dye"
     }
-  },
-  "pattern": [
-    "###",
-    "#$#",
-    "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:white_stained_glass_pane"
-  },
-  "show_notification": true
+    "item": "minecraft:purple_candle"
+  }
 }

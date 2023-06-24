@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "waxed_cut_copper_stairs",
-  "ingredients": [
-    {
-      "item": "minecraft:cut_copper_stairs"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
     },
-    {
-      "item": "minecraft:honeycomb"
+    "X": {
+      "tag": "minecraft:planks"
     }
+  },
+  "pattern": [
+    "XX",
+    " #",
+    " #"
   ],
   "result": {
-    "item": "minecraft:waxed_cut_copper_stairs"
-  }
+    "item": "minecraft:wooden_hoe"
+  },
+  "show_notification": true
 }

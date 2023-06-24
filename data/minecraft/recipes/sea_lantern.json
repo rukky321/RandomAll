@@ -1,25 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:diamond"
-    },
-    "C": {
-      "item": "minecraft:terracotta"
-    },
-    "S": {
-      "item": "minecraft:wayfinder_armor_trim_smithing_template"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:blackstone"
   },
-  "pattern": [
-    "#S#",
-    "#C#",
-    "###"
-  ],
-  "result": {
-    "count": 2,
-    "item": "minecraft:wayfinder_armor_trim_smithing_template"
-  },
-  "show_notification": true
+  "result": "minecraft:blackstone_slab"
 }

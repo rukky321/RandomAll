@@ -1,15 +1,22 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "minecraft:pink_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
   },
-  "base": {
-    "item": "minecraft:diamond_leggings"
-  },
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
   "result": {
-    "item": "minecraft:netherite_leggings"
+    "item": "minecraft:pink_banner"
   },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "show_notification": true
 }

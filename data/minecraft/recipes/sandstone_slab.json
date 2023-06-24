@@ -1,10 +1,21 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:chorus_fruit"
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
   },
-  "result": "minecraft:popped_chorus_fruit"
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "result": {
+    "item": "minecraft:anvil"
+  },
+  "show_notification": true
 }

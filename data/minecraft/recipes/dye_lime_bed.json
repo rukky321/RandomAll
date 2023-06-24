@@ -1,21 +1,38 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "H": {
-      "item": "minecraft:honeycomb"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concrete_powder",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
     },
-    "P": {
-      "tag": "minecraft:planks"
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
     }
-  },
-  "pattern": [
-    "PPP",
-    "HHH",
-    "PPP"
   ],
   "result": {
-    "item": "minecraft:beehive"
-  },
-  "show_notification": true
+    "count": 8,
+    "item": "minecraft:orange_concrete_powder"
+  }
 }

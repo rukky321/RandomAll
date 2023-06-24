@@ -2,26 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
+    "G": {
+      "item": "minecraft:glass"
     },
-    "R": {
-      "item": "minecraft:redstone"
+    "Q": {
+      "item": "minecraft:quartz"
     },
-    "T": {
-      "tag": "minecraft:planks"
-    },
-    "X": {
-      "item": "minecraft:iron_ingot"
+    "W": {
+      "tag": "minecraft:wooden_slabs"
     }
   },
   "pattern": [
-    "TTT",
-    "#X#",
-    "#R#"
+    "GGG",
+    "QQQ",
+    "WWW"
   ],
   "result": {
-    "item": "minecraft:piston"
+    "item": "minecraft:daylight_detector"
   },
   "show_notification": true
 }

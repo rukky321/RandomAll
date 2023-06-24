@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "bed",
-  "key": {
-    "#": {
-      "item": "minecraft:magenta_wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
+  "group": "magenta_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:allium"
     }
-  },
-  "pattern": [
-    "###",
-    "XXX"
   ],
   "result": {
-    "item": "minecraft:magenta_bed"
-  },
-  "show_notification": true
+    "item": "minecraft:magenta_dye"
+  }
 }

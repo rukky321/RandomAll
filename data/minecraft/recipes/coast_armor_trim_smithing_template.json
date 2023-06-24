@@ -1,36 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    }
-  ],
-  "result": {
-    "item": "minecraft:packed_ice"
-  }
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "emerald",
+  "ingredient": {
+    "item": "minecraft:deepslate_emerald_ore"
+  },
+  "result": "minecraft:emerald"
 }

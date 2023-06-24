@@ -1,25 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    },
     "X": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:leather"
     }
   },
   "pattern": [
-    "X X",
-    "X#X",
-    "XRX"
+    "XXX",
+    "X X"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:powered_rail"
+    "item": "minecraft:leather_helmet"
   },
   "show_notification": true
 }

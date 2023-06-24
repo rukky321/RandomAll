@@ -1,12 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:melon_slice"
+  "group": "bed",
+  "key": {
+    "#": {
+      "item": "minecraft:brown_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
     }
+  },
+  "pattern": [
+    "###",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:melon_seeds"
-  }
+    "item": "minecraft:brown_bed"
+  },
+  "show_notification": true
 }

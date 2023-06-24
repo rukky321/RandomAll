@@ -21,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:sculk_sensor"
+          "name": "minecraft:calibrated_sculk_sensor"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/sculk_sensor"
+  "random_sequence": "minecraft:blocks/calibrated_sculk_sensor"
 }

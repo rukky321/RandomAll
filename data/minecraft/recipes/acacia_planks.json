@@ -1,16 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:blasting",
   "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:black_dye"
-    },
-    {
-      "item": "minecraft:white_dye"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "item": "minecraft:gray_dye"
-  }
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": "minecraft:iron_ingot"
 }

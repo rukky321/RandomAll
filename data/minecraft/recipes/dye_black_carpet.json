@@ -1,8 +1,17 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:red_nether_bricks"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:snow_block"
+    }
   },
-  "result": "minecraft:red_nether_brick_wall"
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:snow"
+  },
+  "show_notification": true
 }

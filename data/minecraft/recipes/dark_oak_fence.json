@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "X": {
-      "item": "minecraft:leather"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:nether_bricks"
   },
-  "pattern": [
-    "X X",
-    "XXX",
-    "X X"
-  ],
-  "result": {
-    "item": "minecraft:leather_horse_armor"
-  },
-  "show_notification": true
+  "result": "minecraft:chiseled_nether_bricks"
 }

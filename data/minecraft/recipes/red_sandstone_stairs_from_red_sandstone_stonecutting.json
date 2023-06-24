@@ -1,22 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
+  "category": "building",
+  "group": "waxed_weathered_cut_copper",
   "key": {
     "#": {
-      "item": "minecraft:cyan_wool"
-    },
-    "|": {
-      "item": "minecraft:stick"
+      "item": "minecraft:waxed_weathered_copper"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    " | "
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:cyan_banner"
+    "count": 4,
+    "item": "minecraft:waxed_weathered_cut_copper"
   },
   "show_notification": true
 }

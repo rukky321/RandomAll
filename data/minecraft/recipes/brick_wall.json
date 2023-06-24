@@ -1,23 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_glass",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:glass"
+      "item": "minecraft:diamond"
     },
-    "X": {
-      "item": "minecraft:red_dye"
+    "C": {
+      "item": "minecraft:terracotta"
+    },
+    "S": {
+      "item": "minecraft:host_armor_trim_smithing_template"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
+    "#S#",
+    "#C#",
     "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:red_stained_glass"
+    "count": 2,
+    "item": "minecraft:host_armor_trim_smithing_template"
   },
   "show_notification": true
 }

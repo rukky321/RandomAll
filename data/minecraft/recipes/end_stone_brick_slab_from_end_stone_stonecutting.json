@@ -1,11 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "wooden_stairs",
   "key": {
-    "#": {
-      "item": "minecraft:mangrove_planks"
-    }
+    "#": [
+      {
+        "item": "minecraft:chiseled_quartz_block"
+      },
+      {
+        "item": "minecraft:quartz_block"
+      },
+      {
+        "item": "minecraft:quartz_pillar"
+      }
+    ]
   },
   "pattern": [
     "#  ",
@@ -14,7 +21,7 @@
   ],
   "result": {
     "count": 4,
-    "item": "minecraft:mangrove_stairs"
+    "item": "minecraft:quartz_stairs"
   },
   "show_notification": true
 }

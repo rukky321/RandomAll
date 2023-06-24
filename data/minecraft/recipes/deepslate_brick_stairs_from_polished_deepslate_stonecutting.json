@@ -1,15 +1,8 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "minecraft:mud"
-    },
-    {
-      "item": "minecraft:mangrove_roots"
-    }
-  ],
-  "result": {
-    "item": "minecraft:muddy_mangrove_roots"
-  }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:prismarine"
+  },
+  "result": "minecraft:prismarine_stairs"
 }

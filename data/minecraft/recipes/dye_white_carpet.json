@@ -1,24 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "G": {
-      "item": "minecraft:glass"
-    },
-    "O": {
-      "item": "minecraft:obsidian"
-    },
-    "S": {
-      "item": "minecraft:nether_star"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:polished_deepslate"
   },
-  "pattern": [
-    "GGG",
-    "GSG",
-    "OOO"
-  ],
-  "result": {
-    "item": "minecraft:beacon"
-  },
-  "show_notification": true
+  "result": "minecraft:deepslate_brick_wall"
 }

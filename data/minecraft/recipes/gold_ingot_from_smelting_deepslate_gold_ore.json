@@ -1,22 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "I": {
-      "item": "minecraft:bamboo"
-    },
-    "~": {
-      "item": "minecraft:string"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:mossy_cobblestone"
   },
-  "pattern": [
-    "I~I",
-    "I I",
-    "I I"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:scaffolding"
-  },
-  "show_notification": true
+  "result": "minecraft:mossy_cobblestone_wall"
 }

@@ -1,13 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
-  "group": "wooden_button",
-  "ingredients": [
-    {
-      "item": "minecraft:oak_planks"
-    }
-  ],
-  "result": {
-    "item": "minecraft:oak_button"
-  }
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "copper_ingot",
+  "ingredient": {
+    "item": "minecraft:deepslate_copper_ore"
+  },
+  "result": "minecraft:copper_ingot"
 }

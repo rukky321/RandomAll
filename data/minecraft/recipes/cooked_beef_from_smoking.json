@@ -1,10 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.2,
+  "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": {
-    "item": "minecraft:nether_quartz_ore"
+    "item": "minecraft:weathered_copper"
   },
-  "result": "minecraft:quartz"
+  "result": "minecraft:weathered_cut_copper_stairs"
 }

@@ -1,16 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "chest_boat",
-  "ingredients": [
-    {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:spruce_boat"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
     }
+  },
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:spruce_chest_boat"
-  }
+    "item": "minecraft:leather_chestplate"
+  },
+  "show_notification": true
 }

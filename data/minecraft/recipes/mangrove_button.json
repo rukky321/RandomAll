@@ -1,11 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.7,
-  "group": "iron_ingot",
+  "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
-    "item": "minecraft:iron_ore"
+    "item": "minecraft:polished_deepslate"
   },
-  "result": "minecraft:iron_ingot"
+  "result": "minecraft:deepslate_tile_stairs"
 }

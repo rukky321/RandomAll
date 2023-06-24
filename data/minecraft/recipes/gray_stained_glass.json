@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "N": {
-      "item": "minecraft:nether_brick"
-    },
-    "W": {
-      "item": "minecraft:nether_wart"
+    "#": {
+      "item": "minecraft:clay_ball"
     }
   },
   "pattern": [
-    "NW",
-    "WN"
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:red_nether_bricks"
+    "item": "minecraft:clay"
   },
   "show_notification": true
 }

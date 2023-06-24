@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "carpet",
+  "category": "building",
   "key": {
-    "#": {
-      "item": "minecraft:yellow_wool"
+    "F": {
+      "item": "minecraft:popped_chorus_fruit"
     }
   },
   "pattern": [
-    "##"
+    "FF",
+    "FF"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:yellow_carpet"
+    "count": 4,
+    "item": "minecraft:purpur_block"
   },
   "show_notification": true
 }

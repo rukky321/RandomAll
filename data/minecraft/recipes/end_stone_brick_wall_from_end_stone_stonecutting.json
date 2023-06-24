@@ -1,10 +1,18 @@
 {
-  "type": "minecraft:campfire_cooking",
-  "category": "food",
-  "cookingtime": 600,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:beef"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:cobbled_deepslate"
+    }
   },
-  "result": "minecraft:cooked_beef"
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:cobbled_deepslate_wall"
+  },
+  "show_notification": true
 }

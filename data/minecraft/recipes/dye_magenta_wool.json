@@ -1,16 +1,22 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "dyed_candle",
-  "ingredients": [
-    {
-      "item": "minecraft:candle"
-    },
-    {
-      "item": "minecraft:orange_dye"
-    }
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:red_sandstone"
+      },
+      {
+        "item": "minecraft:chiseled_red_sandstone"
+      }
+    ]
+  },
+  "pattern": [
+    "###"
   ],
   "result": {
-    "item": "minecraft:orange_candle"
-  }
+    "count": 6,
+    "item": "minecraft:red_sandstone_slab"
+  },
+  "show_notification": true
 }

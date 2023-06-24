@@ -1,17 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
+  "group": "wooden_door",
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:oak_planks"
     }
   },
   "pattern": [
-    "# #",
-    " # "
+    "##",
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:bucket"
+    "count": 3,
+    "item": "minecraft:oak_door"
   },
   "show_notification": true
 }

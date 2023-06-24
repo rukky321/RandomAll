@@ -1,19 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "bark",
+  "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # ",
+    " X ",
+    " X "
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:birch_wood"
+    "item": "minecraft:spyglass"
   },
   "show_notification": true
 }

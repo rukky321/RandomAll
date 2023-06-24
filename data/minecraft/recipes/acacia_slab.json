@@ -1,18 +1,27 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
-    "#": {
-      "item": "minecraft:granite"
-    }
+    "#": [
+      {
+        "item": "minecraft:red_sandstone"
+      },
+      {
+        "item": "minecraft:chiseled_red_sandstone"
+      },
+      {
+        "item": "minecraft:cut_red_sandstone"
+      }
+    ]
   },
   "pattern": [
-    "###",
+    "#  ",
+    "## ",
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:granite_wall"
+    "count": 4,
+    "item": "minecraft:red_sandstone_stairs"
   },
   "show_notification": true
 }

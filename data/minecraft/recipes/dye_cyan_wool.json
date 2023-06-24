@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "boat",
   "key": {
     "#": {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:leather"
     }
   },
   "pattern": [
-    "# #",
+    "###",
+    "#X#",
     "###"
   ],
   "result": {
-    "item": "minecraft:birch_boat"
+    "item": "minecraft:item_frame"
   },
   "show_notification": true
 }

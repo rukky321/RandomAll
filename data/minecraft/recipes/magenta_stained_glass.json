@@ -1,22 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
+  "category": "building",
   "key": {
-    "#": {
-      "item": "minecraft:white_wool"
+    "I": {
+      "item": "minecraft:black_dye"
     },
-    "|": {
-      "item": "minecraft:stick"
+    "S": {
+      "item": "minecraft:prismarine_shard"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    " | "
+    "SSS",
+    "SIS",
+    "SSS"
   ],
   "result": {
-    "item": "minecraft:white_banner"
+    "item": "minecraft:dark_prismarine"
   },
   "show_notification": true
 }

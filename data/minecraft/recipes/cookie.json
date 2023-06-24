@@ -1,19 +1,38 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_trapdoor",
-  "key": {
-    "#": {
-      "item": "minecraft:birch_planks"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concrete_powder",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
     }
-  },
-  "pattern": [
-    "###",
-    "###"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:birch_trapdoor"
-  },
-  "show_notification": true
+    "count": 8,
+    "item": "minecraft:cyan_concrete_powder"
+  }
 }

@@ -1,18 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "S": {
-      "item": "minecraft:polished_blackstone"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:oak_boat"
     }
-  },
-  "pattern": [
-    "SS",
-    "SS"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:polished_blackstone_bricks"
-  },
-  "show_notification": true
+    "item": "minecraft:oak_chest_boat"
+  }
 }

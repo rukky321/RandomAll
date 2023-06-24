@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
     "#": {
-      "tag": "minecraft:stone_crafting_materials"
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "###",
-    "# #",
-    "###"
+    "XX",
+    "X#",
+    " #"
   ],
   "result": {
-    "item": "minecraft:furnace"
+    "item": "minecraft:wooden_axe"
   },
   "show_notification": true
 }

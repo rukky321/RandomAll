@@ -1,11 +1,20 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 1.0,
-  "group": "gold_ingot",
-  "ingredient": {
-    "item": "minecraft:nether_gold_ore"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "waxed_weathered_cut_copper_stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:waxed_weathered_cut_copper"
+    }
   },
-  "result": "minecraft:gold_ingot"
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:waxed_weathered_cut_copper_stairs"
+  },
+  "show_notification": true
 }

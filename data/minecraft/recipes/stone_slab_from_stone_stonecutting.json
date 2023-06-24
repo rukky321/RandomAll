@@ -1,20 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "waxed_cut_copper_stairs",
-  "key": {
-    "#": {
-      "item": "minecraft:waxed_cut_copper"
-    }
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "gold_ingot",
+  "ingredient": {
+    "item": "minecraft:nether_gold_ore"
   },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "item": "minecraft:waxed_cut_copper_stairs"
-  },
-  "show_notification": true
+  "result": "minecraft:gold_ingot"
 }

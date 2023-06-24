@@ -1,25 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "bark",
   "key": {
-    "#": [
-      {
-        "item": "minecraft:chiseled_quartz_block"
-      },
-      {
-        "item": "minecraft:quartz_block"
-      },
-      {
-        "item": "minecraft:quartz_pillar"
-      }
-    ]
+    "#": {
+      "item": "minecraft:dark_oak_log"
+    }
   },
   "pattern": [
-    "###"
+    "##",
+    "##"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:quartz_slab"
+    "count": 3,
+    "item": "minecraft:dark_oak_wood"
   },
   "show_notification": true
 }

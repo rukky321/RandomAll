@@ -1,8 +1,18 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:red_sandstone"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_planks"
+    }
   },
-  "result": "minecraft:red_sandstone_slab"
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:spruce_boat"
+  },
+  "show_notification": true
 }

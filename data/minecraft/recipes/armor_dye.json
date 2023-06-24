@@ -1,8 +1,21 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_fence_gate",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:cherry_planks"
+    }
   },
-  "result": "minecraft:deepslate_tile_slab"
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "minecraft:cherry_fence_gate"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,17 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:granite"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_pressure_plate",
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_planks"
+    }
   },
-  "result": "minecraft:granite_wall"
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:jungle_pressure_plate"
+  },
+  "show_notification": true
 }

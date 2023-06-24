@@ -1,18 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:brown_mushroom"
-    },
-    {
-      "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "minecraft:bowl"
-    }
-  ],
-  "result": {
-    "item": "minecraft:mushroom_stew"
-  }
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "copper_ingot",
+  "ingredient": {
+    "item": "minecraft:copper_ore"
+  },
+  "result": "minecraft:copper_ingot"
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 4,
+  "count": 1,
   "ingredient": {
-    "item": "minecraft:oxidized_copper"
+    "item": "minecraft:blackstone"
   },
-  "result": "minecraft:oxidized_cut_copper"
+  "result": "minecraft:polished_blackstone_stairs"
 }

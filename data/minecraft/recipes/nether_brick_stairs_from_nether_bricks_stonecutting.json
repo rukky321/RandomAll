@@ -1,15 +1,14 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
-  "base": {
-    "item": "minecraft:diamond_sword"
-  },
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:jungle_logs"
+    }
+  ],
   "result": {
-    "item": "minecraft:netherite_sword"
-  },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
+    "count": 4,
+    "item": "minecraft:jungle_planks"
   }
 }

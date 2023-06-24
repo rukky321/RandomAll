@@ -1,11 +1,23 @@
 {
-  "type": "minecraft:blasting",
-  "category": "blocks",
-  "cookingtime": 100,
-  "experience": 0.7,
-  "group": "redstone",
-  "ingredient": {
-    "item": "minecraft:redstone_ore"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_terracotta",
+  "key": {
+    "#": {
+      "item": "minecraft:terracotta"
+    },
+    "X": {
+      "item": "minecraft:gray_dye"
+    }
   },
-  "result": "minecraft:redstone"
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:gray_terracotta"
+  },
+  "show_notification": true
 }

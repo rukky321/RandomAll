@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mangrove_wood"
+          "name": "minecraft:red_sandstone_wall"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/mangrove_wood"
+  "random_sequence": "minecraft:blocks/red_sandstone_wall"
 }

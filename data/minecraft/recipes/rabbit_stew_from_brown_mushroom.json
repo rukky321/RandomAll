@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:brick"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:polished_blackstone_bricks"
   },
-  "pattern": [
-    " # ",
-    "# #",
-    " # "
-  ],
-  "result": {
-    "item": "minecraft:decorated_pot"
-  },
-  "show_notification": true
+  "result": "minecraft:polished_blackstone_brick_wall"
 }

@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
+  "group": "boat",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:cherry_planks"
     }
   },
   "pattern": [
-    "XX",
-    "X#",
-    " #"
+    "# #",
+    "###"
   ],
   "result": {
-    "item": "minecraft:diamond_axe"
+    "item": "minecraft:cherry_boat"
   },
   "show_notification": true
 }

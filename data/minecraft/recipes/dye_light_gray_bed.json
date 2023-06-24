@@ -1,23 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "hanging_sign",
+  "group": "stained_glass_pane",
   "key": {
     "#": {
-      "item": "minecraft:stripped_birch_log"
-    },
-    "X": {
-      "item": "minecraft:chain"
+      "item": "minecraft:cyan_stained_glass"
     }
   },
   "pattern": [
-    "X X",
     "###",
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:birch_hanging_sign"
+    "count": 16,
+    "item": "minecraft:cyan_stained_glass_pane"
   },
   "show_notification": true
 }

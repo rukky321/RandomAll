@@ -1,24 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:copper_ingot"
-    },
-    "I": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:feather"
+      "item": "minecraft:dark_prismarine"
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "I"
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
-    "item": "minecraft:brush"
+    "count": 4,
+    "item": "minecraft:dark_prismarine_stairs"
   },
   "show_notification": true
 }

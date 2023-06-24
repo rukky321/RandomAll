@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "I": {
-      "item": "minecraft:iron_block"
+    "#": {
+      "tag": "minecraft:logs"
     },
-    "i": {
-      "item": "minecraft:iron_ingot"
+    "X": {
+      "item": "minecraft:furnace"
     }
   },
   "pattern": [
-    "III",
-    " i ",
-    "iii"
+    " # ",
+    "#X#",
+    " # "
   ],
   "result": {
-    "item": "minecraft:anvil"
+    "item": "minecraft:smoker"
   },
   "show_notification": true
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_trapdoor"
+          "name": "minecraft:white_tulip"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/iron_trapdoor"
+  "random_sequence": "minecraft:blocks/white_tulip"
 }

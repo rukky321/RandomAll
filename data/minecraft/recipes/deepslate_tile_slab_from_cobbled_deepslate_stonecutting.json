@@ -1,10 +1,16 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.2,
-  "ingredient": {
-    "item": "minecraft:nether_quartz_ore"
-  },
-  "result": "minecraft:quartz"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "waxed_exposed_copper",
+  "ingredients": [
+    {
+      "item": "minecraft:exposed_copper"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "minecraft:waxed_exposed_copper"
+  }
 }

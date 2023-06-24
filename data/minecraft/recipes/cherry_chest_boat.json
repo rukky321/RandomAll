@@ -1,10 +1,21 @@
 {
-  "type": "minecraft:campfire_cooking",
-  "category": "food",
-  "cookingtime": 600,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:potato"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
   },
-  "result": "minecraft:baked_potato"
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:wooden_shovel"
+  },
+  "show_notification": true
 }

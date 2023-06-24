@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:mud_bricks"
+      "item": "minecraft:polished_blackstone_bricks"
     }
   },
   "pattern": [
@@ -12,7 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "item": "minecraft:mud_brick_wall"
+    "item": "minecraft:polished_blackstone_brick_wall"
   },
   "show_notification": true
 }

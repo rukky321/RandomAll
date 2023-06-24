@@ -1,22 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
-  "key": {
-    "#": {
-      "item": "minecraft:light_blue_wool"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "pattern": [
-    "###",
-    "###",
-    " | "
-  ],
-  "result": {
-    "item": "minecraft:light_blue_banner"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
   },
-  "show_notification": true
+  "template": {
+    "item": "minecraft:snout_armor_trim_smithing_template"
+  }
 }

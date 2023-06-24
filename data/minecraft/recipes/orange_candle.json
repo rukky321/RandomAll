@@ -1,16 +1,20 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "chest_boat",
+  "group": "light_gray_dye",
   "ingredients": [
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:black_dye"
     },
     {
-      "item": "minecraft:cherry_boat"
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
     }
   ],
   "result": {
-    "item": "minecraft:cherry_chest_boat"
+    "count": 3,
+    "item": "minecraft:light_gray_dye"
   }
 }

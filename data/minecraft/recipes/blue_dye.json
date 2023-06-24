@@ -1,16 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "chest_boat",
+  "group": "red_dye",
   "ingredients": [
     {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:beetroot"
     }
   ],
   "result": {
-    "item": "minecraft:oak_chest_boat"
+    "item": "minecraft:red_dye"
   }
 }

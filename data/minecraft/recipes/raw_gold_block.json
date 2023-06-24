@@ -1,36 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "misc",
+  "group": "sugar",
   "ingredients": [
     {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:sugar_cane"
     }
   ],
   "result": {
-    "item": "minecraft:nether_wart_block"
+    "item": "minecraft:sugar"
   }
 }

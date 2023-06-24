@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft:mossy_cobblestone"
+    "item": "minecraft:purpur_block"
   },
-  "result": "minecraft:mossy_cobblestone_wall"
+  "result": "minecraft:purpur_pillar"
 }

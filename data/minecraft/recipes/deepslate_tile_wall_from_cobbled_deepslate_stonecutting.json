@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_door",
+  "category": "misc",
+  "group": "bed",
   "key": {
     "#": {
-      "item": "minecraft:crimson_planks"
+      "item": "minecraft:magenta_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "##",
-    "##",
-    "##"
+    "###",
+    "XXX"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:crimson_door"
+    "item": "minecraft:magenta_bed"
   },
   "show_notification": true
 }

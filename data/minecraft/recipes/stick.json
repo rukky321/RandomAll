@@ -1,10 +1,20 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:nether_bricks"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "B": {
+      "item": "minecraft:torch"
+    }
   },
-  "result": "minecraft:cracked_nether_bricks"
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "result": {
+    "item": "minecraft:jack_o_lantern"
+  },
+  "show_notification": true
 }

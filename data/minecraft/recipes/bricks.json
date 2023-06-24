@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "misc",
+  "group": "bed",
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:gray_wool"
     },
-    "R": {
-      "item": "minecraft:redstone"
+    "X": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
     "###",
-    "# #",
-    "#R#"
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:dropper"
+    "item": "minecraft:gray_bed"
   },
   "show_notification": true
 }

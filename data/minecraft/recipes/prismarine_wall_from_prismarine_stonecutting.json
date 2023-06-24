@@ -1,23 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "stained_terracotta",
+  "group": "wooden_slab",
   "key": {
     "#": {
-      "item": "minecraft:terracotta"
-    },
-    "X": {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:spruce_planks"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
     "###"
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:light_gray_terracotta"
+    "count": 6,
+    "item": "minecraft:spruce_slab"
   },
   "show_notification": true
 }

@@ -1,16 +1,24 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "chest_boat",
-  "ingredients": [
-    {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:bamboo_raft"
-    }
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:purpur_block"
+      },
+      {
+        "item": "minecraft:purpur_pillar"
+      }
+    ]
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
-    "item": "minecraft:bamboo_chest_raft"
-  }
+    "count": 4,
+    "item": "minecraft:purpur_stairs"
+  },
+  "show_notification": true
 }

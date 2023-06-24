@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "building",
   "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
     "X": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:book"
     }
   },
   "pattern": [
-    "X X",
-    "X X"
+    "###",
+    "XXX",
+    "###"
   ],
   "result": {
-    "item": "minecraft:golden_boots"
+    "item": "minecraft:bookshelf"
   },
   "show_notification": true
 }

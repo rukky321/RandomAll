@@ -3,19 +3,14 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_pressure_plate"
+          "name": "minecraft:black_candle"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/warped_pressure_plate"
+  "random_sequence": "minecraft:blocks/black_candle_cake"
 }

@@ -1,19 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:bamboo_mosaic"
+  "group": "waxed_exposed_cut_copper_slab",
+  "ingredients": [
+    {
+      "item": "minecraft:exposed_cut_copper_slab"
+    },
+    {
+      "item": "minecraft:honeycomb"
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:bamboo_mosaic_stairs"
-  },
-  "show_notification": true
+    "item": "minecraft:waxed_exposed_cut_copper_slab"
+  }
 }

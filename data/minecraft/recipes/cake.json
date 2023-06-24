@@ -1,25 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
+  "group": "wooden_door",
   "key": {
     "#": {
-      "item": "minecraft:diamond"
-    },
-    "C": {
-      "item": "minecraft:cobbled_deepslate"
-    },
-    "S": {
-      "item": "minecraft:ward_armor_trim_smithing_template"
+      "item": "minecraft:crimson_planks"
     }
   },
   "pattern": [
-    "#S#",
-    "#C#",
-    "###"
+    "##",
+    "##",
+    "##"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:ward_armor_trim_smithing_template"
+    "count": 3,
+    "item": "minecraft:crimson_door"
   },
   "show_notification": true
 }

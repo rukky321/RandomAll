@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:observer"
+          "name": "minecraft:spruce_wood"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/observer"
+  "random_sequence": "minecraft:blocks/spruce_wood"
 }

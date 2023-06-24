@@ -1,24 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:smooth_stone"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "X": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:granite"
     }
   },
   "pattern": [
-    "III",
-    "IXI",
     "###"
   ],
   "result": {
-    "item": "minecraft:blast_furnace"
+    "count": 6,
+    "item": "minecraft:granite_slab"
   },
   "show_notification": true
 }

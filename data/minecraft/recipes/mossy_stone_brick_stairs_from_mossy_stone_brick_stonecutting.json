@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "waxed_exposed_cut_copper_slab",
-  "ingredients": [
-    {
-      "item": "minecraft:exposed_cut_copper_slab"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:chest"
     },
-    {
-      "item": "minecraft:honeycomb"
+    "-": {
+      "item": "minecraft:shulker_shell"
     }
+  },
+  "pattern": [
+    "-",
+    "#",
+    "-"
   ],
   "result": {
-    "item": "minecraft:waxed_exposed_cut_copper_slab"
-  }
+    "item": "minecraft:shulker_box"
+  },
+  "show_notification": true
 }

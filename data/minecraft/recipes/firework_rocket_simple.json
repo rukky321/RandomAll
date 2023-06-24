@@ -3,15 +3,16 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:weathered_cut_copper"
+      "item": "minecraft:weathered_copper"
     }
   },
   "pattern": [
-    "###"
+    "##",
+    "##"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:weathered_cut_copper_slab"
+    "count": 4,
+    "item": "minecraft:weathered_cut_copper"
   },
   "show_notification": true
 }

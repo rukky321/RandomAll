@@ -1,21 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_fence_gate",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "minecraft:jungle_planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:andesite"
   },
-  "pattern": [
-    "#W#",
-    "#W#"
-  ],
-  "result": {
-    "item": "minecraft:jungle_fence_gate"
-  },
-  "show_notification": true
+  "result": "minecraft:andesite_wall"
 }

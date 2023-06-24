@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "redstone",
+  "group": "wooden_fence_gate",
   "key": {
-    "S": {
-      "item": "minecraft:blackstone"
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:jungle_planks"
     }
   },
   "pattern": [
-    "SS",
-    "SS"
+    "#W#",
+    "#W#"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:polished_blackstone"
+    "item": "minecraft:jungle_fence_gate"
   },
   "show_notification": true
 }

@@ -6,10 +6,10 @@
       "item": "minecraft:diamond"
     },
     "C": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:end_stone"
     },
     "S": {
-      "item": "minecraft:rib_armor_trim_smithing_template"
+      "item": "minecraft:eye_armor_trim_smithing_template"
     }
   },
   "pattern": [
@@ -19,7 +19,7 @@
   ],
   "result": {
     "count": 2,
-    "item": "minecraft:rib_armor_trim_smithing_template"
+    "item": "minecraft:eye_armor_trim_smithing_template"
   },
   "show_notification": true
 }

@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "X": {
-      "item": "minecraft:leather"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:cobbled_deepslate"
   },
-  "pattern": [
-    "XXX",
-    "X X"
-  ],
-  "result": {
-    "item": "minecraft:leather_helmet"
-  },
-  "show_notification": true
+  "result": "minecraft:cobbled_deepslate_slab"
 }

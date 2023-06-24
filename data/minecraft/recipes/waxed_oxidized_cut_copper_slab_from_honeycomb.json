@@ -1,8 +1,4 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:end_stone_bricks"
-  },
-  "result": "minecraft:end_stone_brick_slab"
+  "type": "minecraft:crafting_special_armordye",
+  "category": "misc"
 }

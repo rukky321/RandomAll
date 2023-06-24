@@ -43,11 +43,11 @@
               "function": "minecraft:set_contents"
             }
           ],
-          "name": "minecraft:gray_shulker_box"
+          "name": "minecraft:magenta_shulker_box"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/gray_shulker_box"
+  "random_sequence": "minecraft:blocks/magenta_shulker_box"
 }

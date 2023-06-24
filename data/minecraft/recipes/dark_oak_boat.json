@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "dyed_candle",
+  "group": "chest_boat",
   "ingredients": [
     {
-      "item": "minecraft:candle"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:blue_dye"
+      "item": "minecraft:cherry_boat"
     }
   ],
   "result": {
-    "item": "minecraft:blue_candle"
+    "item": "minecraft:cherry_chest_boat"
   }
 }

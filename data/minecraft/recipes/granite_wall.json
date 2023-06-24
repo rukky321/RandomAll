@@ -1,22 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "banner",
-  "key": {
-    "#": {
-      "item": "minecraft:yellow_wool"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:deepslate_bricks"
   },
-  "pattern": [
-    "###",
-    "###",
-    " | "
-  ],
-  "result": {
-    "item": "minecraft:yellow_banner"
-  },
-  "show_notification": true
+  "result": "minecraft:deepslate_brick_stairs"
 }

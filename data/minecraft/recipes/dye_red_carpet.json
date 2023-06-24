@@ -1,21 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
+  "group": "banner",
   "key": {
     "#": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:purple_wool"
     },
-    "X": {
-      "tag": "minecraft:wooden_slabs"
+    "|": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
     "###",
-    "XXX",
-    "###"
+    "###",
+    " | "
   ],
   "result": {
-    "item": "minecraft:chiseled_bookshelf"
+    "item": "minecraft:purple_banner"
   },
   "show_notification": true
 }

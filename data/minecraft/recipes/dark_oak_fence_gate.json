@@ -7,7 +7,7 @@
       "item": "minecraft:glass_pane"
     },
     "$": {
-      "item": "minecraft:brown_dye"
+      "item": "minecraft:magenta_dye"
     }
   },
   "pattern": [
@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:brown_stained_glass_pane"
+    "item": "minecraft:magenta_stained_glass_pane"
   },
   "show_notification": true
 }

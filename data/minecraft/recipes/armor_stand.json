@@ -1,19 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:prismarine"
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:crimson_stems"
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
   ],
   "result": {
     "count": 4,
-    "item": "minecraft:prismarine_stairs"
-  },
-  "show_notification": true
+    "item": "minecraft:crimson_planks"
+  }
 }

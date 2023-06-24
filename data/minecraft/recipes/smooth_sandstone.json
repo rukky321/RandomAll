@@ -1,18 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "waxed_weathered_cut_copper_slab",
-  "key": {
-    "#": {
-      "item": "minecraft:waxed_weathered_cut_copper"
-    }
+  "type": "minecraft:smithing_trim",
+  "addition": {
+    "tag": "minecraft:trim_materials"
   },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:waxed_weathered_cut_copper_slab"
+  "base": {
+    "tag": "minecraft:trimmable_armor"
   },
-  "show_notification": true
+  "template": {
+    "item": "minecraft:raiser_armor_trim_smithing_template"
+  }
 }

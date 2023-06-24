@@ -1,19 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:weathered_cut_copper"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:weathered_cut_copper_stairs"
-  },
-  "show_notification": true
+    "count": 9,
+    "item": "minecraft:iron_ingot"
+  }
 }

@@ -1,16 +1,15 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "dyed_candle",
   "ingredients": [
     {
-      "item": "minecraft:candle"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:minecart"
     }
   ],
   "result": {
-    "item": "minecraft:gray_candle"
+    "item": "minecraft:furnace_minecart"
   }
 }

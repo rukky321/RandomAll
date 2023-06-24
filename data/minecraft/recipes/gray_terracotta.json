@@ -1,24 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
-    "C": {
-      "tag": "minecraft:coals"
-    },
-    "L": {
-      "tag": "minecraft:logs"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "X": {
+      "item": "minecraft:leather"
     }
   },
   "pattern": [
-    " S ",
-    "SCS",
-    "LLL"
+    "XXX",
+    "X X",
+    "X X"
   ],
   "result": {
-    "item": "minecraft:campfire"
+    "item": "minecraft:leather_leggings"
   },
   "show_notification": true
 }

@@ -1,19 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "bark",
-  "key": {
-    "#": {
-      "item": "minecraft:stripped_oak_log"
+  "group": "waxed_weathered_copper",
+  "ingredients": [
+    {
+      "item": "minecraft:weathered_copper"
+    },
+    {
+      "item": "minecraft:honeycomb"
     }
-  },
-  "pattern": [
-    "##",
-    "##"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:stripped_oak_wood"
-  },
-  "show_notification": true
+    "item": "minecraft:waxed_weathered_copper"
+  }
 }

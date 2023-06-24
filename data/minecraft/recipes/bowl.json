@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "wooden_stairs",
   "key": {
     "#": {
-      "item": "minecraft:warped_planks"
+      "item": "minecraft:nether_bricks"
     }
   },
   "pattern": [
@@ -14,7 +13,7 @@
   ],
   "result": {
     "count": 4,
-    "item": "minecraft:warped_stairs"
+    "item": "minecraft:nether_brick_stairs"
   },
   "show_notification": true
 }

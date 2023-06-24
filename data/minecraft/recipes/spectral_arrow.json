@@ -1,8 +1,13 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:exposed_cut_copper"
-  },
-  "result": "minecraft:exposed_cut_copper_slab"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "white_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_dye"
+  }
 }

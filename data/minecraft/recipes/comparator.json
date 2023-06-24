@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:polished_blackstone_bricks"
+      "item": "minecraft:polished_andesite"
     }
   },
   "pattern": [
@@ -11,7 +11,7 @@
   ],
   "result": {
     "count": 6,
-    "item": "minecraft:polished_blackstone_brick_slab"
+    "item": "minecraft:polished_andesite_slab"
   },
   "show_notification": true
 }

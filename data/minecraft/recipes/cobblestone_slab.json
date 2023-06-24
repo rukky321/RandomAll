@@ -1,8 +1,21 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:mossy_stone_bricks"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "bed",
+  "key": {
+    "#": {
+      "item": "minecraft:orange_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
   },
-  "result": "minecraft:mossy_stone_brick_slab"
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:orange_bed"
+  },
+  "show_notification": true
 }

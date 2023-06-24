@@ -1,8 +1,11 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "gold_ingot",
   "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
+    "item": "minecraft:nether_gold_ore"
   },
-  "result": "minecraft:cobbled_deepslate_stairs"
+  "result": "minecraft:gold_ingot"
 }

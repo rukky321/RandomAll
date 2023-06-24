@@ -1,4 +1,8 @@
 {
-  "type": "minecraft:crafting_special_firework_rocket",
-  "category": "misc"
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+  "result": "minecraft:polished_diorite_slab"
 }

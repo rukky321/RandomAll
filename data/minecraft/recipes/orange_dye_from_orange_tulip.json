@@ -1,8 +1,17 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:red_sandstone"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:honey_bottle"
+    }
   },
-  "result": "minecraft:red_sandstone_wall"
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:honey_block"
+  },
+  "show_notification": true
 }

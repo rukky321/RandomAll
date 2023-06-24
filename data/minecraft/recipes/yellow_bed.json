@@ -1,15 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "building",
+  "group": "planks",
   "ingredients": [
     {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:minecart"
+      "tag": "minecraft:oak_logs"
     }
   ],
   "result": {
-    "item": "minecraft:chest_minecart"
+    "count": 4,
+    "item": "minecraft:oak_planks"
   }
 }

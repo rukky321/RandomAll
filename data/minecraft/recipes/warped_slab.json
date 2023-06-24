@@ -1,25 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "hanging_sign",
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:stripped_cherry_log"
     },
-    "C": {
-      "item": "minecraft:mossy_cobblestone"
-    },
-    "S": {
-      "item": "minecraft:wild_armor_trim_smithing_template"
+    "X": {
+      "item": "minecraft:chain"
     }
   },
   "pattern": [
-    "#S#",
-    "#C#",
+    "X X",
+    "###",
     "###"
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:wild_armor_trim_smithing_template"
+    "count": 6,
+    "item": "minecraft:cherry_hanging_sign"
   },
   "show_notification": true
 }

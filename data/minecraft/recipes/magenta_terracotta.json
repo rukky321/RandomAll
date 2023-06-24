@@ -1,11 +1,17 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 1.0,
-  "group": "gold_ingot",
-  "ingredient": {
-    "item": "minecraft:gold_ore"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_pressure_plate",
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    }
   },
-  "result": "minecraft:gold_ingot"
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:dark_oak_pressure_plate"
+  },
+  "show_notification": true
 }

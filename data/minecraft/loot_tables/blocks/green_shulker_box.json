@@ -21,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gray_stained_glass_pane"
+          "name": "minecraft:cracked_stone_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/gray_stained_glass_pane"
+  "random_sequence": "minecraft:blocks/infested_cracked_stone_bricks"
 }

@@ -1,21 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
+  "group": "banner",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:white_wool"
     },
-    "X": {
-      "item": "minecraft:diamond"
+    "|": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "XXX",
-    " # ",
-    " # "
+    "###",
+    "###",
+    " | "
   ],
   "result": {
-    "item": "minecraft:diamond_pickaxe"
+    "item": "minecraft:white_banner"
   },
   "show_notification": true
 }

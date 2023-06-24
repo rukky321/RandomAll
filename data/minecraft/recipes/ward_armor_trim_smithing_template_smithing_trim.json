@@ -1,12 +1,18 @@
 {
-  "type": "minecraft:smithing_trim",
-  "addition": {
-    "tag": "minecraft:trim_materials"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:dried_kelp"
+    }
   },
-  "base": {
-    "tag": "minecraft:trimmable_armor"
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp_block"
   },
-  "template": {
-    "item": "minecraft:ward_armor_trim_smithing_template"
-  }
+  "show_notification": true
 }

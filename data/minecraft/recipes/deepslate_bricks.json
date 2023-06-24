@@ -1,24 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
+  "group": "stained_terracotta",
   "key": {
     "#": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:terracotta"
     },
-    "B": {
-      "item": "minecraft:book"
-    },
-    "D": {
-      "item": "minecraft:diamond"
+    "X": {
+      "item": "minecraft:cyan_dye"
     }
   },
   "pattern": [
-    " B ",
-    "D#D",
+    "###",
+    "#X#",
     "###"
   ],
   "result": {
-    "item": "minecraft:enchanting_table"
+    "count": 8,
+    "item": "minecraft:cyan_terracotta"
   },
   "show_notification": true
 }

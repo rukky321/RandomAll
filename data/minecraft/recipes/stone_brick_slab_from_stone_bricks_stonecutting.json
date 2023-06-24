@@ -1,8 +1,18 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
   },
-  "result": "minecraft:deepslate_tile_wall"
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "show_notification": true
 }

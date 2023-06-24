@@ -1,38 +1,16 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "concrete_powder",
+  "category": "misc",
+  "group": "chest_boat",
   "ingredients": [
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
-    },
-    {
-      "item": "minecraft:gravel"
+      "item": "minecraft:birch_boat"
     }
   ],
   "result": {
-    "count": 8,
-    "item": "minecraft:gray_concrete_powder"
+    "item": "minecraft:birch_chest_boat"
   }
 }

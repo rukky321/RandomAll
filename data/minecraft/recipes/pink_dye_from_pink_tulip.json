@@ -1,8 +1,20 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "minecraft:copper_block"
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
   },
-  "result": "minecraft:cut_copper_stairs"
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:lever"
+  },
+  "show_notification": true
 }

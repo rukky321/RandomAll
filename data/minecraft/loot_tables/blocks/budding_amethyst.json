@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:powered_rail"
+          "name": "minecraft:sticky_piston"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/powered_rail"
+  "random_sequence": "minecraft:blocks/sticky_piston"
 }

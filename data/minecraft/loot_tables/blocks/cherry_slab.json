@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wet_sponge"
+          "name": "minecraft:red_tulip"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/wet_sponge"
+  "random_sequence": "minecraft:blocks/red_tulip"
 }

@@ -1,10 +1,25 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "minecraft:clay"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "minecraft:vex_armor_trim_smithing_template"
+    }
   },
-  "result": "minecraft:terracotta"
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:vex_armor_trim_smithing_template"
+  },
+  "show_notification": true
 }

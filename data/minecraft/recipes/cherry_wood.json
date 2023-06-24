@@ -1,10 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.15,
+  "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
-    "item": "minecraft:wet_sponge"
+    "item": "minecraft:end_stone"
   },
-  "result": "minecraft:sponge"
+  "result": "minecraft:end_stone_brick_slab"
 }

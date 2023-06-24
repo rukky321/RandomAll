@@ -1,13 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "black_dye",
-  "ingredients": [
-    {
-      "item": "minecraft:ink_sac"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:nether_brick"
     }
+  },
+  "pattern": [
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:black_dye"
-  }
+    "item": "minecraft:nether_bricks"
+  },
+  "show_notification": true
 }

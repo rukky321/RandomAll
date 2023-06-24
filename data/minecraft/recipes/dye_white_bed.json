@@ -1,18 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
+  "group": "stained_glass",
   "key": {
     "#": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "minecraft:purple_dye"
     }
   },
   "pattern": [
     "###",
+    "#X#",
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:stone_brick_wall"
+    "count": 8,
+    "item": "minecraft:purple_stained_glass"
   },
   "show_notification": true
 }

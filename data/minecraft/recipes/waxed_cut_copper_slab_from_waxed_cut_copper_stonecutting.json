@@ -1,21 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_fence_gate",
+  "category": "building",
+  "group": "bark",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:oak_log"
     }
   },
   "pattern": [
-    "#W#",
-    "#W#"
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:acacia_fence_gate"
+    "count": 3,
+    "item": "minecraft:oak_wood"
   },
   "show_notification": true
 }

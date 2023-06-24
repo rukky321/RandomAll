@@ -1,18 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
+  "group": "stained_glass",
   "key": {
     "#": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "minecraft:lime_dye"
     }
   },
   "pattern": [
     "###",
+    "#X#",
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:diorite_wall"
+    "count": 8,
+    "item": "minecraft:lime_stained_glass"
   },
   "show_notification": true
 }

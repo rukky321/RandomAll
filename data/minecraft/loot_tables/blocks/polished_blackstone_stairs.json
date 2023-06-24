@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:jukebox"
+          "name": "minecraft:iron_trapdoor"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/jukebox"
+  "random_sequence": "minecraft:blocks/iron_trapdoor"
 }

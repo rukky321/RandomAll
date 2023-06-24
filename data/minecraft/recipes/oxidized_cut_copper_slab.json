@@ -1,8 +1,18 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:mossy_cobblestone"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sticks",
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    }
   },
-  "result": "minecraft:mossy_cobblestone_slab"
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:stick"
+  },
+  "show_notification": true
 }

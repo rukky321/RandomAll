@@ -1,19 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:granite"
+  "group": "mossy_stone_bricks",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "minecraft:vine"
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:granite_stairs"
-  },
-  "show_notification": true
+    "item": "minecraft:mossy_stone_bricks"
+  }
 }

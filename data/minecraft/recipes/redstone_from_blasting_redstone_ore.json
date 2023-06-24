@@ -1,19 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "bark",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:soul_torch"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "XXX",
+    "X#X",
+    "XXX"
   ],
   "result": {
-    "count": 3,
-    "item": "minecraft:oak_wood"
+    "item": "minecraft:soul_lantern"
   },
   "show_notification": true
 }

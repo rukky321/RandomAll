@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_pressure_plate",
-  "key": {
-    "#": {
-      "item": "minecraft:dark_oak_planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:dark_prismarine"
   },
-  "pattern": [
-    "##"
-  ],
-  "result": {
-    "item": "minecraft:dark_oak_pressure_plate"
-  },
-  "show_notification": true
+  "result": "minecraft:dark_prismarine_slab"
 }

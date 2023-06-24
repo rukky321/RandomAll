@@ -3,19 +3,14 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:yellow_concrete"
+          "name": "minecraft:zombie_head"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/yellow_concrete"
+  "random_sequence": "minecraft:blocks/zombie_head"
 }

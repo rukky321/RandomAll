@@ -3,22 +3,14 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
-    },
-    "Q": {
-      "item": "minecraft:quartz"
-    },
-    "R": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:stone"
     }
   },
   "pattern": [
-    "###",
-    "RRQ",
-    "###"
+    "##"
   ],
   "result": {
-    "item": "minecraft:observer"
+    "item": "minecraft:stone_pressure_plate"
   },
   "show_notification": true
 }

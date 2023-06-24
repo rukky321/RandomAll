@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
+    "item": "minecraft:mud_bricks"
   },
-  "result": "minecraft:cobbled_deepslate_slab"
+  "result": "minecraft:mud_brick_slab"
 }

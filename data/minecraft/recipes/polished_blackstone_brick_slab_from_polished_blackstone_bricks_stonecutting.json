@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:pointed_dripstone"
+    "X": {
+      "item": "minecraft:leather"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "X X",
+    "XXX",
+    "X X"
   ],
   "result": {
-    "item": "minecraft:dripstone_block"
+    "item": "minecraft:leather_horse_armor"
   },
   "show_notification": true
 }

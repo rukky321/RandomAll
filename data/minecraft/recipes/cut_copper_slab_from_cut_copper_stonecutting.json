@@ -1,14 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "copper_ingot",
-  "ingredients": [
-    {
-      "item": "minecraft:waxed_copper_block"
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "X": {
+      "item": "minecraft:compass"
     }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "count": 9,
-    "item": "minecraft:copper_ingot"
-  }
+    "item": "minecraft:map"
+  },
+  "show_notification": true
 }

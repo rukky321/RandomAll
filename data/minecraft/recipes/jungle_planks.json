@@ -1,16 +1,8 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "dyed_candle",
-  "ingredients": [
-    {
-      "item": "minecraft:candle"
-    },
-    {
-      "item": "minecraft:purple_dye"
-    }
-  ],
-  "result": {
-    "item": "minecraft:purple_candle"
-  }
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:red_nether_bricks"
+  },
+  "result": "minecraft:red_nether_brick_slab"
 }

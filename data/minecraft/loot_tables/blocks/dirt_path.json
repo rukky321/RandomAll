@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_wood"
+          "name": "minecraft:stone_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/acacia_wood"
+  "random_sequence": "minecraft:blocks/stone_bricks"
 }

@@ -1,11 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "group": "coal",
+  "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
-    "item": "minecraft:coal_ore"
+    "item": "minecraft:polished_blackstone"
   },
-  "result": "minecraft:coal"
+  "result": "minecraft:polished_blackstone_stairs"
 }

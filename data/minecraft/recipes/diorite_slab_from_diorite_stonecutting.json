@@ -2,26 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:milk_bucket"
+    "I": {
+      "item": "minecraft:iron_ingot"
     },
-    "B": {
-      "item": "minecraft:sugar"
-    },
-    "C": {
-      "item": "minecraft:wheat"
-    },
-    "E": {
-      "item": "minecraft:egg"
+    "N": {
+      "item": "minecraft:iron_nugget"
     }
   },
   "pattern": [
-    "AAA",
-    "BEB",
-    "CCC"
+    "N",
+    "I",
+    "N"
   ],
   "result": {
-    "item": "minecraft:cake"
+    "item": "minecraft:chain"
   },
   "show_notification": true
 }

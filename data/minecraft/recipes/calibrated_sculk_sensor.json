@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "redstone",
+  "group": "wooden_pressure_plate",
   "key": {
-    "X": {
-      "item": "minecraft:scute"
+    "#": {
+      "item": "minecraft:cherry_planks"
     }
   },
   "pattern": [
-    "XXX",
-    "X X"
+    "##"
   ],
   "result": {
-    "item": "minecraft:turtle_helmet"
+    "item": "minecraft:cherry_pressure_plate"
   },
   "show_notification": true
 }

@@ -1,19 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "stained_glass_pane",
+  "group": "banner",
   "key": {
     "#": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:blue_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
     "###",
-    "###"
+    "###",
+    " | "
   ],
   "result": {
-    "count": 16,
-    "item": "minecraft:gray_stained_glass_pane"
+    "item": "minecraft:blue_banner"
   },
   "show_notification": true
 }

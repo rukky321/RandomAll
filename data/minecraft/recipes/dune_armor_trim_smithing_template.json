@@ -1,8 +1,23 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "minecraft:waxed_exposed_copper"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
   },
-  "result": "minecraft:waxed_exposed_cut_copper_stairs"
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:spruce_sign"
+  },
+  "show_notification": true
 }

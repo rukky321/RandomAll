@@ -1,8 +1,15 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:stone_bricks"
-  },
-  "result": "minecraft:stone_brick_wall"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mangrove_roots"
+    }
+  ],
+  "result": {
+    "item": "minecraft:muddy_mangrove_roots"
+  }
 }

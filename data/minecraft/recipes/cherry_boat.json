@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "wooden_slab",
-  "key": {
-    "#": {
-      "item": "minecraft:warped_planks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:waxed_weathered_copper"
   },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:warped_slab"
-  },
-  "show_notification": true
+  "result": "minecraft:waxed_weathered_cut_copper_stairs"
 }

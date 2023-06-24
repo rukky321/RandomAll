@@ -1,16 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "dyed_candle",
-  "ingredients": [
-    {
-      "item": "minecraft:candle"
-    },
-    {
-      "item": "minecraft:light_blue_dye"
+  "group": "carpet",
+  "key": {
+    "#": {
+      "item": "minecraft:purple_wool"
     }
+  },
+  "pattern": [
+    "##"
   ],
   "result": {
-    "item": "minecraft:light_blue_candle"
-  }
+    "count": 3,
+    "item": "minecraft:purple_carpet"
+  },
+  "show_notification": true
 }

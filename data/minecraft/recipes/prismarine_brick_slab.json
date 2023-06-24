@@ -1,17 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:brick"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:leather"
     }
-  },
-  "pattern": [
-    "##",
-    "##"
   ],
   "result": {
-    "item": "minecraft:bricks"
-  },
-  "show_notification": true
+    "item": "minecraft:book"
+  }
 }
