@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:terracotta"
+          "name": "minecraft:black_terracotta"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/terracotta"
+  "random_sequence": "minecraft:blocks/black_terracotta"
 }

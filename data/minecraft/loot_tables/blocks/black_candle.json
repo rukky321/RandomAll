@@ -3,19 +3,14 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:waxed_copper_block"
+          "name": "minecraft:lime_candle"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/waxed_copper_block"
+  "random_sequence": "minecraft:blocks/lime_candle_cake"
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spruce_wood"
+          "name": "minecraft:orange_concrete_powder"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/spruce_wood"
+  "random_sequence": "minecraft:blocks/orange_concrete_powder"
 }

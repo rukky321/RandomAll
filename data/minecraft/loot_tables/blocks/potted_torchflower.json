@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_sign"
+          "name": "minecraft:stripped_acacia_wood"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/acacia_sign"
+  "random_sequence": "minecraft:blocks/stripped_acacia_wood"
 }

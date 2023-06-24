@@ -1,12 +1,17 @@
 {
-  "type": "minecraft:entity",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying"
+          "name": "minecraft:flower_pot"
         }
       ],
       "rolls": 1.0
@@ -15,36 +20,17 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:killed_by_player"
+          "condition": "minecraft:survives_explosion"
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:emerald"
+          "name": "minecraft:pink_tulip"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/evoker"
+  "random_sequence": "minecraft:blocks/potted_pink_tulip"
 }

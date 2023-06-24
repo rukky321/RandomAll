@@ -5,138 +5,34 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "minecraft:large_fern",
-          "condition": "minecraft:block_state_property",
-          "properties": {
-            "half": "lower"
-          }
-        },
-        {
-          "condition": "minecraft:location_check",
-          "offsetY": 1,
-          "predicate": {
-            "block": {
-              "blocks": [
-                "minecraft:large_fern"
-              ],
-              "state": {
-                "half": "upper"
-              }
-            }
-          }
+          "condition": "minecraft:survives_explosion"
         }
       ],
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "functions": [
             {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": [
-                      "minecraft:shears"
-                    ]
-                  }
-                }
-              ],
-              "functions": [
-                {
-                  "add": false,
-                  "count": 2.0,
-                  "function": "minecraft:set_count"
-                }
-              ],
-              "name": "minecraft:fern"
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
             },
             {
-              "type": "minecraft:item",
-              "conditions": [
+              "function": "minecraft:copy_nbt",
+              "ops": [
                 {
-                  "condition": "minecraft:survives_explosion"
-                },
-                {
-                  "chance": 0.125,
-                  "condition": "minecraft:random_chance"
+                  "op": "replace",
+                  "source": "Patterns",
+                  "target": "BlockEntityTag.Patterns"
                 }
               ],
-              "name": "minecraft:wheat_seeds"
+              "source": "block_entity"
             }
-          ]
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "block": "minecraft:large_fern",
-          "condition": "minecraft:block_state_property",
-          "properties": {
-            "half": "upper"
-          }
-        },
-        {
-          "condition": "minecraft:location_check",
-          "offsetY": -1,
-          "predicate": {
-            "block": {
-              "blocks": [
-                "minecraft:large_fern"
-              ],
-              "state": {
-                "half": "lower"
-              }
-            }
-          }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": [
-                      "minecraft:shears"
-                    ]
-                  }
-                }
-              ],
-              "functions": [
-                {
-                  "add": false,
-                  "count": 2.0,
-                  "function": "minecraft:set_count"
-                }
-              ],
-              "name": "minecraft:fern"
-            },
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:survives_explosion"
-                },
-                {
-                  "chance": 0.125,
-                  "condition": "minecraft:random_chance"
-                }
-              ],
-              "name": "minecraft:wheat_seeds"
-            }
-          ]
+          ],
+          "name": "minecraft:magenta_banner"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/large_fern"
+  "random_sequence": "minecraft:blocks/magenta_banner"
 }

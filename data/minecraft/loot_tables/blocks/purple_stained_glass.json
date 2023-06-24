@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mossy_stone_brick_stairs"
+          "name": "minecraft:brown_concrete_powder"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/mossy_stone_brick_stairs"
+  "random_sequence": "minecraft:blocks/brown_concrete_powder"
 }

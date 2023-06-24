@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_stairs"
+          "name": "minecraft:nether_wart_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/oak_stairs"
+  "random_sequence": "minecraft:blocks/nether_wart_block"
 }

@@ -3,6 +3,11 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -12,11 +17,11 @@
               "source": "block_entity"
             }
           ],
-          "name": "minecraft:beacon"
+          "name": "minecraft:furnace"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/beacon"
+  "random_sequence": "minecraft:blocks/furnace"
 }

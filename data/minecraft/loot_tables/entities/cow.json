@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:entity",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -10,23 +10,26 @@
             {
               "add": false,
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.53333336
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:pumpkin_seeds"
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:explosion_decay"
+          "name": "minecraft:leather"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/attached_pumpkin_stem"
+  "random_sequence": "minecraft:entities/llama"
 }

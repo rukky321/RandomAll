@@ -1,42 +1,48 @@
 {
-  "type": "minecraft:fishing",
+  "type": "minecraft:entity",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:gameplay/fishing/junk",
-          "quality": -2,
-          "weight": 10
-        },
-        {
-          "type": "minecraft:loot_table",
-          "conditions": [
+          "type": "minecraft:item",
+          "functions": [
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "fishing_hook",
-                  "in_open_water": true
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  }
                 }
-              }
+              ],
+              "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "minecraft:gameplay/fishing/treasure",
-          "quality": 2,
-          "weight": 5
-        },
+          "name": "minecraft:salmon"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
         {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:gameplay/fishing/fish",
-          "quality": -1,
-          "weight": 85
+          "chance": 0.05,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/fishing"
+  "random_sequence": "minecraft:entities/salmon"
 }

@@ -21,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blue_ice"
+          "name": "minecraft:cracked_stone_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/blue_ice"
+  "random_sequence": "minecraft:blocks/infested_cracked_stone_bricks"
 }

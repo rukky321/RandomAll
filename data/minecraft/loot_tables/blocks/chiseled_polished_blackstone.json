@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:gift",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:map"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:paper"
+          "name": "minecraft:red_glazed_terracotta"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/cartographer_gift"
+  "random_sequence": "minecraft:blocks/red_glazed_terracotta"
 }

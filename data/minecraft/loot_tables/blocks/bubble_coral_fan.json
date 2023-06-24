@@ -21,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:fire_coral"
+          "name": "minecraft:cyan_stained_glass"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/fire_coral"
+  "random_sequence": "minecraft:blocks/cyan_stained_glass"
 }

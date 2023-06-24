@@ -5,26 +5,29 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:shears"
+            ]
+          }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
+          "functions": [
             {
-              "block": "minecraft:rose_bush",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "half": "lower"
-              }
+              "add": false,
+              "count": 2.0,
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:rose_bush"
+          "name": "minecraft:seagrass"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/rose_bush"
+  "random_sequence": "minecraft:blocks/tall_seagrass"
 }

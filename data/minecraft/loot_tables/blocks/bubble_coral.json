@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spruce_fence"
+          "name": "minecraft:cyan_concrete_powder"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/spruce_fence"
+  "random_sequence": "minecraft:blocks/cyan_concrete_powder"
 }

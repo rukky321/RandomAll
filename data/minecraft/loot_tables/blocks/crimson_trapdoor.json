@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:yellow_terracotta"
+          "name": "minecraft:warped_hyphae"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/yellow_terracotta"
+  "random_sequence": "minecraft:blocks/warped_hyphae"
 }

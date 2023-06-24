@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_planks"
+          "name": "minecraft:andesite_stairs"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/warped_planks"
+  "random_sequence": "minecraft:blocks/andesite_stairs"
 }

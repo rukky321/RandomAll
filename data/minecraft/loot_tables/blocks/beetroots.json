@@ -5,17 +5,22 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:shears"
+            ]
+          }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:waxed_weathered_cut_copper_stairs"
+          "name": "minecraft:hanging_roots"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/waxed_weathered_cut_copper_stairs"
+  "random_sequence": "minecraft:blocks/hanging_roots"
 }

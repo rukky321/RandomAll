@@ -11,17 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:copy_name",
-              "source": "block_entity"
-            }
-          ],
-          "name": "minecraft:smoker"
+          "name": "minecraft:end_rod"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/smoker"
+  "random_sequence": "minecraft:blocks/end_rod"
 }

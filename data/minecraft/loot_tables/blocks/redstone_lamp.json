@@ -3,19 +3,14 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cracked_deepslate_tiles"
+          "name": "minecraft:creeper_head"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cracked_deepslate_tiles"
+  "random_sequence": "minecraft:blocks/creeper_head"
 }

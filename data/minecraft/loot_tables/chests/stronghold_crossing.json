@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:purpur_block"
+          "name": "minecraft:black_concrete_powder"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/purpur_block"
+  "random_sequence": "minecraft:blocks/black_concrete_powder"
 }

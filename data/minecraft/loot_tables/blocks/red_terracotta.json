@@ -5,46 +5,49 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "functions": [
             {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
-                      }
-                    ]
-                  }
-                }
-              ],
-              "name": "minecraft:deepslate_coal_ore"
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
             },
             {
-              "type": "minecraft:item",
-              "functions": [
+              "function": "minecraft:copy_nbt",
+              "ops": [
                 {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops",
-                  "function": "minecraft:apply_bonus"
+                  "op": "replace",
+                  "source": "Lock",
+                  "target": "BlockEntityTag.Lock"
                 },
                 {
-                  "function": "minecraft:explosion_decay"
+                  "op": "replace",
+                  "source": "LootTable",
+                  "target": "BlockEntityTag.LootTable"
+                },
+                {
+                  "op": "replace",
+                  "source": "LootTableSeed",
+                  "target": "BlockEntityTag.LootTableSeed"
                 }
               ],
-              "name": "minecraft:coal"
+              "source": "block_entity"
+            },
+            {
+              "type": "minecraft:shulker_box",
+              "entries": [
+                {
+                  "type": "minecraft:dynamic",
+                  "name": "minecraft:contents"
+                }
+              ],
+              "function": "minecraft:set_contents"
             }
-          ]
+          ],
+          "name": "minecraft:white_shulker_box"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/deepslate_coal_ore"
+  "random_sequence": "minecraft:blocks/white_shulker_box"
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_carpet"
+          "name": "minecraft:yellow_terracotta"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/brown_carpet"
+  "random_sequence": "minecraft:blocks/yellow_terracotta"
 }

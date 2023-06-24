@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_log"
+          "name": "minecraft:yellow_carpet"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/oak_log"
+  "random_sequence": "minecraft:blocks/yellow_carpet"
 }

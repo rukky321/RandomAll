@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:orange_tulip"
+          "name": "minecraft:crimson_roots"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/orange_tulip"
+  "random_sequence": "minecraft:blocks/crimson_roots"
 }

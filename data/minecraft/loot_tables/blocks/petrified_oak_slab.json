@@ -1,46 +1,18 @@
 {
-  "type": "minecraft:entity",
+  "type": "minecraft:block",
   "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:seagrass",
-          "weight": 3
-        }
-      ],
-      "rolls": 1.0
-    },
     {
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:damage_source_properties",
+          "condition": "minecraft:match_tool",
           "predicate": {
-            "tags": [
+            "enchantments": [
               {
-                "expected": true,
-                "id": "minecraft:is_lightning"
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
               }
             ]
           }
@@ -49,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bowl"
+          "name": "minecraft:tube_coral"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/turtle"
+  "random_sequence": "minecraft:blocks/tube_coral"
 }

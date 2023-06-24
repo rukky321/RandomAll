@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chiseled_sandstone"
+          "name": "minecraft:red_nether_brick_wall"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/chiseled_sandstone"
+  "random_sequence": "minecraft:blocks/red_nether_brick_wall"
 }

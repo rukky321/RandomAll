@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_hyphae"
+          "name": "minecraft:prismarine_wall"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/warped_hyphae"
+  "random_sequence": "minecraft:blocks/prismarine_wall"
 }

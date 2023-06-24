@@ -21,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cobblestone"
+          "name": "minecraft:magenta_stained_glass_pane"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/infested_cobblestone"
+  "random_sequence": "minecraft:blocks/magenta_stained_glass_pane"
 }

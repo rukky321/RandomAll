@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cyan_carpet"
+          "name": "minecraft:smooth_basalt"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cyan_carpet"
+  "random_sequence": "minecraft:blocks/smooth_basalt"
 }

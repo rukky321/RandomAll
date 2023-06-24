@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:gift",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cod"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:salmon"
+          "name": "minecraft:nether_brick_fence"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/fisherman_gift"
+  "random_sequence": "minecraft:blocks/nether_brick_fence"
 }

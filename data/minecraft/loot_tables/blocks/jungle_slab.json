@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:basalt"
+          "name": "minecraft:purple_wool"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/basalt"
+  "random_sequence": "minecraft:blocks/purple_wool"
 }

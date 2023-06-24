@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:gift",
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bamboo_fence_gate"
+          "name": "minecraft:leather"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/bamboo_fence_gate"
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/leatherworker_gift"
 }

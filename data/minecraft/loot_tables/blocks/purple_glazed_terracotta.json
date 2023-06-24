@@ -5,17 +5,27 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cyan_concrete_powder"
+          "name": "minecraft:fire_coral_fan"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cyan_concrete_powder"
+  "random_sequence": "minecraft:blocks/fire_coral_fan"
 }

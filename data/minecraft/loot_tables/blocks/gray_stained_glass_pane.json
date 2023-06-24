@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:gift",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:clay"
+          "name": "minecraft:acacia_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/mason_gift"
+  "random_sequence": "minecraft:blocks/acacia_pressure_plate"
 }

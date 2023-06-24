@@ -5,56 +5,31 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "functions": [
             {
-              "type": "minecraft:item",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
-                      }
-                    ]
+                  "block": "minecraft:dark_prismarine_slab",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "type": "double"
                   }
                 }
               ],
-              "functions": [
-                {
-                  "function": "minecraft:copy_nbt",
-                  "ops": [
-                    {
-                      "op": "replace",
-                      "source": "Bees",
-                      "target": "BlockEntityTag.Bees"
-                    }
-                  ],
-                  "source": "block_entity"
-                },
-                {
-                  "block": "minecraft:beehive",
-                  "function": "minecraft:copy_state",
-                  "properties": [
-                    "honey_level"
-                  ]
-                }
-              ],
-              "name": "minecraft:beehive"
+              "count": 2.0,
+              "function": "minecraft:set_count"
             },
             {
-              "type": "minecraft:item",
-              "name": "minecraft:beehive"
+              "function": "minecraft:explosion_decay"
             }
-          ]
+          ],
+          "name": "minecraft:dark_prismarine_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/beehive"
+  "random_sequence": "minecraft:blocks/dark_prismarine_slab"
 }

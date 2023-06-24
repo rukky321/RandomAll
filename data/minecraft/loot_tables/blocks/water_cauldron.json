@@ -1,31 +1,16 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:gift",
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "enchantments": [
-              {
-                "enchantment": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
-                }
-              }
-            ]
-          }
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dead_bubble_coral"
+          "name": "minecraft:clay"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/dead_bubble_coral"
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/mason_gift"
 }
