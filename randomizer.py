@@ -37,5 +37,4 @@ for i in range(len(loot_tables)):
   if target_pass.rfind("/") >= 0:
     if os.path.isdir(target_pass[0:target_pass.rfind("/")]) != True:
       os.makedirs(target_pass[0:target_pass.rfind("/")], exist_ok=True)
-    print(target_pass[0:target_pass.rfind("/")])
-  """ shutil.copy(origin_pass, target_pass) """
+  shutil.copy(origin_pass, target_pass)
