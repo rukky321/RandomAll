@@ -13,3 +13,8 @@ scoreboard players operation #rng RA %= #rng_max RA
 kill @e[tag=RA_rng]
 scoreboard players reset #rng_max RA
 
+#>
+# @within random_all:**
+  #define score_holder #rng rngの出力
+  #define score_holder #rng_max rngの最大値+1
+
