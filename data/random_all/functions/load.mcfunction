@@ -14,4 +14,4 @@
   #define tag RA_initialized ランダムモブの抽選済みを表す
 
 scoreboard players set #num_mobs RA 75
-scoreboard players set #num_mobs_max RA 500
+execute unless score #num_mobs_max RA matches -2147483648..2147483647 run scoreboard players set #num_mobs_max RA 500
