@@ -6,115 +6,58 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:shears"
-                ]
-              }
-            }
-          ],
           "functions": [
             {
-              "add": true,
+              "add": false,
               "conditions": [
                 {
-                  "block": "minecraft:glow_lichen",
+                  "block": "minecraft:pink_candle",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "down": "true"
+                    "candles": "2"
                   }
                 }
               ],
-              "count": 1.0,
+              "count": 2.0,
               "function": "minecraft:set_count"
             },
             {
-              "add": true,
+              "add": false,
               "conditions": [
                 {
-                  "block": "minecraft:glow_lichen",
+                  "block": "minecraft:pink_candle",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "up": "true"
+                    "candles": "3"
                   }
                 }
               ],
-              "count": 1.0,
+              "count": 3.0,
               "function": "minecraft:set_count"
             },
             {
-              "add": true,
+              "add": false,
               "conditions": [
                 {
-                  "block": "minecraft:glow_lichen",
+                  "block": "minecraft:pink_candle",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "north": "true"
+                    "candles": "4"
                   }
                 }
               ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
-                  "block": "minecraft:glow_lichen",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "south": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
-                  "block": "minecraft:glow_lichen",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "west": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
-                  "block": "minecraft:glow_lichen",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "east": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "count": -1.0,
+              "count": 4.0,
               "function": "minecraft:set_count"
             },
             {
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "minecraft:glow_lichen"
+          "name": "minecraft:pink_candle"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/glow_lichen"
+  "random_sequence": "minecraft:blocks/pink_candle"
 }

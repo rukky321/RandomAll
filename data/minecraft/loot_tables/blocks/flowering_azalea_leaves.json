@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:purple_concrete"
+          "name": "minecraft:warped_button"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/purple_concrete"
+  "random_sequence": "minecraft:blocks/warped_button"
 }

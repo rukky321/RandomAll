@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:entity",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -9,27 +9,55 @@
           "functions": [
             {
               "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
+              "conditions": [
+                {
+                  "block": "minecraft:lime_candle",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "candles": "2"
+                  }
+                }
+              ],
+              "count": 2.0,
               "function": "minecraft:set_count"
             },
             {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:lime_candle",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "candles": "3"
+                  }
+                }
+              ],
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:lime_candle",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "candles": "4"
+                  }
+                }
+              ],
+              "count": 4.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "minecraft:leather"
+          "name": "minecraft:lime_candle"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/trader_llama"
+  "random_sequence": "minecraft:blocks/lime_candle"
 }

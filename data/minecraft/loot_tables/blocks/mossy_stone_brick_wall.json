@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain"
+          "name": "minecraft:purple_glazed_terracotta"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/chain"
+  "random_sequence": "minecraft:blocks/purple_glazed_terracotta"
 }

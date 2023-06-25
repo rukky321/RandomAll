@@ -5,17 +5,22 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:shears"
+            ]
+          }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:smooth_red_sandstone_stairs"
+          "name": "minecraft:hanging_roots"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/smooth_red_sandstone_stairs"
+  "random_sequence": "minecraft:blocks/hanging_roots"
 }

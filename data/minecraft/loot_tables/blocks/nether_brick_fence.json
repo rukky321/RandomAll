@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:black_concrete"
+          "name": "minecraft:oak_sign"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/black_concrete"
+  "random_sequence": "minecraft:blocks/oak_sign"
 }

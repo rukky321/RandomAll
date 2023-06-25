@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mangrove_roots"
+          "name": "minecraft:moss_carpet"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/mangrove_roots"
+  "random_sequence": "minecraft:blocks/moss_carpet"
 }

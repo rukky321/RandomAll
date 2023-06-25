@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:pink_carpet"
+          "name": "minecraft:waxed_exposed_copper"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/pink_carpet"
+  "random_sequence": "minecraft:blocks/waxed_exposed_copper"
 }

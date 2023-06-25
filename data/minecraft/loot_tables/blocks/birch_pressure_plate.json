@@ -24,16 +24,33 @@
                   }
                 }
               ],
-              "name": "minecraft:warped_nylium"
+              "name": "minecraft:deepslate_redstone_ore"
             },
             {
               "type": "minecraft:item",
-              "conditions": [
+              "functions": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 4.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "bonusMultiplier": 1
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:netherrack"
+              "name": "minecraft:redstone"
             }
           ]
         }
@@ -41,5 +58,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/warped_nylium"
+  "random_sequence": "minecraft:blocks/deepslate_redstone_ore"
 }

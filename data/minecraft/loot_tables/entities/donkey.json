@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dripstone_block"
+          "name": "minecraft:observer"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/dripstone_block"
+  "random_sequence": "minecraft:blocks/observer"
 }

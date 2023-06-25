@@ -1,21 +1,20 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:gift",
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:redstone_block"
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/redstone_block"
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/cleric_gift"
 }

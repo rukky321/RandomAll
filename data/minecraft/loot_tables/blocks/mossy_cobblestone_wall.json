@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dead_brain_coral_block"
+          "name": "minecraft:red_glazed_terracotta"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/dead_brain_coral_block"
+  "random_sequence": "minecraft:blocks/red_glazed_terracotta"
 }

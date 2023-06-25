@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine"
+          "name": "minecraft:cactus"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/prismarine"
+  "random_sequence": "minecraft:blocks/cactus"
 }

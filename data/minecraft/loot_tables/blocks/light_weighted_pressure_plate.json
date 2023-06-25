@@ -1,55 +1,16 @@
 {
-  "type": "minecraft:entity",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:gunpowder"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "killer",
-          "predicate": {
-            "type": "#minecraft:skeletons"
-          }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "expand": true,
-          "name": "minecraft:creeper_drop_music_discs"
+          "name": "minecraft:red_candle"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/creeper"
+  "random_sequence": "minecraft:blocks/red_candle_cake"
 }

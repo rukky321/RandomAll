@@ -1,35 +1,76 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:gift",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "conditions": [
-                {
-                  "block": "minecraft:andesite_slab",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "type": "double"
-                  }
-                }
-              ],
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ],
-          "name": "minecraft:andesite_slab"
+          "name": "minecraft:white_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_wool"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/andesite_slab"
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/shepherd_gift"
 }

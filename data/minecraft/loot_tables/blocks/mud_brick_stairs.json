@@ -1,28 +1,21 @@
 {
-  "type": "minecraft:gift",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_pickaxe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_axe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_hoe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_shovel"
+          "name": "minecraft:mossy_stone_brick_stairs"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/toolsmith_gift"
+  "random_sequence": "minecraft:blocks/mossy_stone_brick_stairs"
 }

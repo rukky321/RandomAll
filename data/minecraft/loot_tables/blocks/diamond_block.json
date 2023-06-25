@@ -26,11 +26,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_sapling"
+          "name": "minecraft:wither_rose"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/potted_oak_sapling"
+  "random_sequence": "minecraft:blocks/potted_wither_rose"
 }

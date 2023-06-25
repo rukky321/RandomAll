@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cobbled_deepslate"
+          "name": "minecraft:netherrack"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cobbled_deepslate"
+  "random_sequence": "minecraft:blocks/netherrack"
 }

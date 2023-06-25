@@ -1,4 +1,4 @@
 {
-  "type": "minecraft:block",
-  "random_sequence": "minecraft:blocks/reinforced_deepslate"
+  "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/bee"
 }

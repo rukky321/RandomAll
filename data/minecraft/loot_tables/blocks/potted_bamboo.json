@@ -1,76 +1,62 @@
 {
-  "type": "minecraft:gift",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:white_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:orange_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:magenta_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:light_blue_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:yellow_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lime_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pink_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gray_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:light_gray_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cyan_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:purple_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:blue_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:green_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:black_wool"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:redstone_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 4.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "bonusMultiplier": 1
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:redstone"
+            }
+          ]
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/shepherd_gift"
+  "random_sequence": "minecraft:blocks/redstone_ore"
 }

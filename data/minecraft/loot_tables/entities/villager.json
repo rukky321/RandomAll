@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:andesite"
+          "name": "minecraft:smooth_stone"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/andesite"
+  "random_sequence": "minecraft:blocks/smooth_stone"
 }

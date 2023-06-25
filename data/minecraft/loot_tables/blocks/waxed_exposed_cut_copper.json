@@ -11,11 +11,20 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:purple_terracotta"
+          "conditions": [
+            {
+              "block": "minecraft:lilac",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "minecraft:lilac"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/purple_terracotta"
+  "random_sequence": "minecraft:blocks/lilac"
 }

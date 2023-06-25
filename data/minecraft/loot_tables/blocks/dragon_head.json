@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cut_red_sandstone"
+          "name": "minecraft:mangrove_roots"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cut_red_sandstone"
+  "random_sequence": "minecraft:blocks/mangrove_roots"
 }

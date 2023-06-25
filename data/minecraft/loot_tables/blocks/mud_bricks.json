@@ -11,20 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "block": "minecraft:jungle_door",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "half": "lower"
-              }
-            }
-          ],
-          "name": "minecraft:jungle_door"
+          "name": "minecraft:dried_kelp_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/jungle_door"
+  "random_sequence": "minecraft:blocks/dried_kelp_block"
 }

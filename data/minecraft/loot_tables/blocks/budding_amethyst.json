@@ -1,35 +1,38 @@
 {
-  "type": "minecraft:entity",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
             },
             {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
+              "function": "minecraft:copy_nbt",
+              "ops": [
+                {
+                  "op": "replace",
+                  "source": "Patterns",
+                  "target": "BlockEntityTag.Patterns"
+                }
+              ],
+              "source": "block_entity"
             }
           ],
-          "name": "minecraft:rotten_flesh"
+          "name": "minecraft:magenta_banner"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/zombie_horse"
+  "random_sequence": "minecraft:blocks/magenta_banner"
 }

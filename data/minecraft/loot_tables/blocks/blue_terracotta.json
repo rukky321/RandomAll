@@ -3,14 +3,28 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dragon_egg"
+          "conditions": [
+            {
+              "block": "minecraft:light_gray_bed",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "part": "head"
+              }
+            }
+          ],
+          "name": "minecraft:light_gray_bed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/dragon_egg"
+  "random_sequence": "minecraft:blocks/light_gray_bed"
 }
