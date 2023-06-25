@@ -3,13 +3,13 @@ import random
 import shutil
 
 # ランダム化前のルートテーブルの保存されている場所のパスを指定
-loot_tables_origin_path = os.path.join(".","default_loot_tables")
+origin_loot_tables_path = os.path.join(os.path.dirname(__file__),"default_loot_tables")
 # ランダム化したルートテーブルを入れる場所を指定
-target_loot_table_path = os.path.join(".","data","minecraft","loot_tables")
+target_loot_table_path = os.path.join(os.path.dirname(__file__),"data","minecraft","loot_tables")
 
 # ルートテーブルフォルダ内の全ファイルのパスを取得し、リストにまとめる
 origin_loot_tables = []
-for current_dir, sub_dirs, files_list in os.walk(loot_tables_origin_path): 
+for current_dir, sub_dirs, files_list in os.walk(origin_loot_tables_path): 
   for file_name in files_list: 
     origin_loot_tables.append(os.path.join(current_dir,file_name))
 
@@ -19,7 +19,7 @@ os.makedirs(target_loot_table_path, exist_ok=True)
 # データパック内に入れるルートテーブルファイルのパスのリストを作成する
 target_loot_tables = []
 for i in range(len(origin_loot_tables)):
-    target_loot_tables.append(os.path.join(target_loot_table_path,os.path.relpath(origin_loot_tables[i],loot_tables_origin_path)))
+    target_loot_tables.append(os.path.join(target_loot_table_path,os.path.relpath(origin_loot_tables[i],origin_loot_tables_path)))
 
 # 元のリストのjsonファイルをランダムな順番に取り出し、その内容をデータパック内のファイルに書き込んでいく
 random.shuffle(origin_loot_tables)
