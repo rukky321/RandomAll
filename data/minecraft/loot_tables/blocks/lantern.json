@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:pink_glazed_terracotta"
+          "name": "minecraft:dripstone_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/pink_glazed_terracotta"
+  "random_sequence": "minecraft:blocks/dripstone_block"
 }

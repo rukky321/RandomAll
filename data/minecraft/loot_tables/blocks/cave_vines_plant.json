@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mangrove_log"
+          "name": "minecraft:coal_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/mangrove_log"
+  "random_sequence": "minecraft:blocks/coal_block"
 }

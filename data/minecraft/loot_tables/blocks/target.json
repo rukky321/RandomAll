@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_sapling"
+          "name": "minecraft:stone_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/acacia_sapling"
+  "random_sequence": "minecraft:blocks/stone_pressure_plate"
 }

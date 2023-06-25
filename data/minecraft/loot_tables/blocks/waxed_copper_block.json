@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poppy"
+          "name": "minecraft:acacia_log"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/poppy"
+  "random_sequence": "minecraft:blocks/acacia_log"
 }

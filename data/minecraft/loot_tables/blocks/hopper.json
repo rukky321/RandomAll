@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_button"
+          "name": "minecraft:chiseled_polished_blackstone"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/acacia_button"
+  "random_sequence": "minecraft:blocks/chiseled_polished_blackstone"
 }

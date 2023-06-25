@@ -8,46 +8,70 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:copy_name",
-              "source": "block_entity"
-            },
-            {
-              "function": "minecraft:copy_nbt",
-              "ops": [
+              "add": false,
+              "conditions": [
                 {
-                  "op": "replace",
-                  "source": "Lock",
-                  "target": "BlockEntityTag.Lock"
-                },
-                {
-                  "op": "replace",
-                  "source": "LootTable",
-                  "target": "BlockEntityTag.LootTable"
-                },
-                {
-                  "op": "replace",
-                  "source": "LootTableSeed",
-                  "target": "BlockEntityTag.LootTableSeed"
+                  "block": "minecraft:pink_petals",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "flower_amount": "1"
+                  }
                 }
               ],
-              "source": "block_entity"
+              "count": 1.0,
+              "function": "minecraft:set_count"
             },
             {
-              "type": "minecraft:shulker_box",
-              "entries": [
+              "add": false,
+              "conditions": [
                 {
-                  "type": "minecraft:dynamic",
-                  "name": "minecraft:contents"
+                  "block": "minecraft:pink_petals",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "flower_amount": "2"
+                  }
                 }
               ],
-              "function": "minecraft:set_contents"
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:pink_petals",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "flower_amount": "3"
+                  }
+                }
+              ],
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:pink_petals",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "flower_amount": "4"
+                  }
+                }
+              ],
+              "count": 4.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "minecraft:green_shulker_box"
+          "name": "minecraft:pink_petals"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/green_shulker_box"
+  "random_sequence": "minecraft:blocks/pink_petals"
 }

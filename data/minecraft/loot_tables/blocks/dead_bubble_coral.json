@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:weathered_copper"
+          "name": "minecraft:warped_hanging_sign"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/weathered_copper"
+  "random_sequence": "minecraft:blocks/warped_hanging_sign"
 }

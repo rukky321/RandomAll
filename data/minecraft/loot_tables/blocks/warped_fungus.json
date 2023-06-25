@@ -1,32 +1,21 @@
 {
-  "type": "minecraft:gift",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_rabbit"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_chicken"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_porkchop"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_beef"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_mutton"
+          "name": "minecraft:birch_wood"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/butcher_gift"
+  "random_sequence": "minecraft:blocks/birch_wood"
 }

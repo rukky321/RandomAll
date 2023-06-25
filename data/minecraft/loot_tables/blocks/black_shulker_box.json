@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chiseled_stone_bricks"
+          "name": "minecraft:bell"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/chiseled_stone_bricks"
+  "random_sequence": "minecraft:blocks/bell"
 }

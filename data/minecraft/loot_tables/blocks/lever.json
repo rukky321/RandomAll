@@ -21,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cyan_stained_glass_pane"
+          "name": "minecraft:dead_horn_coral_fan"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cyan_stained_glass_pane"
+  "random_sequence": "minecraft:blocks/dead_horn_coral_fan"
 }

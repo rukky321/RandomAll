@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mud_bricks"
+          "name": "minecraft:magenta_terracotta"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/mud_bricks"
+  "random_sequence": "minecraft:blocks/magenta_terracotta"
 }

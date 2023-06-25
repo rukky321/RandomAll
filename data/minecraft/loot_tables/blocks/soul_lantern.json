@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_copper_block"
+          "name": "minecraft:string"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/raw_copper_block"
+  "random_sequence": "minecraft:blocks/tripwire"
 }

@@ -7,8 +7,13 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "items": [
-              "minecraft:shears"
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
             ]
           }
         }
@@ -16,18 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:seagrass"
+          "name": "minecraft:horn_coral_fan"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/tall_seagrass"
+  "random_sequence": "minecraft:blocks/horn_coral_fan"
 }

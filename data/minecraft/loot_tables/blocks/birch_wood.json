@@ -1,135 +1,153 @@
 {
-  "type": "minecraft:entity",
+  "type": "minecraft:chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:damage_source_properties",
-                "predicate": {
-                  "source_entity": {
-                    "type": "minecraft:frog"
-                  }
-                }
-              }
-            },
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "slime",
-                  "size": {
-                    "min": 2
-                  }
-                }
-              }
-            }
-          ],
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": -2.0
+                "max": 5.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
-            },
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 90
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
             {
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 5.0,
+                "min": 1.0
               },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:magma_cream"
-        },
-        {
-          "type": "minecraft:item",
-          "conditions": [
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "source_entity": {
-                  "type": "minecraft:frog",
-                  "type_specific": {
-                    "type": "frog",
-                    "variant": "minecraft:warm"
-                  }
-                }
-              }
-            }
-          ],
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:pearlescent_froglight"
+          "name": "minecraft:gold_ingot",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "source_entity": {
-                  "type": "minecraft:frog",
-                  "type_specific": {
-                    "type": "frog",
-                    "variant": "minecraft:cold"
-                  }
-                }
-              }
-            }
-          ],
           "functions": [
             {
               "add": false,
-              "count": 1.0,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:verdant_froglight"
+          "name": "minecraft:emerald",
+          "weight": 40
         },
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "source_entity": {
-                  "type": "minecraft:frog",
-                  "type_specific": {
-                    "type": "frog",
-                    "variant": "minecraft:temperate"
-                  }
-                }
-              }
-            }
-          ],
+          "name": "minecraft:diamond",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 6.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
-              "count": 1.0,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:ochre_froglight"
+          "name": "minecraft:iron_nugget",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:lapis_lazuli",
+          "weight": 20
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 2.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coast_armor_trim_smithing_template"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/magma_cube"
+  "random_sequence": "minecraft:chests/shipwreck_treasure"
 }

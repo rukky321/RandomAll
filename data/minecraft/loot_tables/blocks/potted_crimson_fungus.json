@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ladder"
+          "name": "minecraft:purple_concrete"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/ladder"
+  "random_sequence": "minecraft:blocks/purple_concrete"
 }

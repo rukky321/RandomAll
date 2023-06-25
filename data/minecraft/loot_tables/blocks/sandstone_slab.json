@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cherry_wood"
+          "name": "minecraft:magenta_concrete_powder"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cherry_wood"
+  "random_sequence": "minecraft:blocks/magenta_concrete_powder"
 }

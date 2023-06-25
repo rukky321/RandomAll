@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "minecraft:crimson_door",
+              "block": "minecraft:warped_door",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "minecraft:crimson_door"
+          "name": "minecraft:warped_door"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/crimson_door"
+  "random_sequence": "minecraft:blocks/warped_door"
 }

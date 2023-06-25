@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chiseled_nether_bricks"
+          "name": "minecraft:light_blue_concrete"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/chiseled_nether_bricks"
+  "random_sequence": "minecraft:blocks/light_blue_concrete"
 }

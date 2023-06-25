@@ -1,47 +1,35 @@
 {
-  "type": "minecraft:gift",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:rabbit_hide",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rabbit_foot",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chicken",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:feather",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:string",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:phantom_membrane",
-          "weight": 2
+          "functions": [
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:mossy_cobblestone_slab",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ],
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "minecraft:mossy_cobblestone_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/cat_morning_gift"
+  "random_sequence": "minecraft:blocks/mossy_cobblestone_slab"
 }

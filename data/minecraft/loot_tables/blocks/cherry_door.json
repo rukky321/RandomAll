@@ -1,21 +1,23 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:entity",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "chance": 0.5,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.0625
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blue_carpet"
+          "name": "minecraft:shulker_shell"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/blue_carpet"
+  "random_sequence": "minecraft:entities/shulker"
 }

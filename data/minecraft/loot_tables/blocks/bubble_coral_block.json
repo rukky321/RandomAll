@@ -3,43 +3,36 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "functions": [
             {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
-                      }
-                    ]
-                  }
-                }
-              ],
-              "name": "minecraft:podzol"
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
             },
             {
-              "type": "minecraft:item",
-              "conditions": [
+              "function": "minecraft:copy_nbt",
+              "ops": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "op": "replace",
+                  "source": "Patterns",
+                  "target": "BlockEntityTag.Patterns"
                 }
               ],
-              "name": "minecraft:dirt"
+              "source": "block_entity"
             }
-          ]
+          ],
+          "name": "minecraft:orange_banner"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/podzol"
+  "random_sequence": "minecraft:blocks/orange_banner"
 }

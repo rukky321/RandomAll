@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:packed_mud"
+          "name": "minecraft:pink_carpet"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/packed_mud"
+  "random_sequence": "minecraft:blocks/pink_carpet"
 }

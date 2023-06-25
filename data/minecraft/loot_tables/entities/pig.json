@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mossy_cobblestone"
+          "name": "minecraft:yellow_glazed_terracotta"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/mossy_cobblestone"
+  "random_sequence": "minecraft:blocks/yellow_glazed_terracotta"
 }

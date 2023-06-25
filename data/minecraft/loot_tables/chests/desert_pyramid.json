@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:horn_coral_block"
+              "name": "minecraft:brain_coral_block"
             },
             {
               "type": "minecraft:item",
@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:dead_horn_coral_block"
+              "name": "minecraft:dead_brain_coral_block"
             }
           ]
         }
@@ -41,5 +41,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/horn_coral_block"
+  "random_sequence": "minecraft:blocks/brain_coral_block"
 }

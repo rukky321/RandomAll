@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spruce_planks"
+          "name": "minecraft:dried_kelp_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/spruce_planks"
+  "random_sequence": "minecraft:blocks/dried_kelp_block"
 }

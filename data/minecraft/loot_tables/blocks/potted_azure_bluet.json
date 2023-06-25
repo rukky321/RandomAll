@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ochre_froglight"
+          "name": "minecraft:piston"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/ochre_froglight"
+  "random_sequence": "minecraft:blocks/piston"
 }

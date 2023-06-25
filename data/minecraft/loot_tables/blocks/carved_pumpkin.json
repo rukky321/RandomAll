@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gray_wool"
+          "name": "minecraft:diamond_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/gray_wool"
+  "random_sequence": "minecraft:blocks/diamond_block"
 }

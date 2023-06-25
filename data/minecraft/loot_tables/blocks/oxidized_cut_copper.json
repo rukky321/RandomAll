@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cut_sandstone"
+          "name": "minecraft:brown_mushroom"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cut_sandstone"
+  "random_sequence": "minecraft:blocks/brown_mushroom"
 }

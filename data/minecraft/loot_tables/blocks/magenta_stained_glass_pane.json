@@ -11,11 +11,20 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bell"
+          "conditions": [
+            {
+              "block": "minecraft:brown_bed",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "part": "head"
+              }
+            }
+          ],
+          "name": "minecraft:brown_bed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/bell"
+  "random_sequence": "minecraft:blocks/brown_bed"
 }

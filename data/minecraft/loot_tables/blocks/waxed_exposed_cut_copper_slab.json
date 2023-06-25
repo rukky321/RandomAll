@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cauldron"
+          "name": "minecraft:cracked_stone_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/powder_snow_cauldron"
+  "random_sequence": "minecraft:blocks/cracked_stone_bricks"
 }

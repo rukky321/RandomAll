@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lime_candle"
+          "name": "minecraft:zombie_head"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/lime_candle_cake"
+  "random_sequence": "minecraft:blocks/zombie_head"
 }

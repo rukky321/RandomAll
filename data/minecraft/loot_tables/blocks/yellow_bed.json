@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:moss_carpet"
+          "name": "minecraft:fletching_table"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/moss_carpet"
+  "random_sequence": "minecraft:blocks/fletching_table"
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crimson_planks"
+          "name": "minecraft:mangrove_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/crimson_planks"
+  "random_sequence": "minecraft:blocks/mangrove_pressure_plate"
 }

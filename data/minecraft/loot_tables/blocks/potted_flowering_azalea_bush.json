@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "minecraft:lime_bed",
+              "block": "minecraft:rose_bush",
               "condition": "minecraft:block_state_property",
               "properties": {
-                "part": "head"
+                "half": "lower"
               }
             }
           ],
-          "name": "minecraft:lime_bed"
+          "name": "minecraft:rose_bush"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/lime_bed"
+  "random_sequence": "minecraft:blocks/rose_bush"
 }

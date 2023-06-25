@@ -1,24 +1,21 @@
 {
-  "type": "minecraft:gift",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin_pie"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cookie"
+          "name": "minecraft:stripped_warped_hyphae"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/farmer_gift"
+  "random_sequence": "minecraft:blocks/stripped_warped_hyphae"
 }
