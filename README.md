@@ -1,4 +1,4 @@
-# RandomAll
+# RandomEverything
 Minecraft datapack for JE 1.20.X  
 
 ## 説明
