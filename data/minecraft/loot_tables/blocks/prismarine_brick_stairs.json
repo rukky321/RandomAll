@@ -11,20 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "block": "minecraft:peony",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "half": "lower"
-              }
-            }
-          ],
-          "name": "minecraft:peony"
+          "name": "minecraft:carved_pumpkin"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/peony"
+  "random_sequence": "minecraft:blocks/carved_pumpkin"
 }

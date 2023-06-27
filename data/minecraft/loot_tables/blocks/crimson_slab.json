@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tuff"
+          "name": "minecraft:lime_wool"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/tuff"
+  "random_sequence": "minecraft:blocks/lime_wool"
 }

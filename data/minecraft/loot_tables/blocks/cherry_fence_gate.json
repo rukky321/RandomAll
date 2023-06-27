@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diorite"
+          "name": "minecraft:light_blue_terracotta"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/diorite"
+  "random_sequence": "minecraft:blocks/light_blue_terracotta"
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blue_concrete_powder"
+          "name": "minecraft:oak_hanging_sign"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/blue_concrete_powder"
+  "random_sequence": "minecraft:blocks/oak_hanging_sign"
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:repeater"
+          "name": "minecraft:sticky_piston"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/repeater"
+  "random_sequence": "minecraft:blocks/sticky_piston"
 }

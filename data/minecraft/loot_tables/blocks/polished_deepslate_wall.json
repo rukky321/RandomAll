@@ -8,33 +8,56 @@
           "type": "minecraft:item",
           "functions": [
             {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:light_gray_candle",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "candles": "2"
+                  }
+                }
+              ],
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:light_gray_candle",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "candles": "3"
+                  }
+                }
+              ],
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:light_gray_candle",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "candles": "4"
+                  }
+                }
+              ],
+              "count": 4.0,
+              "function": "minecraft:set_count"
+            },
+            {
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "minecraft:composter"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "block": "minecraft:composter",
-          "condition": "minecraft:block_state_property",
-          "properties": {
-            "level": "8"
-          }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone_meal"
+          "name": "minecraft:light_gray_candle"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/composter"
+  "random_sequence": "minecraft:blocks/light_gray_candle"
 }

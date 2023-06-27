@@ -5,48 +5,31 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "functions": [
             {
-              "type": "minecraft:item",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
-                      }
-                    ]
+                  "block": "minecraft:diorite_slab",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "type": "double"
                   }
                 }
               ],
-              "name": "minecraft:soul_campfire"
+              "count": 2.0,
+              "function": "minecraft:set_count"
             },
             {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:survives_explosion"
-                }
-              ],
-              "functions": [
-                {
-                  "add": false,
-                  "count": 1.0,
-                  "function": "minecraft:set_count"
-                }
-              ],
-              "name": "minecraft:soul_soil"
+              "function": "minecraft:explosion_decay"
             }
-          ]
+          ],
+          "name": "minecraft:diorite_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/soul_campfire"
+  "random_sequence": "minecraft:blocks/diorite_slab"
 }

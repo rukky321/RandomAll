@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cherry_trapdoor"
+          "name": "minecraft:spruce_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cherry_trapdoor"
+  "random_sequence": "minecraft:blocks/spruce_pressure_plate"
 }

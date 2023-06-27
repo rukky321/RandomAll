@@ -1,60 +1,79 @@
 {
-  "type": "minecraft:archaeology",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:burn_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:danger_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:friend_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:heart_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:heartbreak_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:howl_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sheaf_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wayfinder_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:raiser_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:shaper_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:host_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_relic"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:amethyst_cluster"
+            },
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "tag": "minecraft:cluster_max_harvestables"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 4.0,
+                      "function": "minecraft:set_count"
+                    },
+                    {
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:ore_drops",
+                      "function": "minecraft:apply_bonus"
+                    }
+                  ],
+                  "name": "minecraft:amethyst_shard"
+                },
+                {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 2.0,
+                      "function": "minecraft:set_count"
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ],
+                  "name": "minecraft:amethyst_shard"
+                }
+              ]
+            }
+          ]
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:archaeology/trail_ruins_rare"
+  "random_sequence": "minecraft:blocks/amethyst_cluster"
 }

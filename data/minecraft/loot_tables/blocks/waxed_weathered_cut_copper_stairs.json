@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "minecraft:pink_bed",
+              "block": "minecraft:iron_door",
               "condition": "minecraft:block_state_property",
               "properties": {
-                "part": "head"
+                "half": "lower"
               }
             }
           ],
-          "name": "minecraft:pink_bed"
+          "name": "minecraft:iron_door"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/pink_bed"
+  "random_sequence": "minecraft:blocks/iron_door"
 }

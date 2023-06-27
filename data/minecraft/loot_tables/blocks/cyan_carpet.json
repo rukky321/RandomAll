@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:polished_andesite"
+          "name": "minecraft:warped_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/polished_andesite"
+  "random_sequence": "minecraft:blocks/warped_pressure_plate"
 }

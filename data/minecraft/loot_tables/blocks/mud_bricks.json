@@ -7,8 +7,13 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "items": [
-              "minecraft:shears"
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
             ]
           }
         }
@@ -16,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:hanging_roots"
+          "name": "minecraft:sculk"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/hanging_roots"
+  "random_sequence": "minecraft:blocks/sculk"
 }

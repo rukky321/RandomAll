@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:observer"
+          "name": "minecraft:raw_gold_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/observer"
+  "random_sequence": "minecraft:blocks/raw_gold_block"
 }

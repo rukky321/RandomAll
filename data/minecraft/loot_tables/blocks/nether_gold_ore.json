@@ -21,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_bricks"
+          "name": "minecraft:red_stained_glass"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/infested_stone_bricks"
+  "random_sequence": "minecraft:blocks/red_stained_glass"
 }

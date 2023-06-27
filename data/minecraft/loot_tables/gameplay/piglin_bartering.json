@@ -3,33 +3,49 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
-              "conditions": [
+              "function": "minecraft:copy_nbt",
+              "ops": [
                 {
-                  "block": "minecraft:stone_slab",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "type": "double"
-                  }
+                  "op": "replace",
+                  "source": "Bees",
+                  "target": "BlockEntityTag.Bees"
                 }
               ],
-              "count": 2.0,
-              "function": "minecraft:set_count"
+              "source": "block_entity"
             },
             {
-              "function": "minecraft:explosion_decay"
+              "block": "minecraft:bee_nest",
+              "function": "minecraft:copy_state",
+              "properties": [
+                "honey_level"
+              ]
             }
           ],
-          "name": "minecraft:stone_slab"
+          "name": "minecraft:bee_nest"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/stone_slab"
+  "random_sequence": "minecraft:blocks/bee_nest"
 }

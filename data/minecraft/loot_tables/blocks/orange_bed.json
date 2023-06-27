@@ -7,8 +7,13 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "items": [
-              "minecraft:shears"
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
             ]
           }
         }
@@ -16,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:nether_sprouts"
+          "name": "minecraft:sculk_catalyst"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/nether_sprouts"
+  "random_sequence": "minecraft:blocks/sculk_catalyst"
 }

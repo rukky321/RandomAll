@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wither_rose"
+          "name": "minecraft:orange_tulip"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/wither_rose"
+  "random_sequence": "minecraft:blocks/orange_tulip"
 }

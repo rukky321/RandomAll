@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lime_terracotta"
+          "name": "minecraft:red_wool"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/lime_terracotta"
+  "random_sequence": "minecraft:blocks/red_wool"
 }

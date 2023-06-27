@@ -21,11 +21,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blue_ice"
+          "name": "minecraft:ice"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/blue_ice"
+  "random_sequence": "minecraft:blocks/ice"
 }

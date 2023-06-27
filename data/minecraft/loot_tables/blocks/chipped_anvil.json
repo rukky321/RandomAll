@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:scaffolding"
+          "name": "minecraft:cyan_wool"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/scaffolding"
+  "random_sequence": "minecraft:blocks/cyan_wool"
 }

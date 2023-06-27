@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:purpur_block"
+          "name": "minecraft:spruce_stairs"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/purpur_block"
+  "random_sequence": "minecraft:blocks/spruce_stairs"
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stonecutter"
+          "name": "minecraft:chiseled_quartz_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/stonecutter"
+  "random_sequence": "minecraft:blocks/chiseled_quartz_block"
 }

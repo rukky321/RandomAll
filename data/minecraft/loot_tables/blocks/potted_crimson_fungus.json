@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:purple_concrete"
+          "name": "minecraft:cyan_concrete_powder"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/purple_concrete"
+  "random_sequence": "minecraft:blocks/cyan_concrete_powder"
 }
