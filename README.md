@@ -28,7 +28,7 @@ lootやモブのスポーン、構造物の生成をランダムにするデー�
 
 また、存在できるモブの最大数はゲーム内スコアで管理をしており、以下のscoreboardコマンドを実行することで変更することができます。デフォルトでは500に設定されています。
 ```
-scoreboard players set #num_mobs_max RA <モブの最大数>
+scoreboard players set #num_mobs_max RE <モブの最大数>
 ```
 
 
