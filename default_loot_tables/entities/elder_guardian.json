@@ -85,11 +85,7 @@
     },
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ],
+
       "entries": [
         {
           "type": "minecraft:item",
@@ -101,9 +97,7 @@
     {
       "bonus_rolls": 0.0,
       "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        },
+
         {
           "chance": 0.025,
           "condition": "minecraft:random_chance_with_looting",
